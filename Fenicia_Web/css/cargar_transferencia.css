@@ -1,0 +1,131 @@
+﻿.logo_transferencia_movil {
+    width: 170px;
+    margin-left: 10px;
+    margin-top:5px;
+}
+
+.contenedor_aviso_movil {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -12px;
+    color: brown;
+}
+
+.contenedor_transferencia_movil {
+    font-size: 11px;
+    text-align: center;
+    margin-top:-10px
+}
+
+.dato_1_movil{
+    margin-bottom:0px
+}
+
+.dato_2_movil{
+    margin-bottom:0px
+}
+
+.dato_3_movil{
+    margin-bottom:0px
+}
+
+.dato_4_movil{
+    margin-bottom:0px
+}
+
+.dato_5_movil{
+    margin-bottom:0px
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .logo_transferencia {
+        width: 150%;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    p.envio {
+        font-size:11px;
+        color:brown;
+        margin-left:85px
+    
+    }
+    .col-sm-10.contenido_datos {
+        text-align: center;
+        margin-left: 30px;
+        font-size: 11px;
+    }
+
+    p.dato_1 {
+        margin-bottom: 0px;
+        color: rgb(243,193,4);
+    }
+    p.dato_2 {
+        margin-bottom: 0px;
+        color: rgb(243,193,4);
+    }
+    p.dato_3 {
+        margin-bottom: 0px;
+        color: rgb(243,193,4);
+    }
+    p.dato_4 {
+        margin-bottom: 0px;
+        color: rgb(243,193,4);
+    }
+    p.dato_5 {
+        margin-bottom: 0px;
+        color: rgb(243,193,4);
+    }
+
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .logo_transferencia {
+        width: 150%;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    p.envio {
+        font-size:13px;        
+        margin-left:120px
+    
+    }
+    .col-sm-10.contenido_datos {        
+        margin-left: 39px;
+        font-size: 15px;
+    }
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    .logo_transferencia {
+        width: 150%;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    p.envio {
+        font-size: 15px;
+        margin-left: 145px;
+        margin-top: -10px;
+    
+    }
+    .col-sm-10.contenido_datos {        
+        margin-left: 39px;
+        font-size: 17px;
+        margin-top:-10px;
+    }
+}

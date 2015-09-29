@@ -1,0 +1,65 @@
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Datos.dll
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Logica.dll
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Datos.pdb
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\bin\Logica.pdb
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Pagina web\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Datos.dll
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Logica.dll
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Datos.pdb
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\bin\Logica.pdb
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Maria\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Datos.dll
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Logica.dll
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Datos.pdb
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Logica.pdb
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\mercadopago.dll
+C:\Users\Guty\Desktop\Fenicia_Web\Fenicia_Web\bin\Newtonsoft.Json.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Datos.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Logica.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Newtonsoft.Json.dll
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Datos.pdb
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Logica.pdb
+C:\Users\Maria\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Datos.dll
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Logica.dll
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Newtonsoft.Json.dll
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Datos.pdb
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\bin\Logica.pdb
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia_Web-cambiar-estilos\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Datos.dll
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Logica.dll
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Newtonsoft.Json.dll
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Datos.pdb
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\bin\Logica.pdb
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\obj\Debug\Fenicia_Web.dll
+C:\Users\Guty\Desktop\Fenicia\Fenicia_Web\obj\Debug\Fenicia_Web.pdb

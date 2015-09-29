@@ -1,0 +1,282 @@
+﻿
+span#Etiqueta_Usuario_Panel_Contenido {
+font-size: 11px;
+color: #428bca;
+}
+
+
+.form-group.formulario_panel_de_control {
+margin-top: 1px;
+margin-bottom:-40px;
+}
+
+span#Etiqueta_Usuario_Panel {
+font-size: 11px;
+color: #428bca;
+}
+
+span#Etiqueta_Contrasena_Panel {
+font-size:10px;
+}
+
+input#Panel_Contrasena {
+width:100%;
+font-size:10px;
+height:20px
+}
+
+.form-group.formulario_panel_de_control {
+margin-bottom:5px;
+}
+
+input#Panel_Correo {
+width:100%;
+height:20px;
+font-size:10px;
+}
+
+span#Etiqueta_Correo_Panel {
+font-size:10px;
+}
+
+span#Etiqueta_Skype_Panel {
+font-size:10px
+}
+
+input#Panel_Skype {
+width:100%;
+font-size:10px;
+height:20px
+}
+
+span#Etiqueta_Celular_Panel {
+font-size:10px
+}
+
+input#Panel_Celular {
+width:100%;
+font-size:10px;
+height:20px
+}
+
+span#Etiqueta_Modelo_Panel {
+font-size:10px
+}
+
+input#Panel_Modelo {
+width:100%;
+font-size:10px;
+height:20px
+}
+
+input#Actualizar_Panel {
+    margin-top:1px;
+    font-size:12px
+}
+
+.modal-footer.pie_panel_de_control {
+   padding-top:3px; 
+   padding-bottom:8px;
+ }
+
+div#UpdatePanel_Panel_Actualizado {
+    width:100%
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    span#Etiqueta_Usuario_Panel_Contenido {
+        font-size: 13px;
+    }
+
+    span#Etiqueta_Usuario_Panel {
+        font-size: 14px;
+    }
+
+    span#Etiqueta_Contrasena_Panel {
+        font-size: 13px;
+    }
+
+    input#Panel_Contrasena {
+        font-size: 13px;
+        height: 30px;
+        color: gray;
+    }
+
+    span#Etiqueta_Correo_Panel {
+        font-size: 13px;
+    }
+
+    input#Panel_Correo {
+        font-size: 13px;
+        height: 30px;
+        color: gray;
+    }
+
+    span#Etiqueta_Skype_Panel {
+        font-size: 13px;
+    }
+
+    input#Panel_Skype {
+        font-size: 13px;
+        height: 30px;
+        color: gray;
+    }
+
+    span#Etiqueta_Celular_Panel {
+        font-size: 13px;
+    }
+
+    input#Panel_Celular {
+        font-size: 13px;
+        height: 30px;
+        color: gray;
+    }
+
+    span#Etiqueta_Modelo_Panel {
+        font-size: 13px;
+    }
+
+    input#Panel_Modelo {
+        font-size: 13px;
+        height: 30px;
+        color: gray;
+    }
+
+    input#Actualizar_Panel {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+    @media (min-width:992px) {
+
+        span#Etiqueta_Usuario_Panel_Contenido {
+            font-size: 16px;
+        }
+
+        span#Etiqueta_Usuario_Panel {
+            font-size: 17px;
+        }
+
+        span#Etiqueta_Contrasena_Panel {
+            font-size: 15px;
+        }
+
+        input#Panel_Contrasena {
+            font-size: 14px;
+            height: 32px;
+        }
+
+        span#Etiqueta_Correo_Panel {
+            font-size: 15px;
+        }
+
+        input#Panel_Correo {
+            font-size: 14px;
+            height: 32px;
+        }
+
+        span#Etiqueta_Skype_Panel {
+            font-size: 15px;
+        }
+
+        input#Panel_Skype {
+            font-size: 14px;
+            height: 32px;
+        }
+
+        span#Etiqueta_Celular_Panel {
+            font-size: 15px;
+        }
+
+        input#Panel_Celular {
+            font-size: 14px;
+            height: 32px;
+        }
+
+        span#Etiqueta_Modelo_Panel {
+            font-size: 15px;
+        }
+
+        input#Panel_Modelo {
+            font-size: 14px;
+            height: 32px;
+        }
+
+        .form-group.formulario_panel_de_control {
+            margin-bottom: 7px;
+        }
+
+
+        input#Actualizar_Panel {
+            font-size: 16px;
+        }
+
+        .modal-footer.pie_panel_de_control {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+
+    /*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+    @media (min-width:1200px) {
+
+        @media (min-width:992px) {
+
+            span#Etiqueta_Usuario_Panel_Contenido {
+                font-size: 16px;
+            }
+
+            span#Etiqueta_Usuario_Panel {
+                font-size: 17px;
+            }
+
+            span#Etiqueta_Contrasena_Panel {
+                font-size: 17px;
+            }
+
+
+            span#Etiqueta_Correo_Panel {
+                font-size: 17px;
+            }
+
+            span#Etiqueta_Skype_Panel {
+                font-size: 17px;
+            }
+
+            span#Etiqueta_Celular_Panel {
+                font-size: 17px;
+            }
+
+            span#Etiqueta_Modelo_Panel {
+                font-size: 17px;
+            }
+
+            .form-group.formulario_panel_de_control {
+                margin-top: 5px;
+                margin-bottom: 20px;
+            }
+
+
+            input#Actualizar_Panel {
+                font-size: 18px;
+            }
+
+            .modal-footer.pie_panel_de_control {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

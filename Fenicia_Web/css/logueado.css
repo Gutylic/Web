@@ -1,0 +1,1057 @@
+﻿/*  -------------------basicos------------------ */
+
+#Cerrar_Sesion {
+    font-size: 11px;
+    float: right;
+}
+
+span#Usuario_Logueado {
+    font-size: 11px;
+    margin-left: 0px;
+}
+
+.encabezado {
+    width:100%;
+    margin-top:-10px
+}
+
+.padding_mayor {
+    padding-top:0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+
+
+
+a#Lapiz_Movil {
+    color: #99ccff;
+    text-decoration: none;
+    font-size: 14px;  
+    margin-top:4px;
+}
+
+.ejercicios_movil {
+    padding-left:8px;
+    margin-top:4px;
+}
+
+a:hover#Lapiz_Movil {
+    color: #99ccff;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a#Ejercicios_Movil {
+    color: #99ccff;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    
+}
+
+a:hover#Ejercicios_Movil {
+    color: #99ccff;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+   
+}
+
+.celeste_claro_xs {
+    height:30px;
+    background-color:#99ccff;
+    width:5px;
+    float: right;
+    margin-right: -16px;
+}
+
+
+
+a#Hojita_Movil {
+    color: #428bca;
+    text-decoration: none;
+    font-size: 14px;  
+    margin-top:4px;
+}
+
+a:hover#Hojita_Movil {
+    color: #428bca;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a#Explicaciones_Movil {
+    color: #428bca;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    
+}
+
+a:hover#Explicaciones_Movil {
+    color:#428bca;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    margin-top:4px;
+}
+
+.celeste_oscuro_xs {
+    height:30px;
+    background-color:#428bca;
+    width:5px;
+    float: right;
+    margin-right: -16px;
+}
+
+
+
+a#Perfil_Movil {
+    color: #cc0000;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top:4px;
+}
+
+a:hover#Perfil_Movil {
+    color: #cc0000;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a#Datos_Movil {
+    color: #cc0000;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    
+}
+
+a:hover#Datos_Movil {
+    color:#cc0000;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+   
+}
+
+.rojo_claro_xs {
+    height:30px;
+    background-color:#cc0000;
+    width:5px;
+    float: right;
+    margin-right: -16px;
+}
+
+
+
+
+a#Agendita_Movil {
+    color: #ff3366;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a:hover#Agendita_Movil {
+    color: #ff3366;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a#Mi_Saldo_Movil {
+    color: #ff3366;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    
+}
+
+a:hover#Mi_Saldo_Movil {
+    color:#ff3366;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+   
+}
+
+.rojo_medio_xs {
+    height:30px;
+    background-color:#ff3366;
+    width:5px;
+    float: right;
+    margin-right: -16px;
+}
+
+
+
+a#Dinero_Movil {
+    color: #ff6699;
+    text-decoration: none;
+    font-size: 14px;  
+    margin-top:4px;
+}
+
+a:hover#Dinero_Movil {
+    color: #ff6699;
+    text-decoration: none;
+    font-size: 14px;   
+    margin-top:4px;
+}
+
+a#Credito_Movil {
+    color: #ff6699;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+    
+}
+
+a:hover#Credito_Movil {
+    color:#ff6699;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 14px;
+   
+}
+
+
+.rojo_oscuro_xs {
+    height:30px;
+    background-color:#ff6699;
+    width:5px;
+    float: right;
+    margin-right: -16px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .glyphicon.glyphicon-folder-open {
+        font-size: 13px;
+        color: #DDC468;
+        margin-left: -5px;
+    }
+
+    .panel_pedagogico {
+        margin-left:0px;
+        margin-right:0px;
+        background-color:#EFEFEF;
+    }
+
+    .titulo_panel_pedagogico{
+        font-size: 12px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+        margin-left: -15px;
+    }
+
+    .renglon_1 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+    }
+
+    a:hover.icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+        /*margin-left:6px;*/
+    }
+
+    #Mis_Ejercicios {
+        font-size: 14px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    a:hover#Mis_Ejercicios {
+        font-size: 14px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    .celeste_claro {
+        height:24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #99ccff;
+        margin-left:31px;
+    }
+
+    .renglon_2 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+    }
+
+    a:hover.icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+        /*margin-left:6px;*/
+    }
+
+    #Mis_Explicaciones {
+        font-size: 14px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    a:hover#Mis_Explicaciones {
+        font-size: 14px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    .celeste_oscuro {
+        height:24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #428bca;
+        margin-left:31px;
+    }
+    
+    
+
+    .renglon_3 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+    }
+
+    a:hover.icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+       
+    }
+
+    #Panel_De_Control {
+        font-size: 14px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    a:hover#Panel_De_Control {
+        font-size: 14px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    .rojo_claro {
+        height:24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #cc0000;
+        margin-left:31px;
+    }
+
+    .renglon_4 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+    }
+
+    a:hover.icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+        
+    }
+
+    #Panel_De_Movimiento {
+        font-size: 14px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    a:hover#Panel_De_Movimiento  {
+        font-size: 14px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    .rojo_medio {
+        height:24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff3366;
+        margin-left:31px;
+    }
+
+
+    .renglon_5 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+    }
+
+    a:hover.icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 13px;  
+        margin-top:4px;
+        
+    }
+
+    #Panel_De_Credito {
+        font-size: 14px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    a:hover#Panel_De_Credito {
+        font-size: 14px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+    }
+
+    .rojo_oscuro {
+        height:24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff6699;
+        margin-left:31px;
+    }
+    
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .ubicacion_nombre {
+        margin-top:6px;
+    }
+
+   .glyphicon.glyphicon-folder-open {
+        font-size: 15px;
+        color: #DDC468;
+        margin-left: -5px;
+        margin-top: 6px;
+    }
+
+    .panel_pedagogico {
+        margin-left:0px;
+        margin-right:0px;
+        background-color:#EFEFEF;
+    }
+
+    .titulo_panel_pedagogico{
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 7px;
+        margin-left: -15px;
+    }
+
+    .renglon_1 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        
+        padding-top:6px;
+    }
+
+    #Mis_Ejercicios {
+        font-size: 16px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Mis_Ejercicios {
+        font-size: 16px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .celeste_claro {
+        height:33px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #99ccff;
+        margin-left:44px;
+    }
+
+    .renglon_2 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+      
+        padding-top:6px;
+    }
+
+    #Mis_Explicaciones {
+        font-size: 16px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Mis_Explicaciones {
+        font-size: 16px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .celeste_oscuro {
+        height:33px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #428bca;
+        margin-left:44px;
+    }
+    
+    
+
+    .renglon_3 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+       
+        padding-top:6px;
+    }
+
+    #Panel_De_Control {
+        font-size: 16px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Control {
+        font-size: 16px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_claro {
+        height:33px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #cc0000;
+        margin-left:44px;
+    }
+
+    .renglon_4 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+       
+        padding-top:6px;
+    }
+
+    #Panel_De_Movimiento {
+        font-size: 16px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Movimiento  {
+        font-size: 16px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_medio {
+        height:33px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff3366;
+        margin-left:44px;
+    }
+
+
+    .renglon_5 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 15px;  
+        margin-top:4px;
+        
+        padding-top:6px;
+    }
+
+    #Panel_De_Credito {
+        font-size: 16px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Credito {
+        font-size: 16px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_oscuro {
+        height:33px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff6699;
+        margin-left:44px;
+    }
+
+    span#Usuario_Logueado {
+    font-size: 15px;
+    margin-left: 0px;
+}
+    #Cerrar_Sesion {
+    font-size: 15px;
+    float: right;
+}
+
+    .encabezado {
+    width: 100%;
+    margin-top: -15px;
+}
+    
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+   .ubicacion_nombre {
+        margin-top:6px;
+    }
+
+   .glyphicon.glyphicon-folder-open {
+        font-size: 17px;
+        color: #DDC468;
+        margin-left: -5px;
+        margin-top: 6px;
+    }
+
+    .panel_pedagogico {
+        margin-left:0px;
+        margin-right:0px;
+        background-color:#EFEFEF;
+    }
+
+    .titulo_panel_pedagogico{
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: -15px;
+    }
+
+    .renglon_1 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_celeste_claro {
+        color: #99ccff;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        
+        padding-top:6px;
+    }
+
+    #Mis_Ejercicios {
+        font-size: 18px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Mis_Ejercicios {
+        font-size: 18px;
+        color: #99ccff;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .celeste_claro {
+        height:34px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #99ccff;
+        margin-left:55px;
+    }
+
+    .renglon_2 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_celeste_oscuro {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+       
+        padding-top:6px;
+    }
+
+    #Mis_Explicaciones {
+        font-size: 18px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Mis_Explicaciones {
+        font-size: 18px;
+        color: #428bca;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .celeste_oscuro {
+        height:34px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #428bca;
+        margin-left:55px;
+    }
+    
+    
+
+    .renglon_3 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_claro {
+        color: #cc0000;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+       
+        padding-top:6px;
+    }
+
+    #Panel_De_Control {
+        font-size: 18px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Control {
+        font-size: 18px;
+        color: #cc0000;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_claro {
+        height:34px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #cc0000;
+        margin-left:55px;
+    }
+
+    .renglon_4 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_medio {
+        color: #ff3366;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        
+        padding-top:6px;
+    }
+
+    #Panel_De_Movimiento {
+        font-size: 18px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Movimiento  {
+        font-size: 18px;
+        color: #ff3366;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_medio {
+        height:34px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff3366;
+        margin-left:55px;
+    }
+
+
+    .renglon_5 {
+        margin-left: 0px;
+        margin-right: -1px;
+        border-bottom:1px solid #EFEFEF;
+    }
+
+    .icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        padding-top:6px;
+    }
+
+    a:hover.icono_rojo_oscuro {
+        color: #ff6699;
+        text-decoration: none;
+        font-size: 17px;  
+        margin-top:4px;
+        
+        padding-top:6px;
+    }
+
+    #Panel_De_Credito {
+        font-size: 18px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    a:hover#Panel_De_Credito {
+        font-size: 18px;
+        color: #ff6699;
+        text-decoration: none;
+        margin-left: -8px;
+        
+    }
+
+    .rojo_oscuro {
+        height:34px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 5px;
+        background: #ff6699;
+        margin-left:55px;
+    }
+
+    span#Usuario_Logueado {
+    font-size: 17px;
+    margin-left: 0px;
+}
+    #Cerrar_Sesion {
+    font-size: 17px;
+    float: right;
+}
+
+    .encabezado {
+    width: 100%;
+    margin-top: -18px;
+}
+
+
+}

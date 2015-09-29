@@ -1,0 +1,91 @@
+﻿#Boton_Compra_Explicacion_Movil {
+    font-size:11px
+}
+
+#Boton_Compra_Ejercicio_Movil {
+    font-size:11px
+}
+
+#Boton_Compra_Video {
+    font-size:11px
+}
+
+div.fondo_panel_NoLogueado {
+    background-color:ghostwhite;
+    border:solid 2px #428BCA;
+}
+
+h3.mensaje_error_NoLogueado {
+    font-family:Arial; 
+    color:#428BCA; 
+    font-size:16px;
+    text-align: center;     
+    /*margin-left:20px*/
+}
+
+h5.pie_error_NoLogueado {
+    font-family:Arial; 
+    font-size:11px;
+    text-align: center;
+    width: 250px;
+    margin-top: -15px;
+}
+
+table.botonera_NoLogueado {
+    width: 100%;
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+
+td.ubicacion_NoLogueado {
+    text-align:center; 
+    
+}
+
+.botones_popup {
+    width:110px;
+    padding: 6px 1px 6px 1px;
+    font-size:11px
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+    
+    h3.mensaje_error_NoLogueado {        
+        font-size:22px;
+        text-align: center;     
+        margin-left:20px
+    }
+
+    .botones_popup {
+        width:130px;        
+        font-size:13px
+    }
+
+    #Boton_Compra_Video {
+        font-size:14px
+    }
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+    
+
+}

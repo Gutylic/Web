@@ -1,0 +1,503 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../font/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+/* ----------------------- que hacemos  -------------------------- */
+
+/* panel gris  */
+div.fondo_gris{
+    background-color:rgba(204,204,204,0.5);
+    width:100%;
+}
+
+h4.titulo_principal{
+    padding:4px;
+    text-align:center;
+    font-weight:bold; 
+    font-size:17px;
+    color:#8a0303;
+}
+
+h4.subtitulo_principal{
+    padding:4px;
+    font-weight:bold;
+    margin-top:-15px; 
+    font-size:14px
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+    /*----------------------- que hacemos ----------------------*/
+
+    /*cuadros rosa - parrafos y botones azules*/
+    div.cuadro_rosa_primero {
+        background-color: #FF99FF;
+        border-radius: 0px 0px 5px 5px;
+        height: 90px;
+        text-align: center;
+        padding: 5px;
+        margin-top: 75px;
+        /*otros navegadores*/
+        -o-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        -webkit-border-radius: 0px 0px 5px 5px;
+    }
+
+    div.cuadro_rosa_segundo {
+        background-color: #FF99FF;
+        border-radius: 0px 0px 5px 5px;
+        height: 90px;
+        text-align: center;
+        padding: 5px;
+        margin-top: 75px;
+        /*otros navegadores*/
+        -o-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        -webkit-border-radius: 0px 0px 5px 5px;
+    }
+
+    h4.titulo_rosa {
+        font-size: 12px;
+    }
+
+    p.subtitulo_rosa {
+        font-size: 9px;
+    }
+
+    h4.cuadro_azul_segundo {
+        background-color: blue;
+        margin-left: 10px;
+        margin-top: 28px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 12px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 11px;
+        /*otros navegadores*/
+        -o-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    h4.cuadro_azul_tercero {
+        background-color: blue;
+        margin-left: 10px;
+        margin-top: 42px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 12px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 11px;
+        /*otros navegadores*/
+        -o-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    h4.cuadro_azul_cuarto {
+        background-color: blue;
+        margin-left: 10px;
+        margin-top: 28px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 12px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 11px;
+        /*otros navegadores*/
+        -o-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    div.cuadro_rosa_tercero {
+        background-color: #FF99FF;
+        border-radius: 0px 0px 5px 5px;
+        height: 90px;
+        text-align: center;
+        padding: 5px;
+        margin-top: -170px;
+        /*otros navegadores*/
+        -o-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        -webkit-border-radius: 0px 0px 5px 5px;
+    }
+
+    p.parrafo_rosa_tercero {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    h4.cuadro_azul_primero {
+        background-color: blue;
+        margin-left: 8px;
+        color: #fff;
+        height: 45px;
+        border-radius: 5px;
+        padding: 10px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 11px;
+        margin-top: 30px;
+        /*otros navegadores*/
+        -o-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    h4.cuadro_azul_quinto {
+        background-color: blue;
+        margin-left: 8px;
+        color: #fff;
+        height: 45px;
+        border-radius: 5px;
+        padding: 10px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 11px;
+        margin-top: 10px;
+        /*otros navegadores*/
+        -o-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    div.cuadro_rosa_cuarto {
+        background-color: #FF99FF;
+        border-radius: 0px 0px 5px 5px;
+        height: 90px;
+        text-align: center;
+        padding: 5px;
+        margin-top: -170px;
+        /*otros navegadores*/
+        -o-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        -webkit-border-radius: 0px 0px 5px 5px;
+    }
+
+    div.cuadro_rosa_quinto {
+        background-color: #FF99FF;
+        border-radius: 0px 0px 5px 5px;
+        height: 98px;
+        text-align: center;
+        padding: 5px;
+        margin-top: -120px;
+        /*otros navegadores*/
+        -o-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        -webkit-border-radius: 0px 0px 5px 5px;
+    }
+
+    /*tercer columna de color gris y escrituras*/
+    div.fondo_gris {
+        background-color: #cccccc;
+        background-color: rgba(204,204,204,0.2);
+        width: 100%;
+        height: 440px;
+        margin-top: -30px;
+    }
+
+    h4.parrafo_principal_de_servicios {
+        padding-top: 93px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+
+    .fondo_oscuro {
+        background-color: #333333;
+        color: #fff;
+        width: 100%;
+        /*height: 85px;*/
+        margin-top: -180px;
+    }
+
+    h5.parrafo_fondo_oscuro {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    h5.parrafo_fondo_gris_final {
+        margin-top: -120px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    h6.zocalo_aclaracion {
+        margin-top: 0px;
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    div.icono_que_hacemos {
+        float: right;
+        margin-top: -430px;
+        height: 24px;
+        width: 24px;
+    }
+
+    h2.titulo_nosotros {
+        margin-top: -420px;
+        font-size: 18px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    /*----------------------- quienes somos ----------------------*/
+
+    /*cuadros rosas - boton azul - parrafo*/
+    h4.titulo_rosa {
+        font-size: 17px;
+    }
+
+    h4.parrafo_principal_de_servicios {
+        padding-top: 93px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    p.subtitulo_rosa {
+        font-size: 13px;
+    }
+
+    h4.cuadro_azul_segundo {
+        margin-left: 25px;
+        margin-top: 28px;
+        padding: 8px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    h4.cuadro_azul_tercero {
+        margin-left: 25px;
+        margin-top: 30px;
+        padding: 18px;
+        width: 80%;
+        font-size: 14px;
+        height:50px;
+    }
+
+    h4.cuadro_azul_cuarto {
+        margin-left: 25px;
+        margin-top: 13px;
+        padding: 8px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    p.parrafo_rosa_tercero {
+        font-size: 13px;
+    }
+
+    h4.cuadro_azul_primero {
+        margin-left: 25px;
+        margin-top: 30px;
+        padding-top: 8px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    h4.cuadro_azul_quinto {
+        margin-left: 25px;
+        margin-top: -10px;
+        padding-top: 8px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    div.cuadro_rosa_cuarto {
+        margin-top: -142px;
+    }
+
+    div.cuadro_rosa_tercero {
+        margin-top: -148px;
+    }
+
+    div.cuadro_rosa_quinto {
+        margin-top: -117px;
+    }
+
+    /* cuadro gris*/
+    div.fondo_gris {
+        margin-top: -30px;
+    }
+
+    h4.parrafo_principal_de_servicios {
+        font-size: 17px;
+    }
+
+    .fondo_oscuro {
+        /*height: 80px;*/
+        margin-top:-150px;
+    }
+
+    h5.parrafo_fondo_oscuro {
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    h5.parrafo_fondo_gris_final {
+        margin-top: -140px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    h6.zocalo_aclaracion {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    div.icono_que_hacemos {
+        height: 36px;
+        width: 36px;
+        margin-top: -435px;
+    }
+
+    h2.titulo_nosotros {
+        font-size: 26px;
+        margin-top: -430px;
+    }
+
+   
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    /*----------------------- panel que hacemos ----------------------*/
+
+    /*cuadro rosa - parrafo y boton azul*/
+    h4.titulo_rosa {
+        font-size: 20px;
+    }
+
+    p.subtitulo_rosa {
+        font-size: 16px;
+    }
+
+    h4.cuadro_azul_segundo {
+        margin-left: 35px;
+        font-size: 18px;
+    }
+
+    h4.cuadro_azul_tercero {
+        margin-left: 35px;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    h4.cuadro_azul_cuarto {
+        margin-left: 35px;
+        height:50px;
+        font-size: 18px;
+    }
+
+    p.parrafo_rosa_tercero {
+        font-size: 16px;
+    }
+
+    h4.cuadro_azul_primero {
+        margin-left: 35px;       
+        font-size: 18px;
+        height:50px;
+    }
+
+    h4.cuadro_azul_quinto {
+        margin-left: 35px;
+        padding-top: 4px;
+        font-size: 18px;
+    }
+
+    div.cuadro_rosa_segundo {
+        margin-top: 75px;
+        height: 120px;
+    }
+
+    div.cuadro_rosa_cuarto {
+        margin-top: -160px;
+    }
+
+    div.cuadro_rosa_tercero {
+        height: 80px;
+        margin-top: -159px;
+    }
+
+    div.cuadro_rosa_quinto {
+        margin-top: -145px;
+    }
+
+    /*fondo gris y parrafos*/
+
+    div.fondo_gris {
+        margin-top: -30px;
+        height: 500px;
+    }
+
+    h4.parrafo_principal_de_servicios {
+        padding-top: 100px;
+        font-size: 20px;
+    }
+
+    .fondo_oscuro {
+        height: 130px;
+        margin-top: -295px;
+    }
+
+    h5.parrafo_fondo_oscuro {
+        margin-top:130px;
+        font-size: 18px;
+        padding: 7px;
+    }
+
+    h5.parrafo_fondo_gris_final {
+        margin-top: -150px;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    h6.zocalo_aclaracion {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    div.icono_que_hacemos {
+        margin-top: -491px;
+        height: 48px;
+        width: 48px;
+    }
+
+    h2.titulo_nosotros {
+        margin-top: -490px;
+        font-size: 32px;
+    }
+
+}
