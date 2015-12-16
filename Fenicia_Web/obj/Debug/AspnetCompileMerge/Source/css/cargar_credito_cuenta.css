@@ -1,0 +1,153 @@
+﻿.logo_cuenta_digital_movil {
+    width: 195px;
+    margin-left: 10px;
+}
+
+#TextBox_Cuenta_Digital_Movil {
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: silver;
+    text-align: center;
+    width: 100%;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .logo_pago {
+        width: 70%;
+    }
+
+    .logo_cuenta {
+        width: 190%;
+    }
+
+    .pago1 {
+        text-align: right;
+    }
+
+    .pago2 {
+        text-align: right;
+        margin-top: -20px;
+    }
+
+    .pago3 {
+        text-align: right;
+    }
+
+    .pago4 {
+        text-align: right;
+    }
+
+    .col-xs-6.col-xs-offset-2.info_cuenta {
+        font-size: 8.5px;
+        text-align: center;
+        margin-top: -130px;
+        color: rgb(11,51,63);
+    }
+
+    input#TextBox_Cuenta_Digital {
+        height: 28px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        background: silver;
+        text-align: center;
+        width: 100%;
+    }
+
+    .col-xs-6.col-xs-offset-2.contenedor_total_cuenta {
+        margin-top: -105px;
+    }
+
+    p.pesos {
+        font-size: 10px;
+    }
+
+    .col-xs-1.contenedor_pesos_cuenta {
+        padding-top: 8px;
+        margin-left: 1px;
+    }
+
+    .col-xs-10.contenedor_textbox_cuenta {
+        padding-left: 0px;
+    }
+
+    input#Boton_CuentaDigital {
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(243,193,4);
+        width: 100%;
+        color: white;
+    }
+
+    .col-xs-6.col-xs-offset-3.boton_cuenta {
+        text-align: center;
+        margin-top: -50px;
+    }
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .col-xs-6.col-xs-offset-2.info_cuenta {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: -160px;
+    }
+
+    input#TextBox_Cuenta_Digital {
+        height: 35px;
+    }
+
+    p.pesos {
+        font-size: 14px;
+    }
+
+    .col-xs-6.col-xs-offset-2.contenedor_total_cuenta {
+        margin-top: -130px;
+    }
+
+    input#Boton_CuentaDigital {
+        height: 35px;
+        font-size: 14px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    .logo_cuenta {
+        width: 170%;
+    }
+
+    .logo_pago {
+        width: 54%;
+    }
+    
+    .col-xs-6.col-xs-offset-2.info_cuenta {
+        font-size: 14px;
+    }
+
+    p.pesos {
+        font-size: 16px;
+    }
+
+    input#TextBox_Cuenta_Digital {
+        height: 40px;
+    }
+
+    input#Boton_CuentaDigital {
+        font-size: 16px;
+        height: 40px;
+    }
+
+}

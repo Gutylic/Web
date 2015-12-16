@@ -1,0 +1,350 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+/* panel de pago*/
+div.sistema_de_pago {
+    margin-top:10px;
+}
+
+.panel.panel-warning.sistema_de_pago_movil {
+  margin-top: 15px;
+}
+
+div.titulo_sistema_de_pago_movil {
+    font-size:13px;
+}
+
+.panel-heading.titulo_otros_medios_movil
+    {
+        font-size: 13px;
+    }
+
+ul.lista_sistema_de_pago_movil {
+    font-size:11px;
+}
+
+    ul.lista_sistema_de_pago_movil > li > span {
+        font-size: 10px;
+        color: grey;
+    }
+
+    ul.lista_otros_medios_movil {
+    font-size:11px;
+}
+
+    ul.lista_otros_medios_movil > li > span {
+        font-size: 10px;
+        color: grey;
+    } 
+
+div.pie_sistema_de_pago_movil {
+    font-size: 10px;
+    margin-top:75px;
+}
+
+div.otros_medios_movil {
+    margin-top: 10px;
+}
+
+div.pie_otros_medios_movil {
+    font-size: 10px;
+    margin-top:-40px;
+}
+
+.circulos_precio {
+    height:138px;
+    left:138px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*----------------------- sector de precios ----------------------*/
+
+    article.fondo_precio {
+        background: url('../images/fondo-amarillo.png') repeat-x 0 0;
+        height: 270px;
+        z-index: 500;
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+        /*otros navegadores*/
+        -o-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    /* precios */
+    .circulos_precio {
+        height: 90px;
+        left: 90px;
+    }
+
+    div.precio_1 {
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    div.precio_2y3 {
+        margin-top: -15px;
+        margin-left: 23px;
+    }
+
+    div.precio_4 {
+        margin-top: -15px;
+        margin-left: 70px;
+    }
+
+    /* forma de pago */
+    div.sistema_de_pago {
+        margin-top: -160px;
+        height: 235px;
+        width: 100%;
+    }
+
+    div.titulo_sistema_de_pago {
+        font-size: 10px;
+    }
+
+    .panel-heading.titulo_otros_medios
+    {
+        font-size: 10px;
+    }
+
+    ul.lista_sistema_de_pago {
+        font-size: 8px;
+        margin-left: -40px;
+    }
+
+        ul.lista_sistema_de_pago> li > span {
+            font-size: 8px;
+            color: grey;
+        }
+
+        ul.lista_otros_medios {
+        font-size: 8px;
+        margin-left: -40px;
+    }
+
+        ul.lista_otros_medios> li > span {
+            font-size: 8px;
+            color: grey;
+        }
+
+
+    div.pie_sistema_de_pago {
+            font-size: 7px;
+    width: 220px;
+    margin-left: -1px;
+    margin-top: -20px;
+        
+            
+    
+    }
+     
+    /* forma de otros*/
+    div.otros_medios {
+        margin-top: -135px;
+        width: 100%;
+    }
+
+    div.pie_otros_medios {
+            font-size: 7px;
+    width: 219px;
+    margin-top: -60px;
+    margin-left: -1px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+
+    /*----------------------- panel de precios ----------------------*/
+
+    /*precios*/
+    article.fondo_precio {
+        height: 360px;
+    }
+
+    .circulos_precio {
+        height: 120px;
+        left: 120px;
+    }
+
+    div.precio_1 {
+        margin-top: 15px;
+        margin-left: 84px;
+    }
+
+    div.precio_2y3 {
+        margin-top: -15px;
+        margin-left: 23px;
+    }
+
+    div.precio_4 {
+        margin-top: -15px;
+        margin-left: 84px;
+    }
+
+    /*panel de pago*/
+    div.sistema_de_pago {
+        margin-top: -210px;
+        height: 290px;
+        width: 100%;
+    }
+
+    div.titulo_sistema_de_pago {
+        font-size: 12px;
+    }
+
+    .panel-heading.titulo_otros_medios
+    {
+        font-size: 12px;
+    }
+
+    ul.lista_sistema_de_pago {
+        font-size: 11px;
+        margin-left: 0px;
+    }
+
+        ul.lista_sistema_de_pago> li > span {
+            font-size: 10px;
+            color: grey;
+        }
+
+         ul.lista_otros_medios {
+        font-size: 11px;
+        margin-left: 0px;
+    }
+
+        ul.lista_otros_medios> li > span {
+            font-size: 10px;
+            color: grey;
+        }
+
+    div.pie_sistema_de_pago {
+        font-size: 9px;
+        margin-top: 0px;
+        width: 293px;
+    }
+
+    /*panel de otros*/
+    div.otros_medios {
+        margin-top: -170px;
+        height:200px;
+    }
+
+    div.pie_otros_medios {
+        font-size: 9px;
+        margin-top: -85px;
+        width:293px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    /*----------------------- panel de precios ----------------------*/
+
+    /*precios*/
+    article.fondo_precio {
+        height: 429px;
+    }
+
+    .circulos_precio {
+        height: 140px;
+        left: 140px;
+    }
+
+    div.precio_1 {
+        margin-top: 15px;
+        margin-left: 93px;
+    }
+
+    div.precio_2y3 {
+        margin-top: -15px;
+        margin-left: 23px;
+    }
+
+    div.precio_4 {
+        margin-top: -15px;
+        margin-left: 93px;
+    }
+
+    /*panel de pago*/
+    div.sistema_de_pago {
+        margin-top: -250px;
+        height: 355px;
+        width: 100%;
+    }
+
+    div.titulo_sistema_de_pago {
+        font-size: 15px;
+    }
+
+    .panel-heading.titulo_otros_medios
+    {
+        font-size: 15px;
+    }
+
+    ul.lista_sistema_de_pago {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+        ul.lista_sistema_de_pago > li > span {
+            font-size: 11px;
+        }
+
+        ul.lista_otros_medios {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+        ul.lista_otros_medios> li > span {
+            font-size: 11px;
+        }
+
+    div.pie_sistema_de_pago {
+        width: 360px;
+    font-size: 11px;
+    margin-top: 19px;
+
+        
+    }
+
+    /*panel de pago*/
+    div.otros_medios {
+        margin-top: -192px;
+    }
+
+    div.pie_otros_medios {
+        font-size: 11px;
+    margin-top: -94px;
+    width: 360px;
+    margin-left: -1px;
+    }
+
+}

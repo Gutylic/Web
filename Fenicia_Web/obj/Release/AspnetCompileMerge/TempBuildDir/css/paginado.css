@@ -1,0 +1,88 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+div#Centros_Paginados {
+    font-size:9px; 
+    text-align:center;
+}
+
+div#Extremos_Paginados {
+   font-size:9px;
+   text-align:center;
+   margin-top:-34px;
+}
+
+#Anterior_Ultimo {    
+    text-decoration: none;  
+}
+
+#Siguiente_Primero {
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    div#Extremos_Paginados {
+        margin-top:-55px;
+    }    
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    div#Extremos_Paginados {
+        margin-top:-57px;
+    }
+
+    div#Centros_Paginados {
+        font-size:10px;
+        margin-top:4px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+@media (min-width:1200px) {
+
+    div#Centros_Paginados {
+        font-size:12px; 
+        margin-top:10px;
+    }
+
+    div#Extremos_Paginados {
+        font-size:12px;
+        margin-top:-64px;
+    }
+
+    #Anterior_Ultimo {    
+        text-decoration: none;  
+    }
+
+    #Siguiente_Primero {
+        text-decoration: none;
+    }
+
+}

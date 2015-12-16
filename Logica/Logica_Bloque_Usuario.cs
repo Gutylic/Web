@@ -61,28 +61,28 @@ namespace Logica
                     }
                 case 1: // envia al correo la activacion
                     {
-                        //MailMessage Email = new MailMessage();
-                        //Email.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
-                        //Email.To.Add(Correo);
-                        //Email.Subject = "Activación de la cuenta";
-                        //string Body = HttpContent("http://localhost:10250/Correo_Activacion.aspx"); // recordar que debo cambiarla
-                        //string Body1 = Body.Replace("NICKUSUARIO", Usuario);
-                        //string Body2 = Body1.Replace("CONTRASENA", Password_1);
-                        //Email.Body = Body2;
-                        //Email.IsBodyHtml = true;
-                        //SmtpClient smtp = new SmtpClient("smtp.gmail.com");
-                        //smtp.Port = 587;
-                        //smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
-                        //smtp.EnableSsl = true;
-                        //try
-                        //{
-                        //    smtp.Send(Email);
+                        MailMessage Email = new MailMessage();
+                        Email.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
+                        Email.To.Add(Correo);
+                        Email.Subject = "Activación de la cuenta";
+                        string Body = HttpContent("http://www.unprofesorya.com/Correo_Activacion.aspx"); // recordar que debo cambiarla
+                        string Body1 = Body.Replace("NICKUSUARIO", Usuario);
+                        string Body2 = Body1.Replace("CONTRASENA", Password_1);
+                        Email.Body = Body2;
+                        Email.IsBodyHtml = true;
+                        SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+                        smtp.Port = 587;
+                        smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
+                        smtp.EnableSsl = true;
+                        try
+                        {
+                            smtp.Send(Email);
                             return 1; // todo OK                                
-                        //}
-                        //catch (Exception)
-                        //{
-                        //    return -6; // no conectado                            
-                        //}
+                        }
+                        catch (Exception)
+                        {
+                            return -6; // no conectado                            
+                        }
 
                     }
                 default:
@@ -164,28 +164,28 @@ namespace Logica
                 return 0;
             }
             //envia al correo la activacion
-            //MailMessage Correo = new MailMessage();
-            //Correo.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
-            //Correo.To.Add(BU.Metodo_Reenviar_Activacion_Al_Usuario(Usuario, ID_Empresa).Correo);
-            //Correo.Subject = "Activación de la cuenta";
-            //string Body = HttpContent("http://localhost:10250/Correo_Activacion.aspx"); // recordar que debo cambiarla
-            //string Body1 = Body.Replace("NICKUSUARIO", Usuario);
-            //string Body2 = Body1.Replace("CONTRASENA", BU.Metodo_Reenviar_Activacion_Al_Usuario(Usuario, ID_Empresa).Password);
-            //Correo.Body = Body2;
-            //Correo.IsBodyHtml = true;
-            //SmtpClient smtp = new SmtpClient("smtp.gmail.com");
-            //smtp.Port = 587;
-            //smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
-            //smtp.EnableSsl = true;
-            //try
-            //{
-            //    smtp.Send(Correo);
+            MailMessage Correo = new MailMessage();
+            Correo.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
+            Correo.To.Add(BU.Metodo_Reenviar_Activacion_Al_Usuario(Usuario, ID_Empresa).Correo);
+            Correo.Subject = "Activación de la cuenta";
+            string Body = HttpContent("http://www.unprofesoya.com/Correo_Activacion.aspx"); // recordar que debo cambiarla
+            string Body1 = Body.Replace("NICKUSUARIO", Usuario);
+            string Body2 = Body1.Replace("CONTRASENA", BU.Metodo_Reenviar_Activacion_Al_Usuario(Usuario, ID_Empresa).Password);
+            Correo.Body = Body2;
+            Correo.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
+            smtp.EnableSsl = true;
+            try
+            {
+                smtp.Send(Correo);
                 return 1; // todo ok
-            //}
-            //catch (Exception)
-            //{
-            //    return -6; // no se conecto a la base de datos
-            //}
+            }
+            catch (Exception)
+            {
+                return -6; // no se conecto a la base de datos
+            }
 
         }
 
@@ -215,28 +215,28 @@ namespace Logica
                 return -1; // no conectado o correo no existe
             }
             //envia al correo la contraseña y el usuario
-            //MailMessage Correo = new MailMessage();
-            //Correo.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
-            //Correo.To.Add(Email);
-            //Correo.Subject = "Aviso de solicitud de recuperación de contraseña";
-            //string Body = HttpContent("http://localhost:17725/Correo_Recuperacion.html"); // recordar que debo cambiarla
-            //string Body1 = Body.Replace("NICKUSUARIO", Usuario);
-            //string Body2 = Body1.Replace("CONTRASENA", Password);
-            //Correo.Body = Body2;
-            //Correo.IsBodyHtml = true;
-            //SmtpClient smtp = new SmtpClient("smtp.gmail.com");
-            //smtp.Port = 587;
-            //smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
-            //smtp.EnableSsl = true;
-            //try
-            //{
-            //    smtp.Send(Correo);
-            //    return 1; // envio correcto
-            //}
-            //catch (Exception)
-            //{
+            MailMessage Correo = new MailMessage();
+            Correo.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
+            Correo.To.Add(Email);
+            Correo.Subject = "Aviso de solicitud de recuperación de contraseña";
+            string Body = HttpContent("http://www.unprofesorya.com/Correo_Recuperacion.html"); // recordar que debo cambiarla
+            string Body1 = Body.Replace("NICKUSUARIO", Usuario);
+            string Body2 = Body1.Replace("CONTRASENA", Password);
+            Correo.Body = Body2;
+            Correo.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential("xeladostechnology@gmail.com", "qjdkuhvekcwyunpm"); // otro cambio si modifico el correo
+            smtp.EnableSsl = true;
+            try
+            {
+                smtp.Send(Correo);
+                return 1; // envio correcto
+            }
+            catch (Exception)
+            {
                 return -6; // error de envio ;
-            //}
+            }
         
         }
         

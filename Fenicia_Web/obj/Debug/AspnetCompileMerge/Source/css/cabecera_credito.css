@@ -1,0 +1,72 @@
+﻿input#Boton_Prepago_Movil {
+    width: 120px;
+}
+
+input#Boton_Pago_Movil {
+    width: 120px;
+}
+
+input#Boton_Mercado_Movil {
+    width: 120px;
+}
+
+input#Boton_Cuenta_Movil {
+    width: 120px;
+}
+
+input#Boton_Paypal_Movil {
+    width: 120px;
+}
+
+input#Boton_Prestamo_Movil {
+    width: 120px;
+}
+
+input#Boton_Transferencia_Movil {
+    width: 120px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    input#Boton_Prepago {
+        margin-left: 20px;
+        width: 150px;
+    }
+
+    input#Boton_Pago {
+        width: 150px;
+        
+    }
+
+    input#Boton_Mercado {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    input#Boton_Cuenta {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    input#Boton_Paypal {
+        width: 150px;
+    }
+
+    input#Boton_Prestamo {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    input#Boton_Transferencia {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .col-sm-12.inferior {
+        margin-top: 20px;
+    }
+
+}

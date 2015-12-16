@@ -76,6 +76,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\Lobster.ttf" />
+    <None Include="Properties\PublishProfiles\Guillermo.pubxml" />
+    <None Include="Properties\PublishProfiles\Gustavo.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,6 +141,7 @@
     <Content Include="imagen\logo_importante.gif" />
     <Content Include="imagen\logo_pack_videos.png" />
     <Content Include="imagen\logo_videos.png" />
+    <Content Include="imagen\triste.jpg" />
     <Content Include="images\ajax-loader.gif" />
     <Content Include="images\cuenta_in.png" />
     <Content Include="images\cuenta_in_movil.png" />
@@ -223,7 +226,10 @@
     <Content Include="Pagina_Fichas.aspx" />
     <Content Include="Panel_De_Ingreso.aspx" />
     <Content Include="Profesor_On_Line.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="sefue.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activacion_De_Cuenta.aspx.cs">
@@ -318,6 +324,13 @@
       <DependentUpon>Profesor_On_Line.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sefue.aspx.cs">
+      <DependentUpon>sefue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sefue.aspx.designer.cs">
+      <DependentUpon>sefue.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">

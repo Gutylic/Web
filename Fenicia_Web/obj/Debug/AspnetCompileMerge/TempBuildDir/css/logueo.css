@@ -1,0 +1,334 @@
+﻿/* Logueo */
+
+div.sector_logueo{ 
+    height:100%;
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+    /*otros navegadores*/
+	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+}
+
+.panel-body {
+  height: 153px;
+}
+
+h6.password_inicio {
+  font-size: 10px;
+  margin: 2px;
+}
+
+ h6.usuario_inicio {
+  margin-top: -8px;
+  font-size: 10px;
+  margin-bottom: 2px;
+  
+}
+
+ input#Usuario_Inicio {
+  height: 20px;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+ input#Password_Inicio {
+  height: 20px;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+
+a.olvido_contrasena {
+    font-size:8px;
+}
+
+TextBox.caja_de_texto {
+    margin-top:-8px;
+    height:18px;
+    font-size:12px;
+}
+
+h3.ingrese_como_usuario {
+    margin-top:-5px;
+    font-size:10px;
+    padding-left:5px;
+}
+
+div.titulo_panel_logueo {
+    height:10px;
+}
+
+h6.recordarme {
+    font-size:10px; 
+    margin-left:15px; 
+    margin-top:-18px
+}
+
+input#Mantener_Session {
+    margin-top:4px;
+}
+
+input#Boton_Iniciar_Session {
+    height:18px;
+    width:60px;
+    font-size:8px;
+    float:right;
+    margin-top:-10px;
+    padding:3px;
+}
+
+hr.linea_de_separacion_boton_registrese {
+    margin-top:-5px;
+}
+
+div.registrese {
+    text-align:center;
+}
+
+input#Boton_Registrese {
+    margin-top:-30px;
+    width:100px;
+    height:20px;
+    font-size:8px;
+    padding:4px;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+
+/*----------------------- Logueo----------------------*/
+
+
+    h3.ingrese_como_usuario {
+       padding-top:0px;
+        font-size: 10px;
+        height: 0px;
+    }
+
+
+h6.usuario_inicio {
+  margin-top: -6px;
+  font-size: 10px;
+  height: 2px;
+}
+
+input#Usuario_Inicio {
+  margin-top: 10px;
+  height:20px;
+  font-size:9px;
+  padding-left:5px;
+}
+
+input#Password_Inicio {
+  font-size:10px;
+  height:20px;
+  padding-left:5px;
+}
+
+h6.password_inicio {
+  height: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+a.olvido_contrasena {
+  font-size: 9px;
+}
+
+input#Boton_Iniciar_Session {
+font-size:8px;
+margin-bottom:5px;
+margin-left: 6px;
+
+}
+
+input#Boton_Registrese{
+  font-size: 9px;
+  margin-top: -30px;
+  padding-top: 3px;
+  padding-left: 6px;
+    width: 130px;
+}
+
+div.registrese {
+height: 20px;
+text-align: center;
+    }
+
+hr.linea_de_separacion_boton_registrese{
+margin-top:1px;
+}
+
+input#Mantener_Session{
+    height:11px;
+}
+
+.panel-body {
+  height: 169px;
+}
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+
+    /*----------------------- logueo ----------------------*/
+
+.panel-body {
+  height: 230px;
+}
+
+.panel-heading.titulo_panel_logueo {
+  padding-top: 20px;
+}
+
+h3.panel_title.ingrese_como_usuario {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+h6.usuario_inicio {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+input#Usuario_Inicio {
+  height: 24px;
+  font-size:11px;
+}
+
+h6.password_inicio {
+  font-size: 11px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+input#Password_Inicio {
+  height: 24px;
+  font-size:11px;
+}
+
+a.olvido_contrasena {
+  font-size: 11px;
+}
+
+input#Mantener_Session {
+height: 17px;
+margin-top:10px;
+}
+
+h6.recordarme {
+font-size: 11px;
+}
+
+input#Boton_Iniciar_Session {
+  font-size: 11px;
+  margin-left:16px;
+    width: 85px;
+  height: 27px;
+}
+
+hr.linea_de_separacion_boton_registrese {
+margin-bottom: 0px;
+margin-top: 10px;
+}
+
+input#Boton_Registrese {
+  font-size: 12px;
+  margin-top: 11px;
+    width: 160px;
+  height: 30px;
+}
+
+h6.recordarme {
+font-size: 11px;
+margin-top:-21px;
+}
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+
+    /*----------------------- Logueo ----------------------*/
+
+.panel-heading.titulo_panel_logueo {
+  padding-top: 25px;
+}
+
+h3.panel_title.ingrese_como_usuario {
+  font-size: 16px;
+  margin-top: -17px;
+}
+
+h6.usuario_inicio {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+input#Usuario_Inicio {
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+h6.password_inicio {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+input#Password_Inicio {
+   top: 20px;
+   height: 30px;
+   font-size: 16px;
+}
+
+input#Mantener_Session {
+  height: 13px;
+  margin-top: 15px;
+}
+
+input#Boton_Iniciar_Session {
+ height: 35px;
+ font-size: 15px;
+ width: 100px;
+}
+
+input#Boton_Registrese {
+ margin-top: 8px;
+ font-size: 14px;
+ width: 175px;
+}
+
+a.olvido_contrasena {
+  font-size: 12px;
+}
+
+.panel-body {
+  height: 241px;
+}
+
+hr.linea_de_separacion_boton_registrese {
+margin-top: 1px;
+}
+
+h6.recordarme {
+font-size: 13px;
+margin-top: -19px;
+}
+
+
+
+}

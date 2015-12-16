@@ -1,0 +1,234 @@
+﻿/* ----------------------- progreso  -------------------------- */
+
+
+/*imagenes de progreso*/
+
+.progreso_inicio {
+    height:24px;
+    width:24px;
+    margin-top:-700px;
+    margin-left:14px
+}
+
+.progreso_registro {
+    height:14px;
+    width:14px;
+    margin-top:-60px;
+    margin-left:-255px
+}
+
+.cargando_registro{        
+    margin-top:-30px;
+    margin-left:-657px; 
+    font-size:11px;
+}
+
+.progreso_link{
+    height:14px;
+    width:14px;
+    margin-top:-902px;
+    margin-left:-340px
+}
+
+.cargando_link{        
+    margin-top:-445px;
+    margin-left:-385px; 
+    font-size:9px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px)
+{
+
+/* ----------------------- progreso  -------------------------- */
+
+/*imagenes de progreso*/
+
+    .progreso_inicio {
+         height:14px;
+         width:14px;
+         margin-top:-265px;
+         margin-left:10px
+    }
+
+    .cargando_inicio {        
+         margin-top:-125px;
+         margin-left:-35px; 
+         font-size:9px;
+    }
+
+    .progreso_registro {
+         height:14px;
+         width:14px;
+         margin-top:-60px;
+         margin-left:-255px
+    }
+
+    .cargando_registro {        
+         margin-top:-30px;
+         margin-left:-657px; 
+         font-size:11px;
+    }
+
+    .progreso_link {
+         height:14px;
+         width:14px;
+         margin-top:-902px;
+         margin-left:-340px
+    }
+
+    .cargando_link {        
+         margin-top:-445px;
+         margin-left:-385px; 
+         font-size:9px;
+    }
+
+    .progreso_busqueda {
+         height:10px;
+         width:10px;
+         margin-top:-382px;
+         margin-left:40px
+    }
+
+    .cargando_busqueda {        
+         margin-top:-185px;
+         margin-left:-12px; 
+         font-size:8px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px)
+{
+
+/* ----------------------- progreso  -------------------------- */
+
+/*imagenes de progreso*/
+
+    .progreso_inicio {
+         height:16px;
+         width:16px;
+         margin-top:-295px;
+         margin-left:37px
+    }
+
+    .cargando_inicio {        
+         margin-top:-142px;
+         margin-left:-25px; 
+         font-size:10px;
+    }
+
+    .progreso_registro {
+         height:16px;
+         width:16px;
+         margin-top:-60px;
+         margin-left:-435px
+    }
+
+    .cargando_registro {        
+         margin-top:-25px;
+         margin-left:-495px; 
+         font-size:10px;
+    }
+
+    .progreso_link {
+         height:16px;
+         width:16px;
+         margin-top:-970px;
+         margin-left:-495px
+    }
+
+    .cargando_link {        
+         margin-top:-480px;
+         margin-left:-555px; 
+         font-size:10px;
+    }
+
+    .progreso_busqueda {
+         height:11px;
+         width:11px;
+         margin-top:-488px;
+         margin-left:72px
+    }
+
+    .cargando_busqueda {        
+         margin-top:-238px;
+         margin-left:3px; 
+         font-size:9px;
+    }
+
+}  
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px)
+{
+
+
+/* ----------------------- progreso  -------------------------- */
+
+/*imagenes de progreso*/
+
+    .progreso_inicio {
+         height:18px;
+         width:18px;
+         margin-top:-320px;
+         margin-left:55px
+    }
+
+    .cargando {        
+         margin-top:-155px;
+         margin-left:-15px; 
+         font-size:11px;
+    }
+
+    .progreso_registro {
+         height:18px;
+         width:18px;
+         margin-top:-70px;
+         margin-left:-585px
+    }
+
+    .cargando_registro {        
+         margin-top:-30px;
+         margin-left:-657px; 
+         font-size:11px;
+    }
+
+    .progreso_link {
+         height:18px;
+         width:18px;
+         margin-top:-1060px;
+         margin-left:-640px
+    }
+
+    .cargando_link {        
+         margin-top:-525px;
+         margin-left:-717px; 
+         font-size:11px;
+    }
+
+    .progreso_busqueda {
+         height:12px;
+         width:12px;
+         margin-top:-520px;
+         margin-left:90px
+    }
+
+    .cargando_busqueda {        
+         margin-top:-255px;
+         margin-left:10px; 
+         font-size:10px;
+    }
+
+}
+

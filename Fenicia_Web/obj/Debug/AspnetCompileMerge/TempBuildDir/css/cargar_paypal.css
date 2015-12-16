@@ -1,0 +1,125 @@
+﻿.logo_paypal_movil {
+    width: 170px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+input#TextBox_PayPal_Movil {
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: silver;
+    text-align: center;
+    width: 100%;
+    margin-left:12px;
+}
+
+.contenedor_dolar_movil {
+    font-size:12px;
+    padding-right:4px; 
+    text-align:right;
+}
+
+.dolar_movil {
+    margin-top:6px
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .logo_paypal {
+        width: 200%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    p.dolares {
+        font-size: 10px;
+        margin-left:-10px
+    }
+
+    input#TextBox_PayPal {
+        height: 28px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        background: silver;
+        text-align: center;
+        width: 100%;
+    }
+
+    input#Boton_Paypal_Factura {
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(243,193,4);
+        width: 100%;
+        color: white;
+    }
+
+    .contenedor_volver {
+        text-align:center;
+    }
+
+    .volver {
+        font-size:10px;
+        color:brown;
+    }
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    p.dolares {
+        font-size: 14px;
+        margin-left:-16px;
+        margin-top:0px
+    }
+
+    input#TextBox_PayPal {
+        height: 35px;
+        
+    }
+
+    input#Boton_Paypal_Factura {
+        height: 35px;
+        font-size:14px;
+        
+    }
+
+    .volver {
+        font-size:11px;
+        
+    }
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    p.dolares {
+        font-size: 16px;
+        margin-left:-20px;        
+    }
+
+    input#TextBox_PayPal {
+        height: 40px;
+        
+    }
+
+    input#Boton_Paypal_Factura {
+        height: 40px;
+        font-size:16px;
+        
+    }
+
+    .volver {
+        font-size:12px;
+        
+    }
+}

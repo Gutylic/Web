@@ -1,0 +1,399 @@
+﻿h4.titulo_formulario {
+    font-size:11px;
+    font-weight:bold;
+}
+
+.busqueda_cabezera {
+    padding-bottom: 3px;
+    padding-top: 8px;
+}
+
+.modal-body {
+    padding: 2px 20px 3px;
+}
+
+.modal-header .close {
+    margin-top: -4px;
+}
+
+span#Etiqueta_Usuario_Panel_Contenido {
+    font-size: 11px;
+    color: #428bca;
+}
+
+#Usuario_Panel_Control {
+    font-size: 12px;
+}
+
+.form-group.formulario_panel_de_control {
+    margin: 0px;
+}
+
+span#Etiqueta_Contrasena_Panel {
+    font-size: 11px;
+}
+
+#Contrasena_Panel_Control {
+    height:24px;
+    font-size:11px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Correo_Panel {
+    font-size: 11px;
+}
+
+#Correo_Panel_Control {
+    height:24px;
+    font-size:11px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Skype_Panel {
+    font-size: 11px;
+}
+
+#Skype_Panel_Control {
+    height:24px;
+    font-size:11px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Celular_Panel {
+    font-size: 11px;
+}
+
+#Celular_Panel_Control {
+    height:24px;
+    font-size:11px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Modelo_Panel {
+    font-size: 11px;
+}
+
+#Modelo_Panel_Control {
+    height:24px;
+    font-size:11px;
+    padding-left:5px;
+}
+
+.modal-footer.pie_panel_de_control {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#Boton_Actualizar_Datos {
+    height: 24px;
+    font-size: 11px;
+    padding-top: 4px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+   h4.titulo_formulario {
+    font-size:13px;
+    font-weight:bold;
+}
+
+.busqueda_cabezera {
+    padding-bottom: 5px;
+    padding-top: 9px;
+}
+
+.modal-body {
+    padding: 2px 20px 3px;
+}
+
+.modal-header .close {
+    margin-top: -4px;
+}
+
+span#Etiqueta_Usuario_Panel_Contenido {
+    font-size: 13px;    
+}
+
+#Usuario_Panel_Control {
+    font-size: 14px;
+}
+
+.form-group.formulario_panel_de_control {
+    margin: 8px;
+}
+
+span#Etiqueta_Contrasena_Panel {
+    font-size: 13px;
+}
+
+#Contrasena_Panel_Control {
+    height:28px;
+    font-size:13px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Correo_Panel {
+    font-size: 13px;
+}
+
+#Correo_Panel_Control {
+    height:28px;
+    font-size:13px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Skype_Panel {
+    font-size: 13px;
+}
+
+#Skype_Panel_Control {
+    height:28px;
+    font-size:13px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Celular_Panel {
+    font-size: 13px;
+}
+
+#Celular_Panel_Control {
+    height:28px;
+    font-size:13px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Modelo_Panel {
+    font-size: 13px;
+}
+
+#Modelo_Panel_Control {
+    height:28px;
+    font-size:13px;
+    padding-left:5px;
+}
+
+.modal-footer.pie_panel_de_control {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#Boton_Actualizar_Datos {
+    height: 30px;
+    font-size: 13px;
+    padding-top: 6px;
+}
+   
+}
+    /*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+    @media (min-width:992px) {
+
+
+        h4.titulo_formulario {
+    font-size:15px;
+    font-weight:bold;
+}
+
+.busqueda_cabezera {
+    padding-bottom: 7px;
+    padding-top: 11px;
+}
+
+.modal-body {
+    padding: 2px 20px 3px;
+}
+
+.modal-header .close {
+    margin-top: -4px;
+}
+
+span#Etiqueta_Usuario_Panel_Contenido {
+    font-size: 15px;    
+}
+
+#Usuario_Panel_Control {
+    font-size: 16px;
+}
+
+.form-group.formulario_panel_de_control {
+    margin: 8px;
+}
+
+span#Etiqueta_Contrasena_Panel {
+    font-size: 15px;
+}
+
+#Contrasena_Panel_Control {
+    height:32px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Correo_Panel {
+    font-size: 15px;
+}
+
+#Correo_Panel_Control {
+    height:32px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Skype_Panel {
+    font-size: 15px;
+}
+
+#Skype_Panel_Control {
+    height:32px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Celular_Panel {
+    font-size: 15px;
+}
+
+#Celular_Panel_Control {
+    height:32px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Modelo_Panel {
+    font-size: 15px;
+}
+
+#Modelo_Panel_Control {
+    height:32px;
+    font-size:15px;
+    padding-left:5px;
+}
+
+.modal-footer.pie_panel_de_control {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#Boton_Actualizar_Datos {
+    height: 36px;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+
+
+
+
+        }
+        
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+@media (min-width:1200px) {
+
+
+       h4.titulo_formulario {
+    font-size:17px;
+    font-weight:bold;
+}
+
+.busqueda_cabezera {
+    padding-bottom: 9px;
+    padding-top: 13px;
+}
+
+.modal-body {
+    padding: 2px 20px 3px;
+}
+
+.modal-header .close {
+    margin-top: -4px;
+}
+
+span#Etiqueta_Usuario_Panel_Contenido {
+    font-size: 17px;    
+}
+
+#Usuario_Panel_Control {
+    font-size: 18px;
+}
+
+.form-group.formulario_panel_de_control {
+    margin: 9px;
+}
+
+span#Etiqueta_Contrasena_Panel {
+    font-size: 17px;
+}
+
+#Contrasena_Panel_Control {
+    height:36px;
+    font-size:17px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Correo_Panel {
+    font-size: 17px;
+}
+
+#Correo_Panel_Control {
+    height:36px;
+    font-size:17px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Skype_Panel {
+    font-size: 17px;
+}
+
+#Skype_Panel_Control {
+    height:36px;
+    font-size:17px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Celular_Panel {
+    font-size: 17px;
+}
+
+#Celular_Panel_Control {
+    height:36px;
+    font-size:17px;
+    padding-left:5px;
+}
+
+span#Etiqueta_Modelo_Panel {
+    font-size: 17px;
+}
+
+#Modelo_Panel_Control {
+    height:36px;
+    font-size:17px;
+    padding-left:5px;
+}
+
+.modal-footer.pie_panel_de_control {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#Boton_Actualizar_Datos {
+    height: 40px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+        
+
+}
+
+    
+

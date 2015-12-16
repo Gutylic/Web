@@ -1,0 +1,109 @@
+﻿/*  ------------------panel de la presentacion ------- */
+
+
+/* imagen con el fondo de la pizzarra */   
+
+article.fondo_pizarra {
+    width: 100%;
+    background-color:#B0C4DE;
+	background: url(../images/fondo_inicial.png) #0b333f no-repeat center center fixed;
+	background-size: cover;
+	min-height: 400px;
+	margin-top: -60px;
+	padding-top:160px;
+	text-align:center;    
+    /*otros navegadores*/
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+/* carrusel movil*/
+.col-xs-12.carrusel_movil {
+    padding:5px; 
+    vertical-align:central; 
+    text-align:center; 
+    font-weight:bold;
+    background-color:#006699;  
+    background-color:rgba(0,102,153,0.85); 
+    color:#fff; 
+    margin-top: 10px;
+    font-size:16px;
+}
+
+p.subcarrusel_movil {
+    font-size:12px;
+}
+
+.centrado_carrousel {
+    text-align:center;    
+    text-align:-webkit-center;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*----------------------- panel de presentacion ----------------------*/
+    article.fondo_pizarra {
+        min-height: 600px;
+    }
+
+    div#carousel-930919 {
+        top: 100px;
+        height: 90%;
+        width: 90%;
+        left: 50px;
+    }
+
+    h2.titulos_carrusel {
+        font-family: propia;
+    }
+
+    div.posicion_carrusel {
+        top: -10px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/ 
+    
+
+@media (min-width:992px) {
+
+
+    /*----------------------- panel de presentacion ----------------------*/
+
+
+    /*carrusel*/
+    div#carousel-930919 {
+         left: 0px;
+    }
+
+    h2.titulos_carrusel {
+        font-size: 30px;
+    }
+
+    div.posicion_carrusel {
+        top: 5px;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+    /*----------------------- panel de presentacion ----------------------*/
+
+    /*carrusel*/
+    h2.titulos_carrusel {
+        font-size: 42px;
+    }
+
+}

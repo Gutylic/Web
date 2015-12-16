@@ -1,0 +1,6 @@
+C:\Users\Gustavo\Desktop\Web\Datos\bin\Release\Datos.dll.config
+C:\Users\Gustavo\Desktop\Web\Datos\bin\Release\Datos.dll
+C:\Users\Gustavo\Desktop\Web\Datos\bin\Release\Datos.pdb
+C:\Users\Gustavo\Desktop\Web\Datos\obj\Release\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Web\Datos\obj\Release\Datos.dll
+C:\Users\Gustavo\Desktop\Web\Datos\obj\Release\Datos.pdb

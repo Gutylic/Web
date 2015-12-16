@@ -1,0 +1,184 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+/* ----------------------- contactenos  -------------------------- */
+
+/* usuario - correo - comentario - boton de envio  */
+/*h6.usuario_inicio {
+    margin-top: -8px;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+input#Usuario_Inicio {
+  height: 25px;
+}
+
+h6.password_inicio {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+input#Password_Inicio {
+  height: 25px;
+}
+
+input#Boton_Iniciar_Session {
+  font-size: 10px;
+  margin-left: -40px;
+  margin-top: -10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+hr.linea_de_separacion_boton_registrese {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+input#Boton_Registrese {
+  font-size: 10px;
+  margin-top: -10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}*/
+
+
+
+
+
+
+section#contactenos{
+    background-color:#321a13;
+    height:550px;
+    text-align:center;
+}
+
+div.icono_correo{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+h1.titulo_correo{
+    color: #fff;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+div.contenido_contactenos{
+    text-align:left;
+    color:#fff;
+}
+
+.etiquetas_form{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.textbox_rellenar{
+    margin-bottom:30px;
+}
+
+.textbox_rellenar_comentario{
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+/*input#Boton_Iniciar_Session {
+  font-size: 10px;
+  margin-left: -50px;
+  margin-top: -10px;
+}*/
+
+
+a.boton_mensaje{
+    height:35px;
+    width:180px;
+    font-size:13px;
+    padding:3px;
+    font-weight:bold;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*----------------------- panel de contactenos ----------------------*/
+
+    /*h6.usuario_inicio {
+  margin-top: -8px;
+  font-size: 11px;
+}
+
+
+h6.password_inicio {
+  font-size: 11px;
+}
+
+div#Progreso_Boton_Iniciar_Session {
+  margin-left: 40px;
+  margin-top: 4px;
+}*/
+
+
+
+
+
+
+
+
+    div.icono_correo {
+        font-size: 100px;
+        margin-top: -20px;
+    }
+
+    h1.titulo_correo {
+        margin-top: -20px;
+        font-size: 30px;
+    }
+
+    .etiquetas_form {
+        font-size: 20px;
+    }
+
+    section#contactenos {
+        height: 650px;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+   
+
+}

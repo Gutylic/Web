@@ -1,0 +1,70 @@
+﻿/* ----------------------- pie de pagina  -------------------------- */
+
+/*pie de pagina*/
+.pie_ley{
+    font-size:8px;
+    text-align:center;
+    float:left;
+}
+
+.pie_web{
+    font-size:8px;
+    text-align:center;
+    float:right;
+    font-weight:bolder;
+}
+
+div.ubicacion_pie{
+    margin-top:-10px
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*pie de pagina*/
+    .pie_ley {
+        font-size: 10px;
+        float: left;
+    }
+
+    .pie_web {
+        font-size: 10px;
+    }
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    /*pie de pagina*/
+    .pie_ley {
+        font-size: 11px;
+    }
+
+    .pie_web {
+        font-size: 11px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    /*pie de pagina*/
+    .pie_ley {
+        font-size: 12px;
+    }
+
+    .pie_web {
+        font-size: 12px;
+    }
+
+}

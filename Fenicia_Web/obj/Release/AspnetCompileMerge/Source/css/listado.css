@@ -1,0 +1,251 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+
+/* Panel de resultado de las busquedas*/
+.panel.panel-info.datalist_inicial_de_ejercicios{
+    margin-top: 20px;
+    height:450px;
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+     /*otros navegadores*/
+	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+}
+
+h3.panel-title.explicaciones_en_videos_y_ejercicios {
+        font-size:11px;
+    }
+
+img#Imagen_Importante {
+     margin-left:2px;
+     margin-top:60px;
+     width:13px;
+}
+
+img#Imagen_Ayuda {
+     margin-left:5px;
+     margin-top:60px;
+     width:13px;
+}
+
+h3.como_usar_el_sistema {
+    font-size:10px;
+    margin-top:-12px;
+    margin-left:45px; 
+    font-weight:bold;
+
+}
+table#DataList_De_Resultados {
+    border-collapse:collapse;
+    width:100%; 
+    margin-top:7px;
+}
+table.tabla_datalist {
+    width:110%; 
+    margin-top:-3px; 
+    margin-left:-9px;
+    
+}
+.listado_datalist {
+     position: absolute;
+}
+
+td.columna_1_datalist_inicial {
+    width:5%;
+}
+
+.logo {
+    width:11px;
+}
+
+td.columna_2_datalist_inicial {
+    width:100%;
+}
+
+.link_datalist {
+    font-size:9px; 
+    font-weight:normal; 
+    color:darkblue;
+    padding:1px;
+        
+}
+/*-------------------------------------------------------------media query 500 --------------------------------------------------------------*/
+
+
+@media (min-width:500px) {
+
+    td.columna_1_datalist_inicial {
+        width:3%;
+    }
+
+    td.columna_2_datalist_inicial {
+        width:100%;
+    }
+
+    .link_datalist {
+        font-size:11px;   
+    }
+
+}
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+    
+    .panel.panel-info.datalist_inicial_de_ejercicios {
+        margin-top: -158px;
+    }
+
+    h3.panel-title.explicaciones_en_videos_y_ejercicios {
+        font-size:11px;
+    }
+
+    img#Imagen_Importante {
+        margin-top:-248px;
+    }
+
+   img#Imagen_Ayuda {
+        margin-top:-248px;
+        margin-left:7px;
+    }
+
+    h3.como_usar_el_sistema {
+        margin-top:-140px;
+        margin-left:42px;
+    }
+
+    td.columna_1_datalist_inicial {
+        width:5%;
+    }
+
+    .logo {
+        width:11px;
+    }
+
+    td.columna_2_datalist_inicial {
+        width:95%;
+    }
+
+    .link_datalist {
+        font-size:8px;   
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    img#Imagen_Importante {
+        margin-top:-362px;
+    }
+
+    img#Imagen_Ayuda {
+        margin-top:-362px;
+    }
+
+    h3.como_usar_el_sistema {
+        margin-top: -200px;
+        font-size: 14px;
+    }
+
+    .panel.panel-info.datalist_inicial_de_ejercicios {
+        height: 500px;
+        margin-top: -220px;
+    }
+
+    h3.panel-title.explicaciones_en_videos_y_ejercicios {
+        font-size:14px;
+    }
+
+    table.tabla_datalist {
+        width:110%; 
+        margin-top:-1px; 
+        margin-left:-9px;    
+    }
+
+    td.columna_1_datalist_inicial {
+        width:5%;
+    }
+
+    .logo {
+        width:14px;
+    }
+
+    td.columna_2_datalist_inicial {
+        width:95%;
+    }
+
+    .link_datalist {
+        font-size:11px;
+        margin-top:-2px; 
+        margin-left:5px;  
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+     img#Imagen_Importante {
+        margin-top:-390px;
+    }
+
+    img#Imagen_Ayuda {
+        margin-top:-390px;
+    }
+
+     h3.como_usar_el_sistema {
+        margin-top: -214px;
+        font-size: 15px;
+    }
+
+    .panel.panel-info.datalist_inicial_de_ejercicios {
+        margin-top: -240px;
+        height: 600px;
+        
+    }
+    h3.panel-title.explicaciones_en_videos_y_ejercicios {
+        font-size:15px;    
+    }
+
+    table#DataList_De_Resultados {
+        margin-top:15px;
+    }
+
+    table.tabla_datalist {
+        width:110%; 
+        margin-top:3px; 
+    }
+ 
+    .logo {
+        width:16px;
+    }
+
+    .link_datalist {
+        font-size:13px;
+        margin-top:-2px; 
+        margin-left:5px;  
+    }
+
+}

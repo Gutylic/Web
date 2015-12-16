@@ -1,0 +1,124 @@
+﻿.logo_mercado_pago_movil {
+    width: 195px;
+    margin-left: 10px;
+    margin-top:10px
+}
+
+#TextBox_Mercado_Pago_Movil {
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: silver;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+
+    .tarjeta_amarilla {
+        background-color: rgb(243,193,4);
+        height: 230px;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 50px;
+        border: 1px solid gray;
+        background-size: cover;
+    }
+
+    .logo_mercado_pago {
+        width: 200%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    p.pesos {
+        font-size: 10px;
+    }
+
+    input#TextBox_Mercado_Pago {
+        height: 28px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        background: silver;
+        text-align: center;
+        width: 100%;
+    }
+
+    input#Boton_Mercado_Pago {
+        height: 30px;
+        font-size: 12px;
+        color: rgb(243,193,4);
+        width: 100%;
+        background-color: white;
+    }
+
+    .contenido_total_mercado {
+        margin-top: 15px;
+    }
+
+    .contenedor_boton_mercado {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .tarjeta_amarilla {       
+        height: 300px;       
+    }
+
+
+    input#TextBox_Mercado_Pago {
+        height: 35px;
+    }
+
+    p.pesos {
+        font-size: 14px;
+    }
+
+
+    input#Boton_Mercado_Pago {
+        height: 35px;
+        font-size: 14px;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    p.pesos {
+        font-size:16px;    
+    }
+
+    input#TextBox_Mercado_Pago {
+        height: 40px;
+    }
+
+
+    input#Boton_Mercado_Pago {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contenedor_boton_mercado {
+        margin-top:25px;
+    }
+
+    .contenido_total_mercado {    
+        margin-top:25px;
+    }
+
+}

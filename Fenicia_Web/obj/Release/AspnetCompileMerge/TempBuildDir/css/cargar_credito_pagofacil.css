@@ -1,0 +1,193 @@
+﻿.logo_rapipago_movil {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.tarjeta_blanca_movil {
+    background-color: white; 
+    height: 160px;     
+    width: 100%;
+    border-radius: 5px;        
+    border: 1px solid gray;
+    margin:20px 0px 20px 0px;
+}
+
+.contenedor_logo_movil {
+    padding-bottom:10px;    
+}
+
+.contenedor_pesos_movil {
+    font-size:12px;
+    padding-right:0px; 
+    text-align:right;
+}
+
+.pesos_movil {
+    margin-top:6px
+}
+
+.contenedor_textbox_movil {
+    padding-left:0px
+}
+
+input#TextBox_PagoFacil_Movil {
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: silver;
+    text-align: center;
+    width: 100%;
+}
+
+.contenedor_boton_movil {
+    text-align:center;
+    padding:10px
+}
+
+article.fondo_amarillo_movil
+{
+    background: url("../images/fondo-amarillo.png") repeat-x 0 0;	
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    /*otros navegadores*/
+	-o-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+
+    .tarjeta_blanca {
+        background-color: white;
+        height: 230px;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 60px;
+        border: 1px solid gray;
+    }
+
+    .logo_rapipago {
+        width: 200%;
+        margin-left: 10px;
+    }
+
+
+    .aclaracion_tarjeta {
+        font-size:8.9px;       
+        color:rgb(11,51,63);    
+    } 
+
+    .col-xs-1.contenedor_pesos {  
+        padding-top: 8px;
+    }
+
+    .col-xs-10.contenedor_textbox {   
+        padding-left: 0px;   
+    }
+
+    p.pesos {
+        font-size:10px    
+    }
+
+    input#TextBox_PagoFacil {
+        height: 28px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        background: silver;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .col-xs-6.col-xs-offset-3.contenedor_boton {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    input#Boton_Factura_PagoFacil {
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(243,193,4);
+        width:100%;
+        color: white;
+    }
+    
+    .col-xs-6.col-xs-offset-3.contenedor_info {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .tarjeta_blanca {       
+        height: 300px;       
+    }
+
+    .fondo_blanco {
+        height:420px;
+    }
+    
+    input#TextBox_PagoFacil {
+        height: 35px;
+    }
+
+    .aclaracion_tarjeta {
+        font-size:12px;
+        font-weight:bold;       
+    } 
+
+    p.pesos {
+        font-size:14px
+    }
+
+    input#Boton_Factura_PagoFacil {
+        height: 35px;
+        font-size: 14px;   
+    }
+        
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+    .aclaracion_tarjeta {
+        font-size:14px;
+        font-weight:bold;
+    } 
+
+    .col-xs-1.contenedor_pesos {
+        padding-top: 8px;
+    }
+
+    .col-xs-10.contenedor_textbox {
+        padding-left: 0px;
+    }
+
+    input#TextBox_PagoFacil {
+        height: 40px;
+    }
+
+    p.pesos {
+        font-size:16px    
+    }
+
+    input#Boton_Factura_PagoFacil {
+        height: 40px;
+        font-size: 16px;   
+    }
+
+    .col-xs-6.col-xs-offset-3.contenedor_info {
+        margin-top: 0px;    
+    }
+}

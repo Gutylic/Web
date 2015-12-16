@@ -1,0 +1,512 @@
+﻿
+
+
+/*a:hover#Panel_Ejercicos {
+    text-decoration: none;
+}
+a:hover#Panel_Videos {
+    text-decoration: none;
+}
+
+a:hover#Panel_Control {
+    text-decoration: none;
+}
+
+a:hover#Panel_Saldo {
+    text-decoration: none;
+}
+
+a:hover#Panel_Carga {
+    text-decoration: none;
+}
+
+
+
+span:hover.glyphicon.glyphicon-folder-open {
+    text-decoration: none;
+}
+
+a:hover.glyphicon.glyphicon-file.icono_celeste_oscuro{
+    text-decoration: none;
+}
+
+a:hover.glyphicon.glyphicon-user.icono_rojo_claro{
+    text-decoration: none;
+}
+
+ a:hover.glyphicon.glyphicon-list-alt.icono_rojo_medio{
+    text-decoration: none;
+}
+
+
+a:hover.glyphicon.glyphicon-usd.icono_rojo_oscuro{
+    text-decoration: none;
+}
+
+
+
+a:hover#Explicaciones {
+    text-decoration: none;
+}
+
+a:hover#Datos {
+    text-decoration: none;
+}
+
+a:hover#Saldo {
+    text-decoration: none;
+}
+
+a:hover#Credito {
+    text-decoration: none;
+}
+
+a:hover.glyphicon-pencil.icono_celeste_claro_xs {
+    text-decoration: none;
+}
+
+span:hover.glyphicon.glyphicon-folder-open_xs {
+    text-decoration: none;
+}
+
+a:hover.glyphicon.glyphicon-file.icono_celeste_oscuro_xs {
+    text-decoration: none;
+}
+
+a:hover.glyphicon.glyphicon-user.icono_rojo_claro_xs{
+    text-decoration: none;
+}
+
+ a:hover.glyphicon.glyphicon-list-alt.icono_rojo_medio_xs{
+    text-decoration: none;
+}
+
+
+a:hover.glyphicon.glyphicon-usd.icono_rojo_oscuro_xs{
+    text-decoration: none;
+}
+
+
+
+
+
+a#Explicaciones {
+    color: #99ccff;
+    font-size:14px;
+}
+
+a#Ejercicios {
+    color: #428bca;
+    font-size: 14px;
+}
+
+a#Datos {
+    color: #cc0000;
+    font-size: 14px;
+}
+
+a#Saldo {
+    color: #ff3366;
+    font-size: 14px;
+}
+
+a#Credito {
+    color: #ff6699;
+    font-size: 14px;
+}
+
+a.glyphicon.glyphicon-pencil.icono_celeste_claro_xs {
+    font-size:15px;
+    color: #428bca;
+}
+a.glyphicon.glyphicon-file.icono_celeste_oscuro_xs{
+    font-size:15px;
+    color: #99ccff;
+}
+a.glyphicon.glyphicon-user.icono_rojo_claro_xs{
+    font-size:15px;
+    color: #cc0000;
+
+}
+a.glyphicon.glyphicon-list-alt.icono_rojo_medio_xs{
+    font-size:15px;
+    color: #ff3366;
+
+}
+a.glyphicon.glyphicon-usd.icono_rojo_oscuro_xs{
+    font-size:13px;
+    color: #ff6699;
+  
+}
+
+table.contenido_pedagogico_xs {
+    width:100%
+}
+
+
+
+
+
+
+td.columna_2_administracion_xs {
+    width: 10%;
+    text-align: center;
+    padding-top:8px;
+}
+
+td.columna_3_administracion_xs {
+    width: 87%;
+    text-align: left;
+    padding-top:8px;
+}
+
+
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+  /*  table.tabla_pedagogica {
+        background-color: silver;
+        width: 100%;
+        margin-top:1px;
+    }
+
+    td.columna_1_titulo {
+        padding-left: 7px;
+        color: #ddc468;
+    }
+
+    td.columna_2_titulo {
+        font-size: 12px;
+        font-weight: initial;
+        padding-top: 3px;
+        padding-left:7px;
+    }
+
+    td.columna_3_pedagogico {
+        padding-top: 2px;
+        padding-bottom: 1px;
+    }
+
+    a#Mis_Explicaciones {
+        color: #99ccff;
+        font-size: 11px;
+    }
+
+    table.contenido_tabla_pedagogico {
+        width: 100%;
+    }
+
+    a.glyphicon.glyphicon-pencil.icono_celeste_claro {
+        font-size: 11px;
+    }
+
+
+    td.columna_1_pedagogico {
+        padding-left: 17px;
+    }
+
+
+    span.glyphicon.glyphicon-folder-open {
+        font-size: 11px;
+    }
+
+    a.glyphicon.glyphicon-file.icono_celeste_oscuro {
+        color: #99ccff;
+        font-size: 11px;
+    }
+
+    table.tabla_administrativa {
+        background-color: silver;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    tr.mis_ejercicios {
+        border-bottom: solid 1px #BCE8F1;
+        width: 100%;
+    }
+
+    tr.mis_datos {
+        border-bottom: solid 1px #BCE8F1;
+        width: 100%;
+    }
+
+    tr.mi_saldo {
+        border-bottom: solid 1px #BCE8F1;
+        width: 100%;
+    }
+
+    table.contenido_administracion {
+        width: 100%;
+    }
+
+    td.columna_1_administrativa {
+        padding-left:15px;
+    }
+
+    td.columna_2_administrativa {
+        padding-top: 2px;
+    }
+
+    td.columna_3_administrativa {
+        padding-top: 2px;
+        padding-bottom: 1px;
+    }
+    
+    td.celeste_oscuro {
+        background-color: #428bca;
+        width: 7px;
+        
+    }
+
+    td.celeste_claro {
+        background-color: #99ccff;
+        width: 7px;
+        
+    }
+    
+
+    a#Mis_Ejercicios {
+        color: #428bca;
+        font-size: 11px;
+    }
+
+    a.glyphicon.glyphicon-user.icono_rojo_claro {
+        color: #cc0000;
+        font-size: 11px;
+    }
+
+    a#Panel_De_Control {
+        color: #cc0000;
+        font-size: 11px;
+    }
+
+    td.rojo_claro {
+        background-color: #cc0000;
+        width: 7px;
+        
+    }
+    
+
+    td.rojo_medio {
+        background-color: #ff3366;
+        width: 7px;
+        
+    }
+   
+
+    a.glyphicon.glyphicon-list-alt.icono_rojo_medio {
+        color: #ff3366;
+        font-size: 11px;
+    }
+
+    a#Panel_De_Movimiento {
+        color: #ff3366;
+        font-size: 11px;
+    }
+
+    a.glyphicon.glyphicon-usd.icono_rojo_oscuro {
+        color: #ff6699;
+        font-size: 11px;
+    }
+
+    a#Panel_De_Credito {
+        color: #ff6699;
+        font-size: 11px;
+    }
+
+    td.rojo_oscuro {
+        background-color: #ff6699;
+        width: 7px;
+       
+    }
+    
+    */
+
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+    /*
+
+    table.contenido_tabla_pedagogico {
+        margin-top: 1px;
+    }
+
+    table.tabla_administrativa {
+        margin-top: 1px;
+        height:26px 
+
+    }
+
+    table.contenido_administracion {
+        margin-top:1px;
+    }
+
+
+    td.columna_2_titulo {
+        font-size: 14px;
+    }
+
+    a#Mis_Explicaciones {
+        font-size: 17px;
+    }
+
+    td.columna_3_pedagogico {
+        padding-top: 7px;
+        padding-bottom: 4px;
+    }
+
+    span.glyphicon.glyphicon-folder-open {
+        padding-top: 3px;
+        font-size:14px;
+    }
+
+    a.glyphicon.glyphicon-pencil.icono_celeste_claro {
+        padding-top: 7px;
+         font-size: 14px;
+    }
+    a.glyphicon.glyphicon-file.icono_celeste_oscuro {
+        padding-top: 7px;
+         font-size: 14px;
+    }
+
+    td.columna_3_administracion {
+        padding-top: 7px;
+        padding-bottom: 4px;
+    }
+
+ 
+    a#Mis_Ejercicios {
+        font-size: 17px;
+    }
+
+    a.glyphicon.glyphicon-user.icono_rojo_claro {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+
+    a#Panel_De_Control {
+        font-size: 17px;
+    }
+
+ 
+    a.glyphicon.glyphicon-list-alt.icono_rojo_medio {
+        font-size: 15px;
+    }
+
+    a#Panel_De_Movimiento {  
+        font-size: 17px;
+    }
+
+    a.glyphicon.glyphicon-usd.icono_rojo_oscuro {
+        font-size: 14px;
+    }
+
+    a#Panel_De_Credito{
+        font-size: 17px;
+    }
+
+    td.celeste_oscuro {
+        height:36px;
+    }
+
+    td.celeste_claro {
+        height:36px;
+    }
+
+    td.rojo_claro {
+        height:36px;
+    }
+
+    td.rojo_medio{
+        height:36px;
+    }
+
+    td.rojo_oscuro{
+        height:35px;
+    }
+
+    */
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+
+    //*
+    td.columna_2_titulo {
+        font-size: 16px;
+    }
+
+    a#Mis_Explicaciones {
+        font-size: 18px;
+    }
+
+
+    td.columna_3_pedagogico {
+        padding-bottom: 6px;
+    }
+
+    span.glyphicon.glyphicon-folder-open {
+       font-size:16px;
+    }
+
+    a.glyphicon.glyphicon-pencil.icono_celeste_claro {
+         font-size:16px;
+    }
+
+    a.glyphicon.glyphicon-file.icono_celeste_oscuro {
+       font-size:16px;
+    }
+
+    td.columna_3_administracion {
+        padding-bottom: 6px;
+    }
+
+    a#Mis_Ejercicios {
+        font-size: 18px;
+    }
+
+    a.glyphicon.glyphicon-user.icono_rojo_claro {
+         font-size:16px;
+    }
+
+    a#Panel_De_Control {
+        font-size: 18px;
+    }
+
+    a.glyphicon.glyphicon-list-alt.icono_rojo_medio {
+       font-size:16px;
+    }
+
+    a#Panel_De_Movimiento {
+        font-size: 18px;
+    }
+
+    a.glyphicon.glyphicon-usd.icono_rojo_oscuro {
+        font-size:16px;
+    }
+
+    a#Panel_De_Credito {
+        font-size: 18px;
+    }
+
+    td.rojo_oscuro{
+        height:37px;
+    }
+ 
+}*/

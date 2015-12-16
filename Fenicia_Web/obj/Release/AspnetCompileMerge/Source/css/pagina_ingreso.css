@@ -1,0 +1,884 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+   background:url(../images/fondo_inicial.png);
+}
+
+/*  ------------------barra de navegacion ------- */
+
+/*  fondo de la cabecera */
+header {
+    top:0px;
+    width: 100%;
+    background-color:#0b333f;
+    background-color:rgb(11,51,63);
+    height:75px;
+    z-index: 99;
+    /*otros navegadores*/
+    background-color:rgba(11,51,63,0.95);
+    box-shadow: 0 1px 5px #999;
+    -webkit-box-shadow: 0 1px 5px #999;
+    -moz-box-shadow: 0 1px 5px #999;
+    -o-box-shadow: 0 1px 5px #999;
+    -webkit-background-color:rgba(11,51,63,0.95);
+    -moz-background-color:rgba(11,51,63,0.95);
+    -o-background-color:rgba(11,51,63,0.95); 
+}
+
+/*  logo de la cabecera */
+
+h1 {
+        font-family: propia;
+        font-weight: normal;
+        font-size: 54px;
+        height: 80px;
+        float: left;
+        color: #f0bf00;
+        margin-top: -5px;
+        margin-left: -8px;
+    }
+
+        h1 > span {
+            display: block;
+            color: grey;
+            font-size: 18px;
+            margin-top: -10px;
+            margin-left: 32px;
+        }
+
+
+
+
+/* contenido Iniciar session*/
+
+.encabezado.panel-heading {
+    background-color: #428BCA;
+    color: white;
+    height: 30px;
+    font-size: 11px;
+}
+
+.form-group.etiqueta_usuario {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+.panel-body.cuerpo {
+    padding-bottom: 15px;
+    padding-top: 0px;
+    height:170px;
+}
+
+#Usuario {
+    font-size: 11px;
+    color: gray;
+    margin-top: 5px;
+}
+
+#Usuario_Inicio {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+.form-group.etiqueta_contrasena {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+#Contrasena{
+    font-size:11px;
+}
+
+#Password_Inicio {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+a.olvido{
+    color: #428bca;
+    text-decoration: none;
+    font-size:11px
+}
+
+input#Boton_Iniciar_Session {
+    font-size: 11px;
+}
+
+
+/* contenido registrarse*/
+
+.encabezado_registro.panel-heading {
+    background-color: limegreen;
+    color: white;
+    height: 30px;
+    font-size: 11px;
+}
+
+.panel_registro {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid limegreen;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.form-group.usuario_registro_movil {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+.panel-body.cuerpo_registro {
+    padding-bottom: 15px;
+    padding-top: 0px;
+    height:377px;
+}
+
+span#Usuario_Registrado_Movil {
+    font-size: 11px;
+    color: gray;
+    margin-top: 5px;
+}
+
+#Usuario_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+#Email_Registrado_Movil{
+    font-size:11px;
+}
+
+#Correo_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+.form-group.email_registro_movil {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+#Password_Registrado_Movil {
+    font-size:11px;
+}
+
+#Password_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+.form-group.contrasena_1_registro_movil {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+#Password_2_Registrado_Movil {
+    font-size:11px;
+}
+
+#RePassword_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+.form-group.contrasena_registro_movil {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+.form-group.imagen_captcha_movil{
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+#Captcha_Movil_Registrado {
+    font-size:11px;
+}
+
+#Captcha_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}
+
+a#condiciones_terminos_movil {
+    color: #428bca;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: -5px;
+}
+
+input#Boton_Registro_Movil {
+    font-size: 12px;
+}
+
+
+/*
+
+
+
+
+
+
+
+
+.form-group.etiqueta_contrasena {
+    margin-top: 5px;
+    margin-bottom:0px
+}
+
+
+
+
+
+
+input#Boton_Iniciar_Session {
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+input#Usuario_Registro_Movil {
+    font-weight:bold;
+    height:24px;
+    font-size: 12px;
+    padding:8px;
+}*/
+
+
+    
+
+/*#Correo_Registro {
+    font-weight : bold
+}
+
+#Usuario_Registro {
+    padding:10px;
+}
+
+span#Usuario {
+    font-size: 11px;
+    color:gray
+}
+
+span#Contrasena {
+    font-size: 11px;
+    color:gray
+}
+
+input#TextBox_Usuario {
+    height: 25px;
+}
+
+input#TextBox_Contrasena {
+    height: 25px;
+}
+
+
+
+.form-group.margen_boton {
+    margin-bottom: 0px;
+}
+
+
+
+div#UpdatePanel_Ingresar {
+    margin-top: -5px;
+}
+
+
+
+
+
+span#Email_Registrado_Movil {
+    font-size: 11px;
+    color: gray;
+}
+
+input#Email_Registro_Movil {
+    height: 25px;
+}
+
+span#Password_1_Registrado_Movil {
+    font-size: 11px;
+    color: gray;
+}
+
+input#Password_1_Registro_Movil {
+    height: 25px;
+}
+
+span#Password_2_Registrado_Movil {
+    font-size: 11px;
+    color: gray;
+}
+
+input#Password_2_Registro_Movil {
+    height: 25px;
+}
+
+img#Image_Captcha_Movil {
+    height: 50px;
+}
+
+span#Captcha_Movil_Registrado {
+    font-size: 11px;
+    color: gray;
+}
+
+input#Captcha_Movil {
+    height: 25px;
+}
+
+
+
+div#UpdatePanel_Boton_Movil {
+    margin-top: 10px;
+}
+
+.form-group.usuario_registro_movil {
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.form-group.contrasena_1_registro_movil {
+    margin-bottom: 0px;
+}
+
+.form-group.contrasena_1_registro_movil {
+    margin-bottom: 0px;
+}
+
+.form-group.email_registro_movil {
+    margin-bottom: 0px;
+}
+
+input#CheckBox_Condiciones_Movil {
+    margin-left: -8px;
+}
+
+.form-group.imagen_captcha_movil {
+    margin-bottom: -25px;
+}
+
+
+/* pie */
+
+h6.pie_pagina {
+    color: #ffffff;
+    font-size: 9px;
+    text-align:left;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    
+    /* contenido Iniciar session*/
+
+    .encabezado.panel-heading {        
+        font-size: 12px;
+    }
+    
+    .panel-body.cuerpo {        
+        height: 120px;
+       
+    }
+
+    #Usuario {
+        font-size: 9px;
+        margin-top:-3px;
+    }
+
+    #Usuario_Inicio {       
+        height: 20px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    
+    #Contrasena {
+        font-size: 9px;
+        margin-top:-3px;
+    }
+
+    #Password_Inicio {
+        
+        height: 20px;
+        font-size: 9px;
+        
+    }
+
+    .form-group.etiqueta_usuario {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .form-group.etiqueta_olvido {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    a.olvido {
+       
+        font-size: 9px;
+    }
+
+    input#Boton_Iniciar_Session {
+        font-size: 9px;
+    }
+
+
+    /* contenido registrarse*/
+
+    .encabezado_registro.panel-heading {        
+        font-size: 12px;
+    }
+
+    .panel-body.cuerpo_registro {
+        
+        height: 377px;
+    }
+
+    #Usuario_Registrado {
+        font-size: 9px;
+        
+        margin-top: -3px;
+    }
+
+    #Usuario_Registro {
+        font-weight: bold;
+        height: 24px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    #Registro_Correo {
+        font-size: 9px;
+        margin-top: -3px;
+    }
+
+    #Correo_Registro {
+        font-weight: bold;
+        height: 24px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    
+
+    #Contrasena_1_Etiqueta {
+        font-size: 9px;
+        margin-top: -3px;
+    }
+
+    #Password_Registro {
+        font-weight: bold;
+        height: 24px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    
+
+    #Contrasena_2_Etiqueta {
+        font-size: 9px;
+        margin-top: -3px;
+    }
+
+    #RePassword_Registro {
+        font-weight: bold;
+        height: 24px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    #Image_Captcha {
+       height:50px;
+       margin-top:-30px;
+    }
+
+    #Etiqueta_Captcha {
+        font-size: 9px;
+        margin-top: -3px;
+    }
+
+
+    #Captcha_Registro {
+        font-weight: bold;
+        height: 24px;
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    a#condiciones_terminos {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 9px;
+        margin-left: -3px;
+    }
+
+    input#Boton_Enviar_Registro {
+        font-size: 9px;
+    }
+    
+     h6.pie_pagina {
+        font-size: 9.5px;
+     }
+
+    
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    /* contenido Iniciar session*/
+
+    .encabezado.panel-heading {
+        font-size: 14px;
+        padding-top:5px;
+    }
+
+    .panel-body.cuerpo {
+        height: 140px;
+    }
+
+    #Usuario {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #Usuario_Inicio {
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+
+    #Contrasena {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #Password_Inicio {
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .form-group.etiqueta_usuario {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .form-group.etiqueta_olvido {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    a.olvido {
+        font-size: 13px;
+    }
+
+    input#Boton_Iniciar_Session {
+        font-size: 14px;
+    }
+
+
+    /* contenido registrarse*/
+
+    .encabezado_registro.panel-heading {
+         font-size: 14px;
+        padding-top:5px;
+    }
+
+    .panel-body.cuerpo_registro {
+        height: 377px;
+    }
+
+    #Usuario_Registrado {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #Usuario_Registro {
+        font-weight: bold;
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    #Registro_Correo {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #Correo_Registro {
+        font-weight: bold;
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+
+
+    #Contrasena_1_Etiqueta {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #Password_Registro {
+        font-weight: bold;
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+
+
+    #Contrasena_2_Etiqueta {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    #RePassword_Registro {
+        font-weight: bold;
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    #Image_Captcha {
+        height: 70px;
+        margin-top: -40px;
+    }
+
+    #Etiqueta_Captcha {
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+
+    #Captcha_Registro {
+        font-weight: bold;
+        height: 28px;
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    a#condiciones_terminos {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: -3px;
+    }
+
+    input#Boton_Enviar_Registro {
+        font-size: 14px;
+    }
+
+
+    h6.pie_pagina {
+        font-size: 11px;
+    }
+
+    
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+    /* contenido Iniciar session*/
+
+    .encabezado.panel-heading {
+        font-size: 16px;
+        padding-top:5px;
+    }
+
+    .panel-body.cuerpo {
+        height: 190px;
+    }
+
+    #Usuario {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #Usuario_Inicio {
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+
+    #Contrasena {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #Password_Inicio {
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .form-group.etiqueta_usuario {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .form-group.etiqueta_contrasena {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .form-group.etiqueta_olvido {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    a.olvido {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    input#Boton_Iniciar_Session {
+        font-size: 16px;
+    }
+
+
+    /* contenido registrarse*/
+
+    .encabezado_registro.panel-heading {
+         font-size: 16px;
+        padding-top:5px;
+    }
+
+    .panel-body.cuerpo_registro {
+        height: 377px;
+    }
+
+    #Usuario_Registrado {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #Usuario_Registro {
+        font-weight: bold;
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #Registro_Correo {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #Correo_Registro {
+        font-weight: bold;
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+
+
+    #Contrasena_1_Etiqueta {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #Password_Registro {
+        font-weight: bold;
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+
+
+    #Contrasena_2_Etiqueta {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    #RePassword_Registro {
+        font-weight: bold;
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #Image_Captcha {
+        height: 70px;
+        margin-top: -40px;
+    }
+
+    #Etiqueta_Captcha {
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+
+    #Captcha_Registro {
+        font-weight: bold;
+        height: 32px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    a#condiciones_terminos {
+        color: #428bca;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: -3px;
+    }
+
+    input#Boton_Enviar_Registro {
+        font-size: 16px;
+    }
+
+
+   
+    h6.pie_pagina {
+        font-size: 13px;
+    }
+
+   
+}

@@ -1,0 +1,200 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+/*  ------------------barra de navegacion ------- */
+
+/*  fondo de la cabecera */
+header {
+    position:fixed;
+    top:0px;
+    width: 100%;
+    background-color:#0b333f;
+    background-color:rgb(11,51,63);
+    z-index: 99;
+    /*otros navegadores*/
+    background-color:rgba(11,51,63,0.95);
+    box-shadow: 0 1px 5px #999;
+    -webkit-box-shadow: 0 1px 5px #999;
+    -moz-box-shadow: 0 1px 5px #999;
+    -o-box-shadow: 0 1px 5px #999;
+    -webkit-background-color:rgba(11,51,63,0.95);
+    -moz-background-color:rgba(11,51,63,0.95);
+    -o-background-color:rgba(11,51,63,0.95);
+}
+
+/*  logo de la cabecera */
+h1 {
+    font-family:propia;
+}
+
+    h1 > a {
+        font-weight:normal; 
+        font-size:54px;
+        height:80px;
+        float:left;
+        color:#ffffff;
+        margin-top:-25px;
+        margin-left:-9px;        
+    }
+
+        h1 > a > span.es_aprobar {
+            display:block;
+            color:grey;
+            font-size:18px;
+            margin-top:-10px;
+            margin-left:32px;           
+        }
+
+        h1 > a:hover {
+            text-decoration:none;
+            color:#f0bf00;
+        }
+
+/*  boton del movil */
+a#mobile-menu-button {
+    float:right;
+    width:25px;
+    height:22px;
+    margin: 20px 0;
+    font-size:13px;
+    font-weight:normal;
+    background:#f0bf00;
+    color:#fff;
+}
+
+a#mobile-menu-button:hover {
+    background:#0b333f;
+}
+
+/* menu del movil */
+ul#mobile-main-menu {
+    display:none;
+    height:74px;
+    margin-left:-40px;
+}
+
+ul#mobile-main-menu > li {
+    text-align:center;
+    border-bottom:1px solid #f0bf00;
+}
+
+ul#mobile-main-menu > li > a {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+ul#mobile-main-menu > li > a >span {
+    font-size: 10px;
+    color: #00ffbf;
+    display:block;
+}
+
+ul#mobile-main-menu > li > a:hover {
+    list-style-type:none;
+    color: #fff;
+    width:100%;
+    text-decoration:none;
+    background-color:#f0bf00;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*cabecera del menu*/
+    ul#main-menu {
+        font-size: 12px;
+        float: right;
+        margin-top: 15px;
+    }
+
+        ul#main-menu > li > a {
+            color: #ffffff;
+        }
+
+            ul#main-menu > li > a.primera_opcion {
+                margin-top: -7px;
+            }
+
+            ul#main-menu > li > a > span.propiedad {
+                font-size: 12px;
+            }
+
+            ul#main-menu > li > a > span.linea {
+                font-size: 8px;
+                font-weight: normal;
+                color: #00ffbf;
+                text-align: center;
+                display: block;
+            }
+
+            ul#main-menu > li > a:hover {
+                background: #f0bf00;
+                color: #fff;
+            }
+
+            ul#main-menu > li > a.icono_movil {
+                margin-top: -7px;
+            }
+
+                ul#main-menu > li > a.icono_movil > span {
+                    font-size: 14px;
+                    margin-left: 8px;
+                }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    /* cabecera */
+    ul#main-menu {
+        font-size: 14px;
+    }
+
+        ul#main-menu > li > a.primera_opcion {
+            margin-top: -7px;
+        }
+
+        ul#main-menu > li > a > span.propiedad {
+            font-size: 14px;
+        }
+
+        ul#main-menu > li > a > span {
+            font-size: 10px;
+        }
+
+        ul#main-menu > li > a.icono_movil > span {
+            font-size: 16px;
+        }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+}

@@ -1,0 +1,565 @@
+﻿div.fondo_pizarra
+{    
+    background-color:#8b0000;
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px; 
+    height:190px;
+    margin-top:20px;
+    /*otros navegadores*/
+	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+}
+
+
+div.fondo_pizarra_movil 
+{
+    background:url(../images/pizarron-movil.png);
+    margin-top:15px;  
+    text-align:center;  
+}
+
+div.thumbnail > #Imagen_Pizarra_Movil {
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.col-xs-12.editor_total {
+    visibility: hidden;
+}
+
+#Aclaracion_Adjunto {
+    visibility: hidden;
+    font-size:1px;
+}
+
+.col-xs-12.editor_total_movil {
+        visibility: visible;
+    }
+
+.editor_movil {
+    height:225px;
+    width:100%;
+    margin-top:-220px;
+}
+
+ div.panel_total {
+        margin-top:90px; 
+        border: 1px solid #32cd32; 
+        padding-bottom:15px;
+    }
+ #Subir_Adjunto {
+        width:100%;
+        
+    }
+
+  div.encabezado_panel { 
+    font-size: 11px;
+    height: 22px;
+    padding-top: 3px;
+    }
+
+
+  .modal-header {
+    min-height: 16.43px;
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+  .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size:11px;
+}
+
+.modal-body {    
+    padding: 5px;
+}
+
+span.sub_etiqueta {
+    font-size: 10px;
+}
+
+.form-group.formulario_busqueda.primer_item {
+    font-size: 11px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Tema {
+    height: 24px;
+    padding-left:3px;
+}
+
+label.etiqueta_inferior {
+    font-size: 9px;
+    color: grey;
+    
+}
+
+.etiqueta_inferior_1 {
+    color:silver
+}
+
+.etiqueta_inferior_2 {
+    color:silver;
+    margin-left:40px;
+        
+}
+
+.form-group.formulario_busqueda {
+    font-size: 11px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Materia {
+    height: 24px;
+    padding-left:3px;
+}
+
+input#Buscar_x_Colegio {
+    height: 24px;
+    padding-left:3px;
+}
+
+input#Buscar_x_Ano {
+    height: 24px;
+    padding-left:3px;
+}
+
+input#Buscar_x_Profesor {
+    height: 24px;
+    padding-left:3px;
+}
+
+.boton_busqueda {
+    font-size:11px;
+    height: 26px;   
+    padding-top: 5px
+}
+
+.modal-footer.pie_busqueda {
+    padding: 2px;
+}
+/*-------------------------------------------------------------media query 537 --------------------------------------------------------------*/
+
+@media (min-width:537px) {
+
+    #Aclaracion_Adjunto {
+    visibility: visible;
+    font-size:10px;
+}
+
+    .modal-header .close {
+    margin-top: 5px;
+}
+
+    .col-xs-12.editor_total_movil {
+        visibility: hidden;
+    }
+
+    .col-xs-12.editor_total {
+        visibility: visible;
+    }
+
+    div.panel_total {
+        margin-top:120px; 
+        border: 1px solid #32cd32; 
+        padding-bottom:15px;
+    }
+
+    div.encabezado_panel {
+        color:white; 
+        background-color:#32cd32; 
+        font-size:13px;        
+        height: 28px;
+        padding-top: 5px;
+    }
+
+    div.profesor {
+        background-image:url(images/fondo_profesor.png);
+        background-repeat:no-repeat; 
+        margin-left:14px ;
+        width:100%;
+        height:300px;
+    }
+
+    div.editor {
+        width:100%;
+        height:300px; 
+        margin-top:-299px;
+    }
+
+div.botonera {
+margin-left:0px;
+
+    margin-top: -55px;
+}
+
+    #Subir_Adjunto {
+        width:100%;
+        margin-top:35px
+    }
+
+    div.aclaracion {
+        text-align:center;
+        font-size: 11px;
+        color: silver;
+    }
+
+    .boton_resolver {
+        margin-top:10px; 
+        width:30%;
+        font-size:12px;
+    }
+
+
+    div.encabezado_panel { 
+    font-size: 13px;
+    height: 28px;
+    padding-top: 5px;
+    }
+
+
+  .modal-header {
+    min-height: 16.43px;
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+  .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.modal-body {    
+    padding: 8px;
+}
+
+span.sub_etiqueta {
+    font-size: 13px;
+}
+
+.form-group.formulario_busqueda.primer_item {
+    font-size: 12px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Tema {
+    height: 28px;
+}
+
+label.etiqueta_inferior {
+    font-size: 10px;
+    color: grey;
+    
+}
+
+.etiqueta_inferior_1 {
+    color:silver
+}
+
+.etiqueta_inferior_2 {
+    color:silver;
+    margin-left:46px;
+        
+}
+
+.form-group.formulario_busqueda {
+    font-size: 12px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Materia {
+    height: 28px;
+}
+
+input#Buscar_x_Colegio {
+    height: 28px;
+}
+
+input#Buscar_x_Ano {
+    height: 28px;
+}
+
+input#Buscar_x_Profesor {
+    height: 28px;
+}
+
+    .boton_busqueda {
+        font-size: 13px;
+        height: 32px;
+        padding-top: 6px;
+    }
+
+.modal-footer.pie_busqueda {
+    padding: 4px;
+}
+
+}
+
+
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+.boton_resolver {
+        margin-top:10px; 
+        width:25%;
+        font-size:14px;
+    }
+    /* profesor particular de la pizarra */
+
+input#Imagen_Pizarra {
+  margin-top: -14px;
+  width:100%;
+}
+
+.thumbnail.fondo_pizarra {
+  margin-top: 0px;
+  height: 193px;
+}
+
+
+
+
+div.encabezado_panel { 
+    font-size: 14px;
+    height: 32px;
+    padding-top: 6px
+    }
+
+
+  .modal-header {
+    min-height: 16.43px;
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+}
+  .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.modal-body {    
+    padding: 10px;
+}
+
+span.sub_etiqueta {
+    font-size: 15px;
+}
+
+.form-group.formulario_busqueda.primer_item {
+    font-size: 14px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Tema {
+    height: 32px;
+}
+
+label.etiqueta_inferior {
+    font-size: 11px;
+    color: grey;
+    
+}
+
+.etiqueta_inferior_1 {
+    color:silver
+}
+
+.etiqueta_inferior_2 {
+    color:silver;
+    margin-left:49px;
+        
+}
+
+.form-group.formulario_busqueda {
+    font-size: 14px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Materia {
+    height: 32px;
+}
+
+input#Buscar_x_Colegio {
+    height: 32px;
+}
+
+input#Buscar_x_Ano {
+    height: 32px;
+}
+
+input#Buscar_x_Profesor {
+    height: 32px;
+}
+
+    .boton_busqueda {
+        font-size: 14px;
+        height: 36px;
+        padding-top: 8px;
+    }
+
+.modal-footer.pie_busqueda {
+    padding: 6px;
+}
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+    
+
+    /*pizarra*/
+
+.thumbnail.fondo_pizarra {
+  height: 265px;
+}
+
+.modal-header .close {
+    margin-top: 5px;
+}
+
+  div.encabezado_panel { 
+    font-size: 16px;
+    height: 38px;
+    padding-top: 8px;
+    }
+
+  .formulario_presentacion {
+    margin-bottom: 4px;
+}
+
+  .modal-header {
+    min-height: 16.43px;
+    padding: 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+  .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.modal-body {    
+    padding: 8px;
+}
+
+span.sub_etiqueta {
+    font-size: 16px;
+}
+
+.form-group.formulario_busqueda.primer_item {
+    font-size: 15px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Tema {
+    height: 38px;
+}
+
+label.etiqueta_inferior {
+    font-size: 12px;
+    color: grey;
+    
+}
+
+.etiqueta_inferior_1 {
+    color:silver
+}
+
+.etiqueta_inferior_2 {
+    color:silver;
+    margin-left:52px;
+        
+}
+
+.form-group.formulario_busqueda {
+    font-size: 14px;
+    font-weight: normal;
+    color: brown;
+    margin-bottom:0px;
+}
+
+input#Buscar_x_Materia {
+    height: 32px;
+}
+
+input#Buscar_x_Colegio {
+    height: 32px;
+}
+
+input#Buscar_x_Ano {
+    height: 32px;
+}
+
+input#Buscar_x_Profesor {
+    height: 32px;
+}
+
+    .boton_busqueda {
+        font-size: 14px;
+        height: 36px;
+        padding-top: 8px;
+    }
+
+.modal-footer.pie_busqueda {
+    padding: 7px;
+}  
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    /*profesor de la pizarra*/
+   
+    
+input#Imagen_Pizarra {
+  margin-top: -15px;
+  height: 300px;
+}
+    
+ .thumbnail.fondo_pizarra {
+  height: 280px;
+}   
+    
+     /*.pizarra {
+        height: 276px;
+    }
+
+    #ImageButton_Pizarra_PC {
+        margin-top:-8px;
+    }*/
+
+}

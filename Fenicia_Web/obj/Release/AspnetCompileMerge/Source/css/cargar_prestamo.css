@@ -1,0 +1,96 @@
+﻿
+.logo_prestamo_movil {
+    width: 170px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.contenedor_parrafos_movil {
+    font-size:12px;
+    text-align:center;
+}
+
+.primer_parrafo_movil {
+    margin-bottom:0px;
+}
+
+.segundo_parrafo_movil {
+    margin-bottom:0px;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .logo_prestamo {
+        width: 200%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .col-xs-10.col-xs-offset-1.parrafos {
+        margin-top: 20px;
+        text-align:center
+    }
+
+    p.primer_parrafo {
+        color: white;
+        font-size:16px
+    }
+
+    p.segundo_parrafo {
+        font-size: 12px;
+        color: white;
+    }
+
+    input#Boton_Prestamo_SOS {
+        height: 30px;
+        font-size: 12px;
+        color: rgb(243,193,4);
+        width: 100%;
+        background-color: white;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+    
+    p.primer_parrafo {    
+        font-size:18px
+    }
+
+    p.segundo_parrafo {
+        font-size: 14px;
+    }
+
+    input#Boton_Prestamo_SOS {
+        height: 35px;
+        font-size: 14px;
+    }
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    p.primer_parrafo {    
+        font-size:22px
+    }
+
+    p.segundo_parrafo {
+        font-size: 16px;
+    }
+
+    input#Boton_Prestamo_SOS {
+            height: 40px;
+            font-size: 16px;
+    }
+
+}

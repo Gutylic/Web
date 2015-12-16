@@ -1,0 +1,92 @@
+﻿/* ------- cosas basicas y encabezado ---------- */
+
+
+/*  -------------------basicos------------------ */
+
+@font-face {
+    font-family: "propia";
+    src:url("../fonts/Lobster.ttf")
+}
+
+body {
+    font-family: Arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+
+/* busqueda de ejercicios */
+.buscar_en_datalist_inicial{
+    background: #fff;
+    border-radius: 4px;    
+    height:45px;
+    border: 3px solid #d9edf7;
+    margin-top:5px;
+    width:100%;
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+     /*otros navegadores*/	
+    -moz-border-radius: 4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+}
+
+a.btn.btn-primary.boton_busqueda
+{
+    margin-left:2%;
+    margin-top:6px;
+    margin-right:8px;
+    width:96%;
+    font-size:14px;
+    height:27px;
+    padding:2px 5px 1px 5px
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .buscar_en_datalist_inicial{   
+        margin-top:0px;
+    }
+
+    a.btn.btn-primary.boton_busqueda {        
+        margin-top:5px;        
+        width:95%;
+        font-size:12px;
+        height:30px;
+        padding-top:5px
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px)
+{
+
+    a.btn.btn-primary.boton_busqueda {
+        font-size: 14px;
+        padding-top: 3px;
+       
+    }
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    a.btn.btn-primary.boton_busqueda {
+        margin-left:2%;
+        font-size: 16px;
+        width:96%;        
+        padding-top: 3px;
+    }
+
+}

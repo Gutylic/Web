@@ -1,0 +1,379 @@
+﻿body 
+{
+    background:url(../images/fondo_inicial.png);
+}
+
+.pie {
+        color:#fff;
+    }
+
+    a:hover.pie {
+        color:#fff;
+    }
+
+a:hover {
+    text-decoration:none;
+}
+
+.paginado {
+    height:25px;
+}
+
+.panel.panel-success {
+    margin-top: 90px;
+}
+
+.panel-success>.panel-heading {
+    height: 24px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.cuerpo_ejercicios {
+    padding:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.encabezado_ejercicios {
+    margin-top:-8px;
+}
+
+.titulo_ejercicios {
+    font-size:11px;
+}
+
+#DataList_Mis_Explicaciones {
+    margin-left: 15px;
+    width:100%;
+}
+
+.duracion_ejercicios {
+    font-size: 11px;
+    padding: 0px;
+    margin-left: -13px;
+}
+
+.etiqueta_titulo {
+    font-size: 9px;
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.etiqueta_duracion {
+    font-size: 10px;
+    color: brown;
+    font-weight: bold;  
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left:-2px
+}
+
+.encabezado_datalist {
+    margin-bottom: 6px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    height: 22px;
+    width: 80%;
+    margin-left: -28px;
+    font-size: 8px;
+    padding-top: 5px;
+    margin-top: -1px;
+    margin-bottom: 10px;
+}
+
+.linkButton_ejercicios {
+    padding-left:8px;
+}
+
+.linkButton_explicacion {
+    padding-left:2px;
+}
+
+.linkButton_impresiones {
+    padding-left:8px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    height: 22px;
+    width: 90%;
+    margin-left: -12px;
+    font-size: 8px;
+    padding-top: 5px;
+    
+    margin-top: -1px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 22px;
+    width: 90%;
+    margin-left: -25px;
+    font-size: 8px;
+    padding-top: 5px;
+ 
+    margin-top: -1px;
+}
+
+.botonera {
+    margin-bottom:8px;
+}
+
+#Extremos_Paginados {    
+    text-align: center;
+    font-size: 11px;
+}
+
+#Centros_Paginados {
+    text-align: center;
+    font-size: 11px;
+}
+
+
+/*-------------------------------------------------------------media query 510 --------------------------------------------------------------*/
+
+
+@media (min-width:510px) {
+
+.etiqueta_titulo {
+    font-size: 13px;
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.etiqueta_duracion {
+    font-size: 13px;
+    color: brown;
+    font-weight: bold;  
+    padding-right: 0px;
+}
+
+.btn-success {    
+    font-size: 12px;
+    padding-top: 5px;
+    height:25px;
+}
+
+.linkButton_ejercicios {
+    padding-left:8px;
+}
+
+.linkButton_explicacion {
+    padding-left:3px;
+}
+
+.linkButton_impresiones {
+    padding-left:8px;
+}
+
+.btn-warning {
+    font-size: 12px;
+    padding-top: 5px;
+    height:25px;
+}
+
+.btn-default {
+    font-size: 12px;
+    padding-top: 5px;
+    height:25px;
+    margin-top: -1px;
+}
+
+.botonera {
+    margin-bottom:12px;
+}
+
+#Extremos_Paginados {    
+
+    font-size: 12px;
+}
+
+#Centros_Paginados {
+
+    font-size: 12px;
+}
+
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+.etiqueta_titulo {
+    font-size: 12px;
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.etiqueta_duracion {
+    font-size: 12px;
+    color: brown;
+    font-weight: bold;  
+    padding-right: 0px;
+}
+
+    .ejercicios {
+        width: 60px;
+        font-size: 12px;
+        height: 24px;
+        margin-left: -70px;
+        padding-top: 3px;
+    }
+
+    .explicaciones {
+        font-size:12px;
+        height:28px;
+        width:100%;
+        margin-left:-27px;
+        padding-left:5px;
+    }
+    
+    .impresiones {
+        font-size:12px;
+        height:28px;
+        width:100%;
+        margin-left:-35px;
+        margin-bottom:10px;
+    }
+  
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .panel-success > .panel-heading {
+        height: 28px;
+        font-size: 14px;
+    }
+    
+
+
+  .etiqueta_titulo {
+    font-size: 14px;
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.etiqueta_duracion {
+    font-size: 14px;
+    color: brown;
+    font-weight: bold;  
+    padding-right: 0px;
+}
+
+    .ejercicios {
+        font-size: 15px;
+        height: 36px;
+        width: 90px;
+        margin-left: -80px;
+        padding-top: 6px;
+    }
+
+    .explicaciones {
+        font-size:14px;
+        height:32px;
+        width:100%;
+        margin-left:-27px;
+        padding-left:5px;
+    }
+    
+    .impresiones {
+        font-size:14px;
+        height:32px;
+        width:100%;
+        margin-left:-35px;
+        margin-bottom:10px;
+    }
+  
+    #Extremos_Paginados {    
+    text-align: center;
+    font-size: 12px;
+}
+
+#Centros_Paginados {
+    text-align: center;
+    font-size: 12px;
+}
+    
+    
+     
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+
+   .panel-success > .panel-heading {
+        height: 32px;
+        font-size: 16px;
+    }
+    
+
+
+  .etiqueta_titulo {
+    font-size: 15px;
+    padding-left: 18px;
+    padding-right: 0px;
+}
+
+.etiqueta_duracion {
+    font-size: 15px;
+    color: brown;
+    font-weight: bold;  
+    padding-right: 0px;
+}
+
+    .ejercicios {
+        font-size: 15px;
+        height: 36px;
+        width: 90px;
+        margin-left: -60px;
+        padding-top: 6px;
+    }
+
+    .explicaciones {
+        font-size:15px;
+        height:36px;
+        width:100%;
+        margin-left:-27px;
+        padding-left:5px;
+    }
+    
+    .impresiones {
+        font-size:15px;
+        height:36px;
+        width:100%;
+        margin-left:-35px;
+        margin-bottom:10px;
+    }
+
+    #Extremos_Paginados {    
+    text-align: center;
+    font-size: 13px;
+}
+
+#Centros_Paginados {
+    text-align: center;
+    font-size: 13px;
+}
+}

@@ -1,0 +1,235 @@
+﻿.recuadro {
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+#Usuario_Mis_Movimientos {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.cerrar_usuario_mis_movimientos {
+    margin-top:15px;
+}
+
+.credito_usuario_mis_movimientos {
+    font-size: 11px;
+    font-weight: bold;
+    color:brown;
+    margin-top:-5px;
+}
+
+.titulo_para_panel_de_movimiento {
+    font-size:10px;
+    margin-top:8px;
+}
+
+.titulo_para_panel_movimiento{
+    font-size:10px;
+    margin-top:8px;
+    margin-left: -5px;
+}
+
+.fecha_de_movimiento {
+    font-size: 9px;
+    margin-left: -6px;
+}
+
+.descripcion {
+    font-size:9px;
+    color:brown;
+}
+
+.plata_debe {
+    font-size:9px
+}
+
+.plata_haber{
+    font-size:9px
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+.recuadro {
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+#Usuario_Mis_Movimientos {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cerrar_usuario_mis_movimientos {
+    margin-top:15px;
+}
+
+.credito_usuario_mis_movimientos {
+    font-size: 14px;
+    font-weight: bold;
+    color:brown;
+    margin-top:-5px;
+}
+
+.titulo_para_panel_de_movimiento {
+    font-size:12px;
+    margin-top:8px;
+}
+
+.titulo_para_panel_movimiento{
+    font-size:12px;
+    margin-top:8px;
+    margin-left: -5px;
+}
+
+.fecha_de_movimiento {
+    font-size: 12px;
+    margin-left: -6px;
+    margin-bottom: 6px;
+}
+
+.descripcion {
+    font-size:12px;
+}
+
+.plata_debe {
+    font-size:12px
+}
+
+.plata_haber{
+    font-size:11px
+}
+
+.modal-body.cuerpo {
+    padding-left:45px;
+}
+ 
+}
+
+ /*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+.recuadro {
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+#Usuario_Mis_Movimientos {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cerrar_usuario_mis_movimientos {
+    margin-top:17px;
+}
+
+.credito_usuario_mis_movimientos {
+    font-size: 16px;
+    font-weight: bold;
+    color:brown;
+    margin-top:-5px;
+}
+
+.titulo_para_panel_de_movimiento {
+    font-size:15px;
+    margin-top:8px;
+}
+
+.titulo_para_panel_movimiento{
+    font-size:15px;
+    margin-top:8px;
+    margin-left: -5px;
+}
+
+.fecha_de_movimiento {
+    font-size: 15px;
+    margin-left: -6px;
+    margin-bottom: 6px;
+}
+
+.descripcion {
+    font-size:15px;
+}
+
+.plata_debe {
+    font-size:15px
+}
+
+.plata_haber{
+    font-size:14px
+}
+
+.modal-body.cuerpo {
+    padding-left:65px;
+}
+
+}
+
+ /*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px) {
+    
+.recuadro {
+    padding-top:11px;
+    padding-bottom:11px;
+}
+
+#Usuario_Mis_Movimientos {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cerrar_usuario_mis_movimientos {
+    margin-top:19px;
+}
+
+.credito_usuario_mis_movimientos {
+    font-size: 18px;
+    font-weight: bold;
+    color:brown;
+    margin-top:-5px;
+}
+
+.titulo_para_panel_de_movimiento {
+    font-size:18px;
+    margin-top:8px;
+}
+
+.titulo_para_panel_movimiento{
+    font-size:18px;
+    margin-top:8px;
+    margin-left: -5px;
+}
+
+.fecha_de_movimiento {
+    font-size: 18px;
+    margin-left: -6px;
+    margin-bottom: 6px;
+}
+
+.descripcion {
+    font-size:18px;
+}
+
+.plata_debe {
+    font-size:18px
+}
+
+.plata_haber{
+    font-size:18px
+}
+
+.modal-body.cuerpo {
+    padding-left:75px;
+}
+
+
+
+}

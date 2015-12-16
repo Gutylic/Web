@@ -1,0 +1,364 @@
+﻿div.registro_cabezera
+{
+    height:22px;
+}
+
+.modal-header .close
+{
+    margin-top:-10px;
+}
+
+#Reenviar_Activacion
+{
+    font-size:9px;
+}
+
+.modal-body
+{
+    padding:2px 20px;
+    height:350px;
+}
+
+.titulo_formularios
+{
+    margin-top:-3px;
+    font-size:11px;
+    font-weight:bolder
+}
+
+.etiqueta_registro
+{
+    font-size:12px;
+}
+
+.textbox_registro
+{
+    height:24px;
+    font-size:10px
+}
+
+.formulario_registro
+{
+    margin-bottom:0px;
+}
+
+div.captcha
+{
+     height:50px
+}
+
+#Imagen_Captcha 
+{
+    height:30px;
+    width:56px; 
+    margin:6px 0px 2px 0px
+}
+
+div.checkbox
+{
+    float:left; 
+    font-weight:bold; 
+    margin-top:0px;
+}
+
+.etiqueta_acepta_condiciones 
+    {
+        padding-top: 3px;
+    }
+
+label.etiqueta_acepta_condiciones > a
+{
+    font-weight:bold; 
+    font-size:10px;
+}
+
+.pie_registro
+{
+    text-align:center;
+    margin-top:3px; 
+    padding:5px;
+    
+}
+
+.boton_registro
+{
+    font-size:9px; 
+    border-radius:3px; 
+    width:120px; 
+    height:30px; 
+    padding:2px 0px;
+    /*otros navegadores*/
+	-o-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+
+@media (min-width:768px)
+{
+
+    #Reenviar_Activacion {
+        font-size:11px;
+    }
+
+    div.registro_cabezera
+    {
+        height:36px;
+    }
+
+    .modal-header .close
+    {
+        margin-top:-8px;
+    }
+
+    #LinkBoton_De_Reenvio_De_Activacion
+    {
+        font-size:11px;
+    }
+
+    .titulo_formularios
+    {
+        font-size:15px;
+    }
+
+    .etiqueta_registro
+    {
+        font-size:14px;
+    }
+
+    .textbox_registro
+    {
+        height:28px;
+        font-size:12px
+    }
+
+    .formulario_registro
+    {
+        margin-bottom:8px;
+    }
+
+    div.captcha
+    {
+         height:60px
+    }
+
+    #Imagen_Captcha 
+    {
+        height:40px;
+        width:75px;      
+    }
+
+    div.checkbox
+    {
+    float:left; 
+    font-weight:bold; 
+    margin-top:-5px;
+    }
+
+    .etiqueta_acepta_condiciones 
+    {
+        padding-top: 10px;
+    }
+
+    label.etiqueta_acepta_condiciones > a
+    {
+        font-size:11px;
+    }
+
+    .boton_registro
+    {
+        font-size:12px;
+        width:150px; 
+        height:28px; 
+    }
+
+    .modal-body {
+    padding: 2px 20px;
+    height: 420px;
+}
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+
+@media (min-width:992px)
+{
+
+    div.registro_cabezera
+    {
+        height:40px;
+    }
+
+    .modal-header .close
+    {
+        margin-top:-6px;
+    }
+       
+    #LinkBoton_De_Reenvio_De_Activacion
+    {
+        font-size:12px;
+    }
+
+    .titulo_formularios
+    {
+        font-size:18px;
+    }
+
+    .etiqueta_registro
+    {
+        font-size:15px;
+    }
+
+    .textbox_registro
+    {
+        height:30px;
+        font-size:14px
+    }
+
+    .formulario_registro
+    {
+        margin-bottom:8px;
+    }
+
+    div.captcha
+    {
+         height:70px
+    }
+
+        
+    #Reenviar_Activacion 
+    {
+        font-size:12px
+    }
+
+    #Imagen_Captcha 
+    {
+        height:60px;
+        width:113px;      
+    }
+
+   .etiqueta_acepta_condiciones 
+    {
+        padding-top: 10px;
+    }
+
+    label.etiqueta_acepta_condiciones > a
+    {
+        padding-top:10px;
+        font-size:12px;
+    }
+
+    .boton_registro
+    {
+        font-size:15px; 
+        width:165px; 
+        height:31px;
+    }
+
+    #Boton_Enviar_Registro 
+    {
+        font-size:13px;
+    }
+
+    .cuerpo_del_formulario {
+        padding: 2px 20px;
+        height: 450px;
+    }
+}  
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+
+@media (min-width:1200px)
+{
+
+     div.registro_cabezera
+    {
+        height:42px;
+    }
+
+    .modal-header .close
+    {
+        margin-top:-4px;
+    }
+
+    #LinkBoton_De_Reenvio_De_Activacion
+    {
+        font-size:13px;
+    }
+
+    .titulo_formularios
+    {
+        font-size:20px;
+    }
+
+    .etiqueta_registro
+    {
+        font-size:16px;
+    }
+
+    .textbox_registro
+    {
+        height:32px;
+        font-size:15px
+    }
+
+    .formulario_registro
+    {
+        margin-bottom:8px;
+    }
+
+    div.captcha
+    {
+         height:80px
+    }
+
+    #Imagen_Captcha 
+    {
+        height:80px;
+        width:150px;      
+    }
+
+    .etiqueta_acepta_condiciones 
+    {
+        padding-top: 10px;
+    }
+
+    label.etiqueta_acepta_condiciones > a
+    {
+        padding-top:10px;
+        font-size:14px;
+    }
+
+    .boton_registro
+    {
+        font-size:16px;
+        width:195px; 
+        height:40px; 
+    }
+   
+    #Reenviar_Activacion 
+    {
+        font-size:14px
+    }
+
+    #Boton_Enviar_Registro 
+    {
+        font-size:14px;
+    }
+
+    .cuerpo_del_formulario {
+        padding: 2px 20px;
+        height: 500px;
+    }
+}  

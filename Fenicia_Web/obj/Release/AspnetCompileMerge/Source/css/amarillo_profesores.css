@@ -1,0 +1,292 @@
+﻿/*fondo de cada profesor*/
+
+h3.en_linea
+{
+    color:#f0bf00;
+    text-align:center;
+    padding-top:8px;
+}
+
+div.centrados_datos_del_profesor
+{
+    text-align:center;
+    margin-top:-8px;
+}
+
+div.fondo_profesor
+{
+    background-color:#00B200;
+    background-color:rgba(0,178,0,0.50);
+    height:135px;
+    border-radius:5px;
+    box-shadow: rgba(0,0,0,0.25) 0 0 5px 5px;
+    margin-top:20px;
+    text-align:center;
+    /*otros navegadores*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -o-box-shadow: rgba(0,0,0,0.25) 0 0 5px 5px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 0 5px 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 0 5px 5px;
+}  
+
+article.fondo_amarillo
+{
+    background: url("../images/fondo-amarillo.png") repeat-x 0 0;
+	z-index: 500;
+    min-height:340px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    /*otros navegadores*/
+	-o-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* carteles de las materias movil*/
+p.parrafo_de_servicios_movil
+{
+    color:rgb(51,51,51); 
+    font-size:15px; 
+}
+
+ul.lista_materias_movil
+{
+    color:#fff; 
+    font-size:12px; 
+    list-style-type:none; 
+    text-align:center
+}
+
+div.columna_amarilla
+{
+    background-color:#FF7F00;
+    background-color: rgb(255,127,0);
+    margin-top:15px; 
+    border-radius:5px; 
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px; 
+    height:120px;
+    /*otros navegadores*/
+	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+div.columna_amarilla_movil
+{
+    background-color:#FF7F00;
+    background-color: rgb(255,127,0); 
+    margin-top:15px; 
+    border-radius:5px; 
+    box-shadow: rgba(0,0,0,0.25) 0 10px 10px; 
+    /*otros navegadores*/
+	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+p.parrafo_movil
+{
+    font-size:13px; 
+    padding:6px; 
+    text-align:center
+}
+
+a.ir_movil
+{
+    color:#fff; 
+    float:right; 
+    margin-right:0px; 
+    margin-top:-5px;
+    font-size: 14px;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    /*parte amarillo*/
+
+    article.fondo_amarillo {
+        height: 340px;
+    }
+
+    div.fondo_profesor {
+        height: 175px;
+    }
+
+    h3.en_linea {
+        font-size: 12px;
+    }
+
+    img.foto_profesor {
+        height: 24px;
+        width: 24px;
+    }
+
+    h4.materia {
+        margin-top: 0px;
+    }
+
+    h4.materia_celular {
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    ul.lista_de_materias {
+        text-align: left;
+        font-size: 8px;
+        margin-left: -25px;
+    }
+
+    p.parrafo_de_servicios {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    a.ir {
+        color: #fff;
+        float: right;
+        margin-right: 5px;
+        margin-top: -1px;
+        font-size: 11px;
+    }
+
+        a.ir > span {
+            color: #fff;
+            left: 2px;
+            top: 2px;
+        }
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+
+    /* profesores */
+    article.fondo_amarillo {
+        height: 400px;
+    }
+
+    div.fondo_profesor {
+        height: 220px;
+    }
+
+    h3.en_linea {
+        font-size: 16px;
+    }
+
+    img.foto_profesor {
+        height: 48px;
+        width: 48px;
+    }
+
+    h4.materia {
+        font-size: 20px;
+    }
+
+    h4.materia_celular {
+        font-size: 18px;
+    }
+
+    h5.nombre {
+        font-size: 16px;
+    }
+
+    h6.consultalo {
+        font-size: 11px;
+    }
+
+    ul.lista_de_materias {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    p.parrafo_de_servicios {
+        font-size: 11px;
+    }
+
+    a.ir {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+           
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    /*profesores*/
+    article.fondo_amarillo {
+        height: 429px;
+    }
+
+    div.fondo_profesor {
+        height: 250px;
+    }
+
+    h3.en_linea {
+        font-size: 20px;
+    }
+
+    img.foto_profesor {
+        height: 64px;
+        width: 64px;
+    }
+
+    h4.materia {
+        font-size: 25px;
+    }
+
+    h4.materia_celular {
+        font-size: 23px;
+    }
+
+    h5.nombre {
+        font-size: 21px;
+    }
+
+    h6.consultalo {
+        font-size: 13px;
+    }
+
+    ul.lista_de_materias {
+        font-size: 11px;
+        margin-left: -5px;
+    }
+
+    div.columna_amarilla {
+        height: 110px;
+    }
+
+    p.parrafo_de_servicios {
+        font-size: 12px;
+    }
+
+    a.ir {
+        margin-right: 10px;
+        margin-top: -18px;
+        font-size: 15px;
+    }
+
+        a.ir > span {
+            left: 3px;
+            top: 3px;
+        }
+
+}

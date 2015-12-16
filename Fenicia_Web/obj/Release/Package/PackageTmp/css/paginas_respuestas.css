@@ -1,0 +1,309 @@
+﻿.row.panel_con_botones_de_mi_compra {
+    margin-top: 90px;
+    margin-bottom: 10px;    
+}
+
+input#Boton_Explicar_Mi_Ejercicio {
+    width: 100%;
+    font-size: 10px;
+}
+
+input#Boton_Resolver_Mi_Ejercicio {
+    width: 100%;
+    font-size: 10px;
+}
+
+input#Buscar_Por_Ficha {
+    width: 100%;
+    font-size: 10px;
+}
+
+input#Buscar_Por_Enunciado {
+    width: 100%;
+    font-size: 10px;
+}
+
+.panel-default {
+    border-color: #ddd;
+    margin-top: 80px;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    height: 20px;
+    font-size: 11px;
+    padding: 2px;   
+}
+
+.panel-body {
+    padding: 3px;
+}
+
+.panel-footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 35px;
+    padding: 3px;
+}
+
+.panel-success>.panel-heading {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    font-size: 11px;
+    height: 22px;
+    padding: 3px;
+}
+
+.botones{
+    font-size:10px
+}
+
+.explicacion {
+    padding-left:3px
+}
+
+div#Extremos_Paginados {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+div#Centros_Paginados {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+
+@media (min-width:768px) {
+
+    .panel-default > .panel-heading {
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #ddd;
+        height: 26px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    input#Boton_Resolver_Mi_Ejercicio {
+        
+        font-size: 12px;
+    }
+
+    input#Boton_Explicar_Mi_Ejercicio {
+        font-size: 12px;
+    }
+
+    .panel-body {
+        padding: 5px;
+    }
+
+    .panel-footer {
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        height: 42px;
+        padding: 7px;
+    }
+
+    input#Buscar_Por_Ficha {        
+        font-size: 12px;
+    }
+    input#Buscar_Por_Enunciado {
+    
+    font-size: 12px;
+}
+
+
+    .panel-success>.panel-heading {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        font-size: 13px;
+        height: 30px;
+        padding: 6px;
+    }
+
+    .botones {
+        font-size: 12px;
+    }
+
+    .explicacion {
+        padding-left: 0px;
+    }
+
+    div#Extremos_Paginados {        
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    div#Centros_Paginados {
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    .datalist_resultado{
+        width: 100%;
+    }
+
+    .panel-default > .panel-heading {
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #ddd;
+        height: 32px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    input#Boton_Resolver_Mi_Ejercicio {
+        
+        font-size: 14px;
+    }
+
+    input#Boton_Explicar_Mi_Ejercicio {
+        font-size: 14px;
+    }
+
+    .panel-body {
+        padding: 7px;
+        text-align:center;
+    }
+
+    .panel-footer {
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        height: 46px;
+        padding: 8px;
+    }
+
+    input#Buscar_Por_Ficha {        
+        font-size: 14px;
+    }
+    input#Buscar_Por_Enunciado {
+    
+    font-size: 14px;
+}
+
+    .panel-success>.panel-heading {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        font-size: 15px;
+        height: 36px;
+        padding: 7px;
+    }
+
+    .botones {
+        font-size: 14px;
+    }
+
+    .explicacion {
+        padding-left: 0px;
+    }
+
+    div#Extremos_Paginados {        
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    div#Centros_Paginados {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+    .panel-default > .panel-heading {
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #ddd;
+        height: 36px;
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    input#Boton_Resolver_Mi_Ejercicio {
+        
+        font-size: 16px;
+    }
+
+    input#Boton_Explicar_Mi_Ejercicio {
+        font-size: 16px;
+    }
+
+    .panel-body {
+        padding: 9px;
+        text-align:center;
+    }
+
+    .panel-footer {
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        height: 52px;
+        padding: 9px;
+    }
+
+    input#Buscar_Por_Ficha {        
+        font-size: 16px;
+    }
+    input#Buscar_Por_Enunciado {
+    
+    font-size: 16px;
+}
+
+    .panel-success>.panel-heading {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        font-size: 17px;
+        height: 42px;
+        padding: 8px;
+    }
+
+    .botones {
+        font-size: 16px;
+    }
+
+    .explicacion {
+        padding-left: 0px;
+    }
+
+    div#Extremos_Paginados {        
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    div#Centros_Paginados {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+}
