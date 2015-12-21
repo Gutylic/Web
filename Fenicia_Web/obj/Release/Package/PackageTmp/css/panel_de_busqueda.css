@@ -76,6 +76,9 @@ input#Boton_Buscar_Seleccion {
     margin-top:5px;
 }
 
+.fondo_panel_NoLogueado {
+        height: 120px;
+    }
 
 
 
@@ -162,6 +165,10 @@ input#Boton_Buscar_Seleccion {
   height:40px;
     }
 
+    .fondo_panel_NoLogueado {
+        height: 130px;
+    }
+
 }
 
 
@@ -244,6 +251,9 @@ input#Boton_Buscar_Seleccion {
        
     }
     
+    .fondo_panel_NoLogueado {
+        height: 140px;
+    }
 
 }
 
@@ -327,5 +337,8 @@ input#Boton_Buscar_Seleccion {
         width: 260px;
        
     }
-    
+
+    .fondo_panel_NoLogueado {
+        height: 150px;
+    }
 }

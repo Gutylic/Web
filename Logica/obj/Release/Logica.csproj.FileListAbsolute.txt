@@ -5,3 +5,10 @@ C:\Users\Gustavo\Desktop\Web\Logica\bin\Release\Datos.pdb
 C:\Users\Gustavo\Desktop\Web\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Desktop\Web\Logica\obj\Release\Logica.dll
 C:\Users\Gustavo\Desktop\Web\Logica\obj\Release\Logica.pdb
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\bin\Release\Logica.dll
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\bin\Release\Logica.pdb
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\bin\Release\Datos.dll
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\bin\Release\Datos.pdb
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.dll
+C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.pdb

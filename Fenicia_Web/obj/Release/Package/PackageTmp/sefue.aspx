@@ -2,15 +2,13 @@
 
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>   
 
-<title>Recuperar Contraseña</title>          
+<title>Desconectado</title>          
     
     <!-- Jquery -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
