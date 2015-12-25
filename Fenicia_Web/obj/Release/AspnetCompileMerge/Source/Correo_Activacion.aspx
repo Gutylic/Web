@@ -49,7 +49,7 @@
             <div class="container">        
                 <div class="row">
                     <div class="col-xs-12">                    
-                        <div class="contenido_del_mensaje_de_activacion">Estimado cliente ante todo muchas gracias por depositarnos su confianza, usted ha recibido este mensaje porque se ha registrado en el&nbsp; sitio&nbsp; web de Xelados,&nbsp; a&nbsp; continuación le&nbsp; detallamos su&nbsp; nombre de&nbsp; usuario y contraseña con los cuales puedes acceder al sistema y utilizar todos nuestros servicios.&nbsp; </div>
+                        <div class="contenido_del_mensaje_de_activacion">Estimado cliente ante todo muchas gracias por depositarnos su confianza, usted ha recibido este mensaje porque se ha registrado en el&nbsp; sitio&nbsp; web de Fenicia,&nbsp; a&nbsp; continuación le&nbsp; detallamos su&nbsp; nombre de&nbsp; usuario y contraseña con los cuales puedes acceder al sistema y utilizar todos nuestros servicios.&nbsp; </div>
                     </div>
                 </div>
                 <div class="row">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-xs-12">                    
                         <div class="contenido_de_la_activacion">                            
-                            <a href="http://www.xelados.net/Activacion_de_Cuenta.aspx?ID_Nombre=NICKUSUARIO">http://www.xelados.net/Activacion_de_Cuenta.aspx?ID_Nombre=NICKUSUARIO</a>
+                            <a href="http://www.unprofesorya.com/Activacion_de_Cuenta.aspx?ID_Nombre=NICKUSUARIO">http://www.unrofesorya.com/Activacion_de_Cuenta.aspx?ID_Nombre=NICKUSUARIO</a>
                         </div>
                     </div>
                 </div>                

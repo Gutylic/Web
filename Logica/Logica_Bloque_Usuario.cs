@@ -219,7 +219,7 @@ namespace Logica
             Correo.From = new MailAddress("xeladostechnology@gmail.com"); // otro cambio si modifico el correo
             Correo.To.Add(Email);
             Correo.Subject = "Aviso de solicitud de recuperación de contraseña";
-            string Body = HttpContent("http://www.unprofesorya.com/Correo_Recuperacion.html"); // recordar que debo cambiarla
+            string Body = HttpContent("http://www.unprofesorya.com/Correo_Recuperacion.aspx"); // recordar que debo cambiarla
             string Body1 = Body.Replace("NICKUSUARIO", Usuario);
             string Body2 = Body1.Replace("CONTRASENA", Password);
             Correo.Body = Body2;

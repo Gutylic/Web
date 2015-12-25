@@ -1159,7 +1159,7 @@
         <div class="modal fade" id="NoLogueado"   >            
             <div class="modal-dialog">                
                 <div class="modal-content " style="height: 0px;border-bottom-width: 0px;border-right-width: 0px;border-top-width: 0px;border-left-width: 0px;">
-                    <div class="modal-body fondo_panel_NoLogueado" style="margin-top:180px">
+                    <div class="modal-body fondo_panel_NoLogueado" style="margin-top:180px;">
                         <h3 class="mensaje_error_NoLogueado">Para acceder a estas opciones debe encontrarse registrado</h3> 
                         <hr style="margin-top:0px;"/>                         
                         <table class="botonera_NoLogueado">

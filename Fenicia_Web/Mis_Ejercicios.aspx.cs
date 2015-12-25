@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Logica;
 using System.Diagnostics;
+//using System.Net;
 
 namespace Fenicia_Web
 {
@@ -208,13 +209,29 @@ namespace Fenicia_Web
                     if (Impresion == 1) // impresion comprada
                     {
                         LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
-                        string txtFileName = "c:impresion/" + LBME.Logica_Buscar_Ubicacion_De_La_Respuesta_Del_Ejercicio_Imprimible(Identificador) + ".doc"; // ubicacion del archivo para imprimir
-                        ProcessStartInfo info = new ProcessStartInfo(txtFileName); // script para imprimir el archivo de resolucion del ejercicio
-                        info.Verb = "Print";
-                        info.CreateNoWindow = true;
-                        info.WindowStyle = ProcessWindowStyle.Hidden;
-                        Process.Start(info);
-                        return;
+
+
+
+
+                        
+                        Response.Clear();
+                        Response.ContentType = "image/png";
+
+                        Response.AppendHeader("Content-Disposition", "attachment; filename=fenicia"+ DateTime.Now +".png"); // con este nombre se descarga
+
+
+                        Response.TransmitFile("C:\\impresion/" + LBME.Logica_Buscar_Ubicacion_De_La_Respuesta_Del_Ejercicio_Imprimible(Identificador) + ".png");
+                        Response.End();
+
+
+                        // este codigo que esta abajo sirve para imprimir pero tiene el problema que no funciona en el servidor
+                        //string txtFileName = "c:impresion/e.doc"; // ubicacion del archivo para imprimir
+                        //ProcessStartInfo info = new ProcessStartInfo(txtFileName); // script para imprimir el archivo de resolucion del ejercicio
+                        //info.Verb = "Print";
+                        //info.CreateNoWindow = true;
+                        //info.WindowStyle = ProcessWindowStyle.Hidden;
+                        //Process.Start(info);
+                        //return;
                     }
                     if (Impresion == 0) // no tengo plata para imprimir
                     {

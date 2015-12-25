@@ -16,10 +16,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/16/2015 17:21:57</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>12/21/2015 17:10:45</publishTime>
+      <publishTime>12/25/2015 19:19:17</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>12/21/2015 17:10:44</publishTime>
+      <publishTime>12/25/2015 05:36:34</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>11/05/2015 01:05:06</publishTime>
@@ -49,7 +49,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/05/2015 01:05:05</publishTime>
     </File>
     <File Include="Correo_Activacion.aspx">
-      <publishTime>12/11/2015 20:38:35</publishTime>
+      <publishTime>12/24/2015 21:41:43</publishTime>
     </File>
     <File Include="Correo_Recuperacion.aspx">
       <publishTime>11/05/2015 01:05:06</publishTime>
@@ -454,7 +454,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/05/2015 01:05:07</publishTime>
     </File>
     <File Include="Mis_Ejercicios.aspx">
-      <publishTime>11/05/2015 01:05:06</publishTime>
+      <publishTime>12/25/2015 17:40:28</publishTime>
     </File>
     <File Include="Mis_Explicaciones.aspx">
       <publishTime>11/05/2015 01:05:06</publishTime>
@@ -472,16 +472,19 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/05/2015 01:05:06</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>12/25/2015 19:15:12</publishTime>
     </File>
     <File Include="Profesor_On_Line.aspx">
       <publishTime>11/05/2015 01:05:06</publishTime>
+    </File>
+    <File Include="respuesta_imprimible/cuenta_in_movil.png">
+      <publishTime>12/25/2015 18:41:22</publishTime>
     </File>
     <File Include="sefue.aspx">
       <publishTime>12/21/2015 19:09:49</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/21/2015 17:10:46</publishTime>
+      <publishTime>12/25/2015 19:19:18</publishTime>
     </File>
   </ItemGroup>
 </Project>
