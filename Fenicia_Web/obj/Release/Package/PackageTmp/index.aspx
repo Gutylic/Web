@@ -1250,7 +1250,7 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h4 class="modal-title buscar_ejercicios_y_explicaciones">Buscar ejercicios y explicaciones</h4>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body busqueda_cuerpo">
                                   <div class="form-group formulario_de_busqueda">
                                   <asp:Label runat="server" CssClass="sub_etiqueta">Complete los casilleros para una mejor búsqueda </asp:Label> 
                                 </div>          

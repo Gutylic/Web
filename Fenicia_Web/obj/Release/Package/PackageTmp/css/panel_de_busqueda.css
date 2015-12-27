@@ -68,17 +68,34 @@
 
 }
 
-input#Boton_Buscar_Seleccion {
-    padding-top:3px;
-    font-size: 10px;
-    width: 150px;
-    height:20px;
-    margin-top:5px;
-}
-
 .fondo_panel_NoLogueado {
         height: 120px;
     }
+
+
+input#Boton_Buscar_Seleccion {
+        font-size: 12px;
+  width: 150px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  margin-bottom: -1px;
+  height:30px;
+    }
+
+    .fondo_panel_NoLogueado {
+        height: 130px;
+    }
+    
+    .busqueda_cuerpo {
+        height:350px;
+    }     
+    
+      .modal-footer.pie_busqueda {
+        margin-top: 10px;
+        height: 38px;
+    } 
+
 
 
 
@@ -160,14 +177,23 @@ input#Boton_Buscar_Seleccion {
   width: 170px;
   padding-top: 5px;
   padding-bottom: 4px;
-  margin-top: 3px;
+  margin-top: 14px;
   margin-bottom: -1px;
-  height:40px;
+  height:35px;
     }
 
     .fondo_panel_NoLogueado {
         height: 130px;
     }
+    
+    .busqueda_cuerpo {
+        height:410px;
+    }     
+    
+      .modal-footer.pie_busqueda {
+        margin-top: 10px;
+        height: 45px;
+    } 
 
 }
 
@@ -235,10 +261,7 @@ input#Boton_Buscar_Seleccion {
         margin-left:50px;
     }
 
-    .modal-footer.pie_busqueda {
-        margin-top: 10px;
-    }
-
+   
     #Boton_De_Busqueda_En_El_DataList {
         text-align: center;
         margin-top: -15px;
@@ -248,12 +271,21 @@ input#Boton_Buscar_Seleccion {
     input#Boton_Buscar_Seleccion {
         font-size: 17px;
         width: 200px;
-       
+       margin-top:13px;
     }
     
     .fondo_panel_NoLogueado {
         height: 140px;
     }
+
+     .busqueda_cuerpo {
+        height:480px;
+    }     
+    
+      .modal-footer.pie_busqueda {
+        margin-top: 10px;
+        height: 45px;
+    } 
 
 }
 
@@ -322,9 +354,7 @@ input#Boton_Buscar_Seleccion {
         margin-left:52px;
     }
 
-    .modal-footer.pie_busqueda {
-        margin-top: 10px;
-    }
+   
 
     #Boton_De_Busqueda_En_El_DataList {
         text-align: center;
@@ -335,10 +365,19 @@ input#Boton_Buscar_Seleccion {
     input#Boton_Buscar_Seleccion {
         font-size: 19px;
         width: 260px;
-       
+       margin-top:13px;
     }
 
     .fondo_panel_NoLogueado {
         height: 150px;
     }
+
+     .busqueda_cuerpo {
+        height:510px;
+    }     
+    
+      .modal-footer.pie_busqueda {
+        margin-top: 10px;
+        height: 45px;
+    } 
 }
