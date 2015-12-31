@@ -12,3 +12,10 @@ C:\Users\Gustavo\Documents\GitHub\Web\Logica\bin\Release\Datos.pdb
 C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.dll
 C:\Users\Gustavo\Documents\GitHub\Web\Logica\obj\Release\Logica.pdb
+C:\Users\Mara\Desktop\studio\Web\Logica\bin\Release\Logica.dll
+C:\Users\Mara\Desktop\studio\Web\Logica\bin\Release\Logica.pdb
+C:\Users\Mara\Desktop\studio\Web\Logica\bin\Release\Datos.dll
+C:\Users\Mara\Desktop\studio\Web\Logica\bin\Release\Datos.pdb
+C:\Users\Mara\Desktop\studio\Web\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Mara\Desktop\studio\Web\Logica\obj\Release\Logica.dll
+C:\Users\Mara\Desktop\studio\Web\Logica\obj\Release\Logica.pdb

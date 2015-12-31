@@ -26,7 +26,7 @@ namespace Datos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-U6J54HF;Initial Catalog=Supervisor;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-NUPHMRP;Initial Catalog=Supervisor;Integrated Security=True")]
         public string MartivaConnectionString {
             get {
                 return ((string)(this["MartivaConnectionString"]));

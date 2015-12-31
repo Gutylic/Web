@@ -78,28 +78,13 @@ namespace Logica
 
         }
 
-        public void Logica_Cargar_Enunciado_Movil(string Enunciado, string Usuario)
-        {
-            string Archivo = Usuario + "╝" + Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas().ToString(); // arma el nombre
-            
-            StreamWriter Editor_Corregido = File.CreateText(("C:\\archivo/") + Archivo + "_clean.txt"); // carga el archivo corregido del enunciado en c:
-            string Contenido = Enunciado.ToLower();// pasa a todo el enunciado de wiris a minusculas
-            Editor_Corregido.Write(Contenido);
-            Editor_Corregido.Flush();
-            Editor_Corregido.Close();
-            StreamWriter Editor = File.CreateText(("C:\\archivo/") + Archivo + "_math.txt"); // carga el archivo natural del enunciado en c:
-            Contenido = Enunciado; 
-            Editor.Write(Contenido);
-            Editor.Flush();
-            Editor.Close();
-        }
-
 
         public string Logica_Cargar_Enunciado(string Enunciado, string Usuario) // carga dos archivos en c: correspondiente a los enunciados
         {
             string Archivo = Usuario + "╝" + Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas().ToString(); // arma el nombre
             string Enunciado_Corregido = Logica_Correccion_Profesor(Enunciado); // corrigiendo el enunciado
             StreamWriter Editor_Corregido = File.CreateText(("C:\\archivo/") + Archivo + "_clean.txt"); // carga el archivo corregido del enunciado en c:
+            
             string Contenido = Enunciado_Corregido;
             Editor_Corregido.Write(Contenido);
             Editor_Corregido.Flush();

@@ -441,7 +441,7 @@ namespace Fenicia_Web
 
         protected void Boton_Iniciar_Session_Click(object sender, EventArgs e)
         {
-            System.Threading.Thread.Sleep(5999);
+            //System.Threading.Thread.Sleep(5999);
             Identificar_Al_Loguear_El_Usuario(Usuario_Inicio.Text.ToLower(), Password_Inicio.Text);
         }
 
@@ -1049,7 +1049,7 @@ namespace Fenicia_Web
 
             if (LBPOL.Logica_Permitir_Uso_Del_Profesor_On_Line(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2) == 1) // si esta logueado pero averigua si puede realizar esta consulta por la plata que tenga el uno representa a la empresa
             {
-                Response.Redirect("Profesor_On_Line.aspx"); // puede realizar la consulta
+                Response.Redirect("Profesor_OnLine_Selector.aspx"); // puede realizar la consulta
             }
             else // no puede usar el profesor por falta de plata
             {

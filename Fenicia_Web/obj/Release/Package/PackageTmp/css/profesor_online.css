@@ -146,6 +146,8 @@ input#Buscar_x_Profesor {
 .modal-footer.pie_busqueda {
     padding: 2px;
 }
+
+
 /*-------------------------------------------------------------media query 537 --------------------------------------------------------------*/
 
 @media (min-width:537px) {

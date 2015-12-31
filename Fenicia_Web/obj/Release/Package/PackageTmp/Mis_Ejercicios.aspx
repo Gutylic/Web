@@ -57,6 +57,11 @@
             
         };
 
+        function Cargar_Variable_CSharp() {
+
+           alert(document.getElementById("Boton2").value);
+
+        };
         
         $(document).ready(function () {
            
@@ -64,8 +69,12 @@
                 $('#Film iframe').attr("src", $('#Film iframe').attr("src"));
             });
         });
+
         function Aceptar_Compra() {
 
+          
+           
+            
             var seleccion = confirm("¿Está seguro de realizar la compra? la misma tiene un costo");
 
             if (!seleccion) {
@@ -73,7 +82,8 @@
                 location.reload(true);
             }
 
-            return seleccion;
+                return seleccion;
+                
 
         }
         
@@ -133,7 +143,8 @@
                                 
                                    <ContentTemplate>--%>
                                        
-                                        <asp:DataList ID="DataList_Mis_Ejercicios" runat="server" OnItemCommand="Identificador" OnClientClick="RegistrarTriggers(this)">
+                                        <%--<asp:DataList ID="DataList_Mis_Ejercicios" runat="server" OnItemCommand="Identificador" OnClientClick="RegistrarTriggers(this)">--%>
+                                        <asp:DataList ID="DataList_Mis_Ejercicios" runat="server" OnItemCommand="Identificador" >   
                                             <ItemTemplate>
 
                                                 <div class="row ">
@@ -144,22 +155,25 @@
                                                         <asp:Label ID="Etiqueta_Duracion" runat="server" Text='<%# string.Concat(Eval("Dias_Que_Restan_Para_Usar_El_Producto")," día(s)")%>'></asp:Label>
                                                     </div>
                                                     <div class="col-sm-2 boton_1 hidden-xs">
-                                                        <asp:LinkButton runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-success ejercicios " CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="1"> <%# this.Etiqueta_Ejercicio(Convert.ToInt32(Eval("Ejercicio")))%> </asp:LinkButton>
+                                                        <asp:LinkButton runat="server"  CssClass="btn btn-success ejercicios" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="1" > <%# this.Etiqueta_Ejercicio(Convert.ToInt32(Eval("Ejercicio")))%> </asp:LinkButton>
+                                                        
                                                     </div>
                                                     <div class="col-sm-2 boton_2 hidden-xs">
-                                                        <asp:LinkButton runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-warning explicaciones" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="2"> <%# this.Etiqueta_Explicacion(Convert.ToInt32(Eval("Explicacion")))%> </asp:LinkButton>
+                                                        <asp:LinkButton runat="server" OnClientClick="Cargar_Variable_CSharp()" CssClass="btn btn-warning explicaciones"  CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="2"> <%# this.Etiqueta_Explicacion(Convert.ToInt32(Eval("Explicacion")))%> </asp:LinkButton>
+                                                        
                                                     </div>
                                                     <div class="col-sm-2 boton_3 hidden-xs">
                                                         <asp:LinkButton runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-default impresiones" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="3"> Imprimir </asp:LinkButton>
                                                     </div>
+                                                    
                                                 </div>
 
                                                 <div class="row botonera visible-xs">
                                                     <div class="col-xs-4 boton_1">
-                                                        <asp:LinkButton runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-success linkButton_ejercicios" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="1"> <%# this.Etiqueta_Ejercicio(Convert.ToInt32(Eval("Ejercicio")))%> </asp:LinkButton>
+                                                        <asp:LinkButton runat="server"  CssClass="btn btn-success linkButton_ejercicios" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="1"> <%# this.Etiqueta_Ejercicio(Convert.ToInt32(Eval("Ejercicio")))%> </asp:LinkButton>
                                                     </div>
                                                     <div class="col-xs-4 boton_2">
-                                                        <asp:LinkButton runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-warning linkButton_explicacion" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="2"> <%# this.Etiqueta_Explicacion(Convert.ToInt32(Eval("Explicacion")))%> </asp:LinkButton>
+                                                        <asp:LinkButton runat="server"  CssClass="btn btn-warning linkButton_explicacion" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="2"> <%# this.Etiqueta_Explicacion(Convert.ToInt32(Eval("Explicacion")))%> </asp:LinkButton>
                                                     </div>
                                                     <div class="col-xs-4 boton_3">
                                                         <asp:LinkButton  runat="server" OnClientClick="return Aceptar_Compra();" CssClass="btn btn-default linkButton_impresiones" CommandName='<%# Eval("ID_Ejercicio")%>' CommandArgument="3"> Imprimir </asp:LinkButton>

@@ -40,3 +40,9 @@ C:\Users\Gustavo\Desktop\Web\Datos\bin\Debug\Datos.pdb
 C:\Users\Gustavo\Desktop\Web\Datos\obj\Debug\Datos.dll
 C:\Users\Gustavo\Desktop\Web\Datos\obj\Debug\Datos.pdb
 C:\Users\Gustavo\Desktop\Web\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Mara\Desktop\studio\Web\Datos\bin\Debug\Datos.dll.config
+C:\Users\Mara\Desktop\studio\Web\Datos\bin\Debug\Datos.dll
+C:\Users\Mara\Desktop\studio\Web\Datos\bin\Debug\Datos.pdb
+C:\Users\Mara\Desktop\studio\Web\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Mara\Desktop\studio\Web\Datos\obj\Debug\Datos.dll
+C:\Users\Mara\Desktop\studio\Web\Datos\obj\Debug\Datos.pdb

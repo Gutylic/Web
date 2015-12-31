@@ -22,21 +22,32 @@ namespace Fenicia_Web
 
         #region Page_Load
         protected void Page_Load(object sender, EventArgs e) // falta frenar para que el usuario no pueda entrar desde aca
-        { 
+        {
+
+           
+
+
             if (Session["Usuario"] == null) // verifica si termino la session
             {
                 Response.Redirect("sefue.aspx"); // me redirige a la pagina                
                 Session.Clear(); // limpiar todas las variables de sesion del usuario
                 Session.Abandon(); // abandonar las variables de sesion (esto se realiza con el fin de asegurarme que borro la session del usuario                 
             }
-
-            if (!Page.IsPostBack) // se carga la primera vez al abrir la pagina
-            {
-                Resultado_DataList_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), 0); // datalist para cargar con el ID_Usuario y desde la pagina cero
-                Condiciones_Paginacion();
-            }
             
+            Resultado_DataList_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), 0); // datalist para cargar con el ID_Usuario y desde la pagina cero
+            Condiciones_Paginacion();
            
+            if (Request.Params["__EVENTARGUMENT"] == "metodo1") {
+                metodo1();           
+            }
+            if (Request.Params["__EVENTARGUMENT"] == "metodo2")
+            {
+                metodo2();
+            }
+            if (Request.Params["__EVENTARGUMENT"] == "")
+            {
+               return;
+            }
         }
 
         #endregion
@@ -85,8 +96,8 @@ namespace Fenicia_Web
         public void Compra_OK()
         {
             string alerta = @"<script type='text/javascript'>    
-                            alert('gracias por comprar nuestros servicios');  
-                            window.location.reload();
+                           
+                            window.location.assign(Mis_Ejercicios.aspx);
                             </script>";
             ScriptManager.RegisterStartupScript(this, typeof(Page), "", alerta, false);
         }
@@ -110,8 +121,7 @@ namespace Fenicia_Web
         public void No_Realizado()
         {
 
-            string alerta = @"<script type='text/javascript'>    
-                            alert('en algunos minutos le avisaremos cuando le resolvamos el ejercicio, gracias por comprar nuestros servicios');                                      
+            string alerta = @"<script type='text/javascript'>   
                             window.location.reload();
                             </script>";
             ScriptManager.RegisterStartupScript(this, typeof(Page), "", alerta, false);
@@ -135,24 +145,21 @@ namespace Fenicia_Web
                     }
                     if (Valor_Ejercicio == 1) // muestra el ejercicio aun no comprado y lo compra desde mis ejercicios
                     {
-                        int Ejercicio = LBME.Logica_Comprar_Ejercicio_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), Identificador, Request.UserHostAddress.ToString(), 2);
 
-                        if (Ejercicio == 1)
-                        {
-                            LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
-                            Compra_OK();
-                            return;
-                        }
-                        if (Ejercicio == 0)
-                        {
-                            Sin_Plata();
-                            return;
-                        }
-                        if (Ejercicio == -6)
-                        {
-                            Fallo();
-                            return;
-                        }
+                        Session["Identificador_Fuera"] = Identificador;
+                        string script = @"<script type='text/javascript'>
+                           
+                                            var respuesta = confirm('Este servicio tiene un costo desea adquirilo?');
+                                                if (respuesta){
+                                                    alert ('Gracias por su confianza');
+                                                    __doPostBack('','metodo2');}
+                                                else{
+                                                    alert ('Usted ha cancelado la compra');}
+
+                                        </script>";
+
+                        ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
+
 
                     }
                     if (Valor_Ejercicio == -6) // no se conecto a la base de datos
@@ -162,11 +169,14 @@ namespace Fenicia_Web
                     }
                     break;
 
-                case 2: //boton explicaciones
+                case 2: //boton explicacionesComprar Explic.
+                    
+
+
                     int Valor_Explicacion = LBME.Logica_Ver_Si_La_Explicacion_Fue_Comprado_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), Identificador); //resultado para saber si compro la explicacion o la tiene que mostrar
                     if (Valor_Explicacion == 0) // muestra que la explicacion ya fue comprada solo necesita mostrarla 
                     {
-                        
+
                         string Respuesta = LBME.Logica_Buscar_Ubicacion_De_Los_Videos(Identificador);  // obtengo la explicacion de donde esta ubicado el video y lo muestra
                         Resultado_Video.Src = "http://www.youtube.com/embed/" + Respuesta + "?rel=0&showinfo=0" ; // modifica segun la ubicacion el src del iframe para ver el video
 
@@ -174,27 +184,22 @@ namespace Fenicia_Web
                         
                         return;
                     }
-                    if (Valor_Explicacion == 1) // muesta la explicacion no comprada y lo compra desde mis ejercicios 
+                    if (Valor_Explicacion == 1) // muesta la explicacion no comprada y pregunta si quiere comprarla 
                     {
+                        Session["Identificador_Fuera"] = Identificador;
+                        string script = @"<script type='text/javascript'>
+                           
+                                            var respuesta = confirm('Este servicio tiene un costo desea adquirilo?');
+                                                if (respuesta){
+                                                    alert ('Gracias por su confianza');
+                                                    __doPostBack('','metodo1');}
+                                                else{
+                                                    alert ('Usted ha cancelado la compra');}
 
-                        int? Explicacion = LBME.Logica_Comprar_Explicacion_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), Identificador, Request.UserHostAddress.ToString(), 2); // realiza las compras del ejercicio, el uno es la empresa
+                                        </script>";
 
-                        if ( Explicacion == 1)
-                        {
-                            LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
-                            Compra_OK();
-                            return;
-                        }
-                        if (Explicacion == 0) // no plata
-                        {
-                            Sin_Plata();
-                            return;
-                        }
-                        if (Explicacion == -6) // no se conecto
-                        {
-                            Fallo();
-                            return;
-                        }
+                        ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
+                                                
                     }
                     if (Valor_Explicacion == -6) // no se conecta a la base de datos
                     {
@@ -210,10 +215,7 @@ namespace Fenicia_Web
                     {
                         LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
 
-
-
-
-                        
+                                                
                         Response.Clear();
                         Response.ContentType = "image/png";
 
@@ -246,6 +248,75 @@ namespace Fenicia_Web
                     break;
             }
         }
+
+
+        public void metodo2() 
+        {
+            int Ejercicio = LBME.Logica_Comprar_Ejercicio_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), (int)Session["Identificador_Fuera"], Request.UserHostAddress.ToString(), 2);
+
+            if (Ejercicio == 1)
+            {
+                LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
+                Compra_OK();
+                Limpiar_Argumento();
+                return;
+            }
+            if (Ejercicio == 0)
+            {
+                Sin_Plata();
+                Limpiar_Argumento();
+                return;
+            }
+            if (Ejercicio == -6)
+            {
+                Fallo();
+                Limpiar_Argumento();
+                return;
+            }
+
+
+        }
+
+        public void metodo1() 
+        {
+
+            int? Explicacion = LBME.Logica_Comprar_Explicacion_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]),(int)Session["Identificador_Fuera"], Request.UserHostAddress.ToString(), 2); // realiza las compras del ejercicio, el uno es la empresa
+
+            if (Explicacion == 1)
+            {
+                LBME.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
+                Compra_OK();
+                Limpiar_Argumento();
+                return;
+            }
+            if (Explicacion == 0) // no plata
+            {
+                Sin_Plata();
+                Limpiar_Argumento();
+                return;
+            }
+            if (Explicacion == -6) // no se conecto
+            {
+                Fallo();
+                Limpiar_Argumento();
+                return;
+            }
+
+        }
+
+        public void Limpiar_Argumento()
+        {
+
+            string script = @"<script type='text/javascript'>
+                           
+                            __doPostBack('','');      
+
+                           </script>";
+
+            ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
+
+        }
+
         public void Resultado_DataList_Mis_Ejercicios(int ID_Usuario, int Pagina)
         {
             DataList_Mis_Ejercicios.DataSource = LBME.Logica_Mostrar_DataList_En_Mis_Ejercicios(ID_Usuario).Skip(Pagina * 8).Take(8); // muestra el datalist de mis ejercicios paginado de a 20 datos

@@ -47,7 +47,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12" style="text-align:center">
-                                <asp:Image ID="Image_triste" ImageUrl="~/imagen/triste.png"  Height="50%" Width="50%"  runat="server" />
+                                <asp:Image ID="Image_triste" ImageUrl="~/imagen/triste.png"  Height="100%" Width="100%"  runat="server" />
                             </div>
                             
                         </div>

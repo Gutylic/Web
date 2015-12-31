@@ -10,12 +10,12 @@ using System.IO;
 
 namespace Fenicia_Web
 {
-    public partial class Profesor_On_Line : System.Web.UI.Page
+    public partial class Profesor_On_Line_Movil : System.Web.UI.Page
     {
         #region Clases
-        
+
         Logica_Bloque_Profesor_On_Line LBPOL = new Logica_Bloque_Profesor_On_Line();
-        
+
         #endregion
 
 
@@ -39,67 +39,46 @@ namespace Fenicia_Web
         #region Boton_Abrir_Ficha
         protected void Boton_Abrir_Ficha_Click(object sender, EventArgs e)
         {
-            if (Ingreso_De_Ejercicio.Text == string.Empty && Contenido_Wiris.Value == "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>" && !Subir_Adjunto.HasFiles ) // vacio el enunciado y el adjunto
+            if (Ingreso_De_Ejercicio.Text == string.Empty && !Subir_Adjunto.HasFiles) // vacio el enunciado y el adjunto
             {
                 ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('No ha enviado ningún ejercicio');", true);
                 return; // retorna a la pagina y no hace nada
             }
 
 
-            if (Ingreso_De_Ejercicio.Text == string.Empty && Contenido_Wiris.Value == "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>" && Subir_Adjunto.HasFiles) //vacio el enunciado pero con adjunto
+            if (Ingreso_De_Ejercicio.Text == string.Empty && Subir_Adjunto.HasFiles) //vacio el enunciado pero con adjunto
             {
                 Session["Subio_Adjunto"] = true;
                 ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('Usted no ha escrito ningún enunciado');", true);
-                Subir_Adjunto.PostedFile.SaveAs(("C:\\archivo/") + LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]) + "_adj." + Subir_Adjunto.PostedFile.FileName.Split('.')[1]); // carga el adjunto   
-
+                Subir_Adjunto.PostedFile.SaveAs(("C:\\archivo/") + LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]) + "_adj." + Subir_Adjunto.PostedFile.FileName.Split('.')[1]); // carga el adjunto 
                 string codigo = @"<script type='text/javascript'>   
                             openModal();
                             </script>";
                 ScriptManager.RegisterStartupScript(this, typeof(Page), "", codigo, false);
-                return;
-
+                return;           
             }
 
 
-            if ((Ingreso_De_Ejercicio.Text != string.Empty || Contenido_Wiris.Value != "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>") && !Subir_Adjunto.HasFiles) // tiene enunciado y no tiene adjunto
+            if (Ingreso_De_Ejercicio.Text != string.Empty && !Subir_Adjunto.HasFiles) // tiene enunciado y no tiene adjunto
             {
-                if (Contenido_Wiris.Value != "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>")
-                { 
-                  
                     Session["Subio_Adjunto"] = false;
-                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Contenido_Wiris.Value,(string)Session["Usuario"]); // carga el enunciado 
+                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Ingreso_De_Ejercicio.Text, (string)Session["Usuario"]); // carga el enunciado 
                     ViewState["Enunciado_1"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_1; // toma una similitud inicial del 25% del enunciado para comprara
                     ViewState["Enunciado_2"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_2; // toma una similitud intermedia del 25% del enunciado para comparar
-
+                    
                     string codigo = @"<script type='text/javascript'>    
                             alert('usted envió el ejercicio sin archivo adjunto');  
                             openModal();
                             </script>";
                     ScriptManager.RegisterStartupScript(this, typeof(Page), "", codigo, false);
                     return;
-                }
-
-                if (Ingreso_De_Ejercicio.Text != string.Empty)
-                {                    
-                    Session["Subio_Adjunto"] = false;
-                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Contenido_Wiris.Value, (string)Session["Usuario"]); // carga enunciado
-                    Subir_Adjunto.PostedFile.SaveAs(("C:\\archivo/") + LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]) + "_adj." + Subir_Adjunto.PostedFile.FileName.Split('.')[1]); // carga el adjunto               
-                    ViewState["Enunciado_1"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_1; // toma una similitud inicial del 25% del enunciado para comprara
-                    ViewState["Enunciado_2"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_2; // toma una similitud intermedia del 25% del enunciado para comparar
-                    string codigo = @"<script type='text/javascript'>                               
-                            openModal();
-                            </script>";
-                    ScriptManager.RegisterStartupScript(this, typeof(Page), "", codigo, false);
-                    return;
-                }
             }
-            
-            if ((Ingreso_De_Ejercicio.Text != string.Empty || Contenido_Wiris.Value != "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>") && Subir_Adjunto.HasFiles) // carga enunciado y adjunto
+
+            if (Ingreso_De_Ejercicio.Text != string.Empty && Subir_Adjunto.HasFiles) // carga enunciado y adjunto
             {
-                if (Contenido_Wiris.Value != "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"/>")
-                {
+                
                     Session["Subio_Adjunto"] = true;
-                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Contenido_Wiris.Value, (string)Session["Usuario"]); // carga enunciado
+                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Ingreso_De_Ejercicio.Text, (string)Session["Usuario"]); // carga enunciado
                     Subir_Adjunto.PostedFile.SaveAs(("C:\\archivo/") + LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]) + "_adj." + Subir_Adjunto.PostedFile.FileName.Split('.')[1]); // carga el adjunto               
                     ViewState["Enunciado_1"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_1; // toma una similitud inicial del 25% del enunciado para comprara
                     ViewState["Enunciado_2"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_2; // toma una similitud intermedia del 25% del enunciado para comparar
@@ -108,21 +87,8 @@ namespace Fenicia_Web
                             </script>";
                     ScriptManager.RegisterStartupScript(this, typeof(Page), "", codigo, false);
                     return;
-                }
-                if (Ingreso_De_Ejercicio.Text != string.Empty)
-                {
-                    Session["Subio_Adjunto"] = true;
-                    string Enunciado = LBPOL.Logica_Cargar_Enunciado(Contenido_Wiris.Value, (string)Session["Usuario"]); // carga enunciado
-                    Subir_Adjunto.PostedFile.SaveAs(("C:\\archivo/") + LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]) + "_adj." + Subir_Adjunto.PostedFile.FileName.Split('.')[1]); // carga el adjunto               
-                    ViewState["Enunciado_1"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_1; // toma una similitud inicial del 25% del enunciado para comprara
-                    ViewState["Enunciado_2"] = LBPOL.Logica_Enunciados_Al_25(Enunciado).Valor_2; // toma una similitud intermedia del 25% del enunciado para comparar
-                    string codigo = @"<script type='text/javascript'>                               
-                            openModal();
-                            </script>";
-                    ScriptManager.RegisterStartupScript(this, typeof(Page), "", codigo, false);
-                    return;
-                }
-            }            
+                
+            }
         }
 
         #endregion
@@ -132,15 +98,15 @@ namespace Fenicia_Web
         protected void Boton_Enviar_Ejercicio_Click(object sender, EventArgs e)
         {
             Session["Contenido"] = "?Tema=" + Buscar_x_Tema.Text + "&Materia=" + Buscar_x_Materia.Text + "&Maestro=" + Buscar_x_Profesor.Text + "&Colegio=" + Buscar_x_Colegio.Text + "&Ano=" + Buscar_x_Ano.Text + "&Usuario=" + (string)Session["Usuario"] + "&Enunciado1=" + (string)ViewState["Enunciado_1"] + "&Enunciado2=" + (string)ViewState["Enunciado_2"]; // creo una variable de session con  el contenido de la URL para enviar las variables
-            
+
             if (Buscar_x_Tema.Text == string.Empty && Buscar_x_Materia.Text == string.Empty && Buscar_x_Profesor.Text == string.Empty && Buscar_x_Colegio.Text == string.Empty && Buscar_x_Ano.Text == string.Empty) // mira si no hay ficha
             {
                 if (ViewState["Enunciado_1"] == null) // me mando un adjunto y hay que resolverlo
-                {                    
-                    int Ejercicio = LBPOL.Logica_Comprar_Mi_Ejercicio_Personalizado(Convert.ToInt32(Session["Variable_ID_Usuario"]),Request.UserHostAddress.ToString(),2,LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]),null,null);
+                {
+                    int Ejercicio = LBPOL.Logica_Comprar_Mi_Ejercicio_Personalizado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), null, null);
 
                     LBPOL.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 1, Request.UserHostAddress.ToString()); // ejecuta un procedimiento para cargar credito y ademas acentarlo en los movimientos
-                   
+
                     if (Ejercicio == 1) // tengo plata compro
                     {
                         Compra_OK_Con_Ficha();
@@ -154,25 +120,25 @@ namespace Fenicia_Web
                     if (Ejercicio == -6) // no se conecto a la base
                     {
                         Fallo();
-                         return;
+                        return;
                     }
-                    
+
                 }
                 else //sin ficha con enunciado 
                 {
 
                     if (ViewState["Enunciado_Movil"] == null) // enunciado movil vacio
-                    {                        
+                    {
                         Response.Redirect("Pagina_Enunciados.aspx?Enunciado1=" + (string)ViewState["Enunciado_1"] + "&Enunciado2=" + (string)ViewState["Enunciado_2"] + "&Usuario=" + (string)Session["Usuario"] + "&Boton_Ejercicio=true&Boton_Explicacion=true"); // me envia a la pagina de enunciados similares y bloquea el boton de buscar por ficha
                     }
                     else
                     {
                         Compra_OK_Con_Ficha();
                         return;
-                    }                    
-                }            
+                    }
+                }
             }
-                
+
             else //con ficha 
             {
                 LBPOL.Logica_Cargar_Ficha(Buscar_x_Tema.Text, Buscar_x_Materia.Text, Buscar_x_Profesor.Text, Buscar_x_Colegio.Text, Buscar_x_Ano.Text, (string)Session["Usuario"]); //carga la ficha en el disco C:
@@ -189,7 +155,7 @@ namespace Fenicia_Web
                     else // enunciado movil lleno
                     {
                         Response.Redirect("Pagina_Fichas.aspx?Tema=" + Buscar_x_Tema.Text + "&Materia=" + Buscar_x_Materia.Text + "&Maestro=" + Buscar_x_Profesor.Text + "&Colegio=" + Buscar_x_Colegio.Text + "&Ano=" + Buscar_x_Ano.Text + "&Usuario=" + (string)Session["Usuario"] + "&Boton_Ejercicio=true&Boton_Explicacion=true"); // busca por ficha y bloquea el boton de buscar por enunciado
-                    }   
+                    }
                 }
             }
         }
@@ -228,5 +194,7 @@ namespace Fenicia_Web
             ScriptManager.RegisterStartupScript(this, typeof(Page), "", alerta, false);
         }
         #endregion
+
+
     }
 }

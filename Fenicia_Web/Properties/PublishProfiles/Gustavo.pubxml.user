@@ -6,20 +6,20 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\web</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Activacion_De_Cuenta.aspx">
       <publishTime>11/05/2015 01:05:05</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>12/16/2015 17:21:57</publishTime>
+      <publishTime>12/31/2015 01:14:46</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>12/27/2015 04:26:12</publishTime>
+      <publishTime>12/31/2015 01:14:47</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>12/25/2015 05:36:34</publishTime>
+      <publishTime>12/31/2015 01:14:46</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>11/05/2015 01:05:06</publishTime>
@@ -169,7 +169,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/05/2015 01:05:07</publishTime>
     </File>
     <File Include="css/profesor_online.css">
-      <publishTime>11/05/2015 01:05:07</publishTime>
+      <publishTime>12/30/2015 21:17:44</publishTime>
     </File>
     <File Include="css/progreso.css">
       <publishTime>11/05/2015 01:05:07</publishTime>
@@ -454,7 +454,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/05/2015 01:05:07</publishTime>
     </File>
     <File Include="Mis_Ejercicios.aspx">
-      <publishTime>12/25/2015 17:40:28</publishTime>
+      <publishTime>12/30/2015 02:23:30</publishTime>
     </File>
     <File Include="Mis_Explicaciones.aspx">
       <publishTime>11/05/2015 01:05:06</publishTime>
@@ -474,17 +474,23 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="PrecompiledApp.config">
       <publishTime>12/25/2015 19:15:12</publishTime>
     </File>
+    <File Include="Profesor_OnLine_Selector.aspx">
+      <publishTime>12/31/2015 01:08:08</publishTime>
+    </File>
     <File Include="Profesor_On_Line.aspx">
-      <publishTime>11/05/2015 01:05:06</publishTime>
+      <publishTime>12/31/2015 00:57:47</publishTime>
+    </File>
+    <File Include="Profesor_On_Line_Movil.aspx">
+      <publishTime>12/31/2015 01:04:02</publishTime>
     </File>
     <File Include="respuesta_imprimible/cuenta_in_movil.png">
       <publishTime>12/25/2015 18:41:22</publishTime>
     </File>
     <File Include="sefue.aspx">
-      <publishTime>12/21/2015 19:09:49</publishTime>
+      <publishTime>12/27/2015 04:41:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/25/2015 19:19:18</publishTime>
+      <publishTime>12/30/2015 20:40:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

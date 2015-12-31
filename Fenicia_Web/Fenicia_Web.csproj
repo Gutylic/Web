@@ -225,7 +225,9 @@
     <Content Include="Pagina_Enunciados.aspx" />
     <Content Include="Pagina_Fichas.aspx" />
     <Content Include="Panel_De_Ingreso.aspx" />
+    <Content Include="Profesor_OnLine_Selector.aspx" />
     <Content Include="Profesor_On_Line.aspx" />
+    <Content Include="Profesor_On_Line_Movil.aspx" />
     <Content Include="sefue.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -316,12 +318,26 @@
     <Compile Include="Panel_De_Ingreso.aspx.designer.cs">
       <DependentUpon>Panel_De_Ingreso.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Profesor_OnLine_Selector.aspx.cs">
+      <DependentUpon>Profesor_OnLine_Selector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor_OnLine_Selector.aspx.designer.cs">
+      <DependentUpon>Profesor_OnLine_Selector.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Profesor_On_Line.aspx.cs">
       <DependentUpon>Profesor_On_Line.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Profesor_On_Line.aspx.designer.cs">
       <DependentUpon>Profesor_On_Line.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor_On_Line_Movil.aspx.cs">
+      <DependentUpon>Profesor_On_Line_Movil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor_On_Line_Movil.aspx.designer.cs">
+      <DependentUpon>Profesor_On_Line_Movil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sefue.aspx.cs">

@@ -129,7 +129,7 @@
                                             <div class="editor" id="editorContainer"></div>
                                         </div>
                                         <div class ="col-xs-12 editor_total_movil" >
-                                            <asp:TextBox class="editor_movil" TextMode="MultiLine" placeholder="Envie una foto del ejercicio o escriba el enunciado" style="font-size:12px; font-weight:normal" ID="Ingreso_De_Ejercicio" runat="server"></asp:TextBox>
+                                            <asp:TextBox class="editor_movil" TextMode="MultiLine" placeholder="Envie una foto del ejercicio o escriba el enunciado" style="font-size:12px; font-weight:normal;" ID="Ingreso_De_Ejercicio" runat="server"></asp:TextBox>
                                         </div>
                                     </div>
                                     <div class="row">	
