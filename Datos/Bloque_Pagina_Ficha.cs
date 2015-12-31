@@ -157,7 +157,7 @@ namespace Datos
                 {
                     Etiqueta_Armada = Etiqueta_Armada + "c" + s.Etiqueta_Colegio + " or ";//separo cada componente de la lista con un or especial para la busqueda constains
                 }
-                return Etiqueta_Armada + "c0";// agregar la etiqueta cero que es la etiqueta por defecto
+                return (Etiqueta_Armada + "c0");// agregar la etiqueta cero que es la etiqueta por defecto
             }
             catch
             { return "c0"; }

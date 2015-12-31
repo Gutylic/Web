@@ -38,8 +38,6 @@
     <link href="css/profesor_online.css" rel="stylesheet" type="text/css"/>
 
 
- 
-<%-- <script src="editor?lang=es"></script><script src="editor/scripts.js"></script>--%>
     <script>
 
         
@@ -58,7 +56,7 @@
         }
 
         function openModal() {
-
+           
             $('#Ficha').modal('show');
 
 

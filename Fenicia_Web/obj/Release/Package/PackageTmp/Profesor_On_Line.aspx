@@ -76,7 +76,7 @@
         }
 
         function openModal() {
-
+          
             $('#Ficha').modal('show');
            
 
