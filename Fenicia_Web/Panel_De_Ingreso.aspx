@@ -25,6 +25,10 @@
     <script src="js/actividad.js" type="text/javascript"></script>
     <script src="js/registro.js" type="text/javascript"></script>
 
+
+<link rel="shortcut icon" type="image/png" href="favicon.icon" />
+<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
 </head>
 
 <body>
