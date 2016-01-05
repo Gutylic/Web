@@ -21,6 +21,11 @@
     <!-- CSS con los estilos-->
     <link rel="stylesheet" href="css/correo_activo.css" type="text/css" />
 
+
+<link rel="shortcut icon" type="image/png" href="favicon.icon" />
+<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
+
 </head>
 
 <body>

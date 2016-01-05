@@ -40,7 +40,7 @@ namespace Fenicia_Web
                 case 1: // presto la plata
                     string OK = @"<script type='text/javascript'>    
                                    alert('su carga ya fue acreditada, gracias por usar nuestros servicios'); 
-                                   window.location.href= 'Default.aspx'; 
+                                   window.location.href= 'index.aspx'; 
                                   </script>";
                     ScriptManager.RegisterStartupScript(this, typeof(Page), "", OK, false);
                     break;
@@ -84,7 +84,7 @@ namespace Fenicia_Web
                 case 1: // cargo la tarjeta y ya se debito                    
                     string OK = @"<script type='text/javascript'>    
                                    alert('su carga ya fue acreditada, gracias por usar nuestros servicios'); 
-                                   window.location.href= 'Default.aspx'; 
+                                   window.location.href= 'index.aspx'; 
                                   </script>";
                     ScriptManager.RegisterStartupScript(this, typeof(Page), "", OK, false);
                     break;
@@ -104,20 +104,21 @@ namespace Fenicia_Web
 
         protected void Boton_Mercado_Pago_Click(object sender, EventArgs e)
         {
-            //decimal Valor_Carga = VCC.Mercado_Pago(TextBox_Mercado_Pago.Text, TextBox_Mercado_Pago_Movil.Text); // analisis de donde pidio la carga pc o movil
 
-            //if (Valor_Carga == -9) // fallo los botones en javascript
-            //{
-            //    return;
-            //}
+            decimal Valor_Carga = LBCDC.Mercado_Pago(TextBox_Mercado_Pago.Text, TextBox_Mercado_Pago_Movil.Text); // analisis de donde pidio la carga pc o movil
 
-            //MP mp = new MP("1186209648311352", "F8I8VxoJDN8BrAZgXGxLYVxV5pZhhJB7");
+            if (Valor_Carga == -9) // fallo los botones en javascript
+            {
+                return;
+            }
 
-            //JObject preference = mp.createPreference("{'items':[{'title':'clases','quantity':1,'currency_id':'ARS','unit_price':" + Valor_Carga + "}],'external_reference':'" + (string)Session["User"] + "'}");
+            MP mp = new MP("1186209648311352", "F8I8VxoJDN8BrAZgXGxLYVxV5pZhhJB7");
 
-            //String accessToken = mp.getAccessToken();
+            JObject preference = mp.createPreference("{'items':[{'title':'clases','quantity':1,'currency_id':'ARS','unit_price':" + Valor_Carga + "}],'external_reference':'" + (string)Session["User"] + "'}");
 
-            //Response.Redirect(preference["response"]["sandbox_init_point"].ToString());
+            String accessToken = mp.getAccessToken();
+
+            Response.Redirect(preference["response"]["sandbox_init_point"].ToString());
 
         }
 
@@ -125,30 +126,30 @@ namespace Fenicia_Web
         protected void Boton_Cuenta_Digital_Click(object sender, EventArgs e)
         {
 
-//            decimal Valor_Carga = VCC.Cuenta_Digital(TextBox_Cuenta_Digital.Text, TextBox_Cuenta_Digital_Movil.Text, TextBox_PagoFacil.Text, TextBox_PagoFacil_Movil.Text); // averigua donde pidio la carga si de movil o pc o si es de pago facil o de cuenta digital
+            decimal Valor_Carga = LBCDC.Cuenta_Digital(TextBox_Cuenta_Digital.Text, TextBox_Cuenta_Digital_Movil.Text, TextBox_PagoFacil.Text, TextBox_PagoFacil_Movil.Text); // averigua donde pidio la carga si de movil o pc o si es de pago facil o de cuenta digital
 
-//            if (Valor_Carga == -9) // fallo el analisis del boton capturado en javascript
-//            {
-//                return;
-//            }
+            if (Valor_Carga == -9) // fallo el analisis del boton capturado en javascript
+            {
+                return;
+            }
 
-//            if (Valor_Carga > 5) // carga menos plata que la permitida
-//            {
+            if (Valor_Carga > 5) // carga menos plata que la permitida
+            {
 
-//                Response.Redirect("https://www.cuentadigital.com/api.php?id=537026&codigo=" + (string)Session["User"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
+                Response.Redirect("https://www.cuentadigital.com/api.php?id=537026&codigo=" + (string)Session["User"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
 
-//            }
-//            else
-//            {
+            }
+            else
+            {
 
-//                string script = @"<script type='text/javascript'>
-//                              alert('Debe realizar facturas de mas de (cinco pesos) $5');
-//                              </script>";
+                string script = @"<script type='text/javascript'>
+                              alert('Debe realizar facturas de mas de (cinco pesos) $5');
+                              </script>";
 
-//                ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
+                ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
 
-//                return;
-//            }
+                return;
+            }
 
 
         }
@@ -158,43 +159,36 @@ namespace Fenicia_Web
         {
 
 
-//            decimal Valor_Carga = VCC.PayPal(TextBox_PayPal.Text, TextBox_PayPal_Movil.Text); // analisis de donde pidio la plata si desde el celular o la pc
+            decimal Valor_Carga = LBCDC.PayPal(TextBox_PayPal.Text, TextBox_PayPal_Movil.Text); // analisis de donde pidio la plata si desde el celular o la pc
 
-//            if (Valor_Carga == -9) // si falla el javascript del boton
-//            {
-//                return;
-//            }
-
-
-//            if (Valor_Carga > 5) // evita que se cargue menos de 5 pesos
-//            {
-
-//                Response.Redirect("https://sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=gutylic@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
+            if (Valor_Carga == -9) // si falla el javascript del boton
+            {
+                return;
+            }
 
 
-//            }
-//            else
-//            {
+            if (Valor_Carga > 5) // evita que se cargue menos de 5 pesos
+            {
 
-//                string script = @"<script type='text/javascript'>
-//                              alert('Debe realizar facturas de mas de (cinco pesos) $5');
-//                              </script>";
-
-//                ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
-
-//                return;
-
-//            }
+                Response.Redirect("https://sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=gutylic@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
 
 
+            }
+            else
+            {
+
+                string script = @"<script type='text/javascript'>
+                              alert('Debe realizar facturas de mas de (cinco pesos) $5');
+                              </script>";
+
+                ScriptManager.RegisterStartupScript(this, typeof(Page), "alerta", script, false);
+
+                return;
+
+            }
+            
         }
-
-
-
-
-
-
-
-
+        
     }
+
 }

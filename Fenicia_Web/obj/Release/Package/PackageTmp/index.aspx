@@ -117,6 +117,10 @@
         }
 
     </script>
+
+<link rel="shortcut icon" type="image/png" href="favicon.icon" />
+<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
     
 </head>
 
@@ -142,7 +146,7 @@
 				            <li><a href="#" data-id="profesores" class="scroll-link opcion_profesores scroll"><span class="profesores" itemprop="category" >Profesores Particulares</span><span class="linea_inferior_encabezado"> ahora estamos en linea</span></a></li>
                             <li><a href="#" data-id="que_hacemos" class="scroll-link scroll">¿Que hacemos?</a></li>
                             <li><a href="#" data-id="contactenos" class="scroll-link scroll">Contactenos</a></li>
-			                <li><a href="#" class="icono_movil scroll"><span class="glyphicon glyphicon-phone linea_inferior_encabezado"></span>Version Movil</a></li>
+			               <%-- <li><a href="#" class="icono_movil scroll"><span class="glyphicon glyphicon-phone linea_inferior_encabezado"></span>Version Movil</a></li>--%>
 			            </ul>
                         <a href="#" id="mobile-menu-button" title="menú movil" class="btn btn-xs visible-xs "><span class="glyphicon glyphicon-align-justify"></span></a>
                     </div>            

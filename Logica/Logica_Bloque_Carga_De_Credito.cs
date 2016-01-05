@@ -24,7 +24,7 @@ namespace Logica
            
         }
 
-         public decimal? Logica_Cargar_Premio_En_La_Proxima_Recarga(int ID_Usuario, int ID_Empresa, decimal? Plata, string IP_Address)
+        public decimal? Logica_Cargar_Premio_En_La_Proxima_Recarga(int ID_Usuario, int ID_Empresa, decimal? Plata, string IP_Address)
         { 
             return BCDC.Metodo_Cargar_Premio_En_La_Proxima_Recarga(ID_Usuario,ID_Empresa,Plata,IP_Address);
            
@@ -40,5 +40,140 @@ namespace Logica
         {
             return BCDC.Metodo_Cargar_Credito_Usuarios(ID_Usuario, Plata, ID_Descripcion, IP_Address, Premio_1, Premio_2);
         }
+
+        public decimal Mercado_Pago(string comun, string movil)
+        { 
+            if (comun == string.Empty && movil ==string.Empty)
+            {
+                return -9;            
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(comun);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;                
+                }
+                
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(movil);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            return -9;
+
+        }
+        
+        public decimal Cuenta_Digital(string comun, string movil, string comunPF, string movilPF)
+        {
+            if (comun == string.Empty && movil == string.Empty && comunPF == string.Empty && movilPF == string.Empty)
+            {
+                return -9;
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(comun);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(movil);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            if (comunPF != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(comunPF);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            if (comunPF != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(movilPF);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+
+            return -9;
+        }
+        
+        public decimal PayPal(string comun, string movil)
+        {
+            if (comun == string.Empty && movil == string.Empty)
+            {
+                return -9;
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(comun);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            if (comun != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(movil);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            return -9;
+
+        }
+
     }
 }

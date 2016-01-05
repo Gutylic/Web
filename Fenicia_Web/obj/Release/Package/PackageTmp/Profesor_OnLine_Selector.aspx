@@ -28,6 +28,11 @@
 
         }
     </script>
+
+
+<link rel="shortcut icon" type="image/png" href="favicon.icon" />
+<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
 </head>
 <body onLoad="redireccionar()">
     <form id="form1" runat="server">
