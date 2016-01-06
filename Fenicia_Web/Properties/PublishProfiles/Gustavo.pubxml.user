@@ -16,10 +16,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 21:32:35</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>01/05/2016 21:32:36</publishTime>
+      <publishTime>01/05/2016 23:18:05</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>01/05/2016 21:32:35</publishTime>
+      <publishTime>01/05/2016 23:18:04</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>01/05/2016 21:16:19</publishTime>
