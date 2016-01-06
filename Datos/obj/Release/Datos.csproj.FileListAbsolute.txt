@@ -16,3 +16,9 @@ C:\Users\Gustavo\Desktop\web\Web\Datos\bin\Release\Datos.pdb
 C:\Users\Gustavo\Desktop\web\Web\Datos\obj\Release\Datos.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Desktop\web\Web\Datos\obj\Release\Datos.dll
 C:\Users\Gustavo\Desktop\web\Web\Datos\obj\Release\Datos.pdb
+C:\Users\Mara\Documents\GitHub\Web\Datos\bin\Release\Datos.dll.config
+C:\Users\Mara\Documents\GitHub\Web\Datos\bin\Release\Datos.dll
+C:\Users\Mara\Documents\GitHub\Web\Datos\bin\Release\Datos.pdb
+C:\Users\Mara\Documents\GitHub\Web\Datos\obj\Release\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Mara\Documents\GitHub\Web\Datos\obj\Release\Datos.dll
+C:\Users\Mara\Documents\GitHub\Web\Datos\obj\Release\Datos.pdb
