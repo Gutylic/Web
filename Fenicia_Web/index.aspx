@@ -738,7 +738,7 @@
                                                                 <asp:Image ID="Imagen_Logos" CssClass="logo" runat="server" />
                                                             </td>
                                                             <td class="columna_2_datalist_inicial">
-                                                                <asp:LinkButton runat="server" CssClass="link_datalist" ID="Titulos_De_Productos" CommandName='<%# Eval ("ID_Ejercicio") %>'> <%# Eval ("Titulo") %> </asp:LinkButton>
+                                                                <asp:LinkButton runat="server" ToolTip="presione para mirar" CssClass="link_datalist" ID="Titulos_De_Productos" CommandName='<%# Eval ("ID_Ejercicio") %>'> <%# Eval ("Titulo") %> </asp:LinkButton>
                                                             </td>
                                                         </tr> 
                                                     </table>

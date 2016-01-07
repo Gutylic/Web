@@ -448,7 +448,7 @@
                                                 <div class="panel-heading titulo_panel_logueo">
                                                     <h3 class="panel_title ingrese_como_usuario">Ingrese como usuario</h3>  
                                                 </div>  
-                                                <div id="profesor_movil"></div>                                
+                                                                               
                                                 <div class="panel-body">    
                                                     <h6 class="usuario_inicio">Usuario</h6>
                                                     <asp:TextBox ID="Usuario_Inicio" CssClass="form-control caja_de_texto js_session_1" MaxLength="10" runat="server" ></asp:TextBox>
@@ -496,7 +496,7 @@
 
 
 <%-- panel de logueado --%>
-
+                                                
                                                 <div class="panel-body padding_mayor hidden-xs">   
                                                     
                                                     <div class="row panel_pedagogico">
@@ -687,7 +687,7 @@
                         
                           
 <%-- parte movil --%>
-                                              
+                        <div id="profesor_movil"></div>                       
                         <div class="col-xs-12 visible-xs"> 
                             <asp:UpdatePanel ID="UpdatePanel_Profesor_On_Line_Movil" runat="server"> 
                                 <ContentTemplate>
@@ -738,7 +738,7 @@
                                                                 <asp:Image ID="Imagen_Logos" CssClass="logo" runat="server" />
                                                             </td>
                                                             <td class="columna_2_datalist_inicial">
-                                                                <asp:LinkButton runat="server" CssClass="link_datalist" ID="Titulos_De_Productos" CommandName='<%# Eval ("ID_Ejercicio") %>'> <%# Eval ("Titulo") %> </asp:LinkButton>
+                                                                <asp:LinkButton runat="server" ToolTip="presione para mirar" CssClass="link_datalist" ID="Titulos_De_Productos" CommandName='<%# Eval ("ID_Ejercicio") %>'> <%# Eval ("Titulo") %> </asp:LinkButton>
                                                             </td>
                                                         </tr> 
                                                     </table>

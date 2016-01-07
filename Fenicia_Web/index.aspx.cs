@@ -512,15 +512,15 @@ namespace Fenicia_Web
             {
                 case 1: // ejercicio
                     Logo.ImageUrl = "imagen/logo_ejercicios.png";
-                    Logo.ToolTip = "Ejercicio";
+                    Logo.ToolTip = "Vea el Ejercicio";
                     break;
                 case 2: // explicacion
                     Logo.ImageUrl = "imagen/logo_ejercicios_filmados.png";
-                    Logo.ToolTip = "Ejercicio Explicado";
+                    Logo.ToolTip = "Vea el Ejercicio Explicado";
                     break;
                 case 3: // video
                     Logo.ImageUrl = "imagen/logo_videos.png";
-                    Logo.ToolTip = "Videos";
+                    Logo.ToolTip = "Vea el Videos";
                     break;
                 case 4: // pack de videos
                     Logo.ImageUrl = "imagen/logo_pack_videos.png";

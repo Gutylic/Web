@@ -6,491 +6,491 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\web</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\web</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Activacion_De_Cuenta.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>01/05/2016 21:32:35</publishTime>
+      <publishTime>01/07/2016 15:10:35</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>01/05/2016 23:18:05</publishTime>
+      <publishTime>01/07/2016 20:06:15</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>01/05/2016 23:18:04</publishTime>
+      <publishTime>01/07/2016 15:10:36</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>10/02/2013 07:10:10</publishTime>
     </File>
     <File Include="captcha/1.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="captcha/2.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="captcha/3.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="captcha/4.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="captcha/5.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="captcha/6.png">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="Carga_Credito.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Correo_Activacion.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Correo_Recuperacion.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="css/amarillo_profesores.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/bootstrap-theme.min.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/bootstrap.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/buscar.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cabecera_credito.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_credito_cuenta.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_credito_pagofacil.css">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_credito_prepago.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_mercado_pago.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_paypal.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_prestamo.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/cargar_transferencia.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/consulta_de_saldo.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/contacto.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/correo_activo.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/encabezado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/estilo_1.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/listado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/logueado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/logueo.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/mis_explicaciones.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/olvido_contrasena.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/paginado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/paginas_respuestas.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/pagina_activacion.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/pagina_contrasena.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/pagina_ingreso.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_datalist.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_del_datalist_logueado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_de_busqueda.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_de_control.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_logueado.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_mis_ejecicios.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/pie.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/pizarra_carrusel.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/precios.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/profesor_online.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/progreso.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/publicidad.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/quehacemos.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/registro.css">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="fonts/Lobster.ttf">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_ayuda.gif">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_ejercicios.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_ejercicios_filmados.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_importante.gif">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_pack_videos.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/logo_videos.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="imagen/triste.jpg">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/ajax-loader.gif">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/cuenta_in.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/cuenta_in_movil.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/cuenta_out.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/cuenta_out_movil.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/fondo-amarillo.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/fondo-carrusel.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/fondo_inicial.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/fondo_prepago.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/fondo_proceso.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/icono_profesor.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/icono_quehacemos.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_ayuda.gif">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_cuenta_digital.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_ejercicios.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_ejercicios_filmados.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_importante.gif">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_mercado_pago.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_pack_videos.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_paypal.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_prepago.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_prestamo.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_rapipago_pagofacil.png">
-      <publishTime>01/05/2016 21:16:20</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_transferencia.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/logo_videos.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/mercado_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/mercado_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/mercado_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/mercado_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/oferta_1.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/oferta_2.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/oferta_3.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/oferta_4.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago1.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago2.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago3.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago4.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pago_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/paypal_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/paypal_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/paypal_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/paypal_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pizarra.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pizarra_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pizarron-movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prepago_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prepago_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prepago_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prepago_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prestamo_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prestamo_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prestamo_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/prestamo_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/procesando.gif">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/profesor.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/profesor_1.PNG">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/profesor_2.PNG">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/profesor_3.PNG">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/profesor_4.PNG">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/publicidad_1.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/publicidad_2.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/publicidad_3.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/transferencia_in.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/transferencia_in_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/transferencia_out.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/transferencia_out_movil.png">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/07/2016 20:04:54</publishTime>
     </File>
     <File Include="js/actividad.js">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/bootstrap.js">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/credito.js">
-      <publishTime>01/05/2016 21:16:21</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/jquery-2.1.1.min.js">
-      <publishTime>01/05/2016 21:16:22</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/recuperar.js">
-      <publishTime>01/05/2016 21:16:22</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="js/registro.js">
-      <publishTime>01/05/2016 21:16:22</publishTime>
+      <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="Mis_Ejercicios.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Mis_Explicaciones.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Olvido_Contrasena.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Pagina_Enunciados.aspx">
-      <publishTime>01/05/2016 21:16:18</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Pagina_Fichas.aspx">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Panel_De_Ingreso.aspx">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
       <publishTime>12/25/2015 19:15:12</publishTime>
     </File>
     <File Include="Profesor_OnLine_Selector.aspx">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="Profesor_On_Line.aspx">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="Profesor_On_Line_Movil.aspx">
-      <publishTime>01/05/2016 21:16:19</publishTime>
+      <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="respuesta_imprimible/cuenta_in_movil.png">
       <publishTime>12/25/2015 18:41:22</publishTime>
     </File>
     <File Include="sefue.aspx">
-      <publishTime>01/05/2016 21:16:37</publishTime>
+      <publishTime>01/05/2016 02:30:57</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/05/2016 21:32:36</publishTime>
+      <publishTime>01/07/2016 20:06:17</publishTime>
     </File>
   </ItemGroup>
 </Project>
