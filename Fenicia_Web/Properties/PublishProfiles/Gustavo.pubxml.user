@@ -112,7 +112,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/listado.css">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/07/2016 21:00:26</publishTime>
     </File>
     <File Include="css/logueado.css">
       <publishTime>01/05/2016 02:30:51</publishTime>
