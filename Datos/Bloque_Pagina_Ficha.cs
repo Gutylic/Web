@@ -42,14 +42,14 @@ namespace Datos
 
         }
 
-        public int Metodo_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo,bool Explicacion_Personalizada)
+        public int Metodo_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo,string Nombre_Adjunto,bool Explicacion_Personalizada,string Existencia_Enunciado)
         {
-            return db.Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Explicacion_Personalizada);
+            return db.Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Nombre_Adjunto,Explicacion_Personalizada,Existencia_Enunciado);
         }
 
-        public int Metodo_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa,  bool Adjunto, string Archivo,bool Ejercicio_Personalizado)
+        public int Metodo_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo, string Nombre_Adjunto, bool Ejercicio_Personalizado,string Existencia_Enunciado)
         {
-            return db.Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Ejercicio_Personalizado);
+            return db.Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Nombre_Adjunto,Ejercicio_Personalizado,Existencia_Enunciado);
         }
 
         public int? Metodo_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas()

@@ -13,13 +13,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>01/07/2016 15:10:35</publishTime>
+      <publishTime>01/14/2016 02:31:14</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>01/07/2016 20:06:15</publishTime>
+      <publishTime>01/14/2016 02:31:15</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>01/07/2016 15:10:36</publishTime>
+      <publishTime>01/14/2016 02:31:15</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -112,7 +112,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/listado.css">
-      <publishTime>01/07/2016 21:00:26</publishTime>
+      <publishTime>01/07/2016 21:05:11</publishTime>
     </File>
     <File Include="css/logueado.css">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -127,7 +127,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/paginado.css">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/07/2016 21:14:59</publishTime>
     </File>
     <File Include="css/paginas_respuestas.css">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -157,10 +157,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/panel_mis_ejecicios.css">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/14/2016 02:26:06</publishTime>
     </File>
     <File Include="css/pie.css">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/13/2016 20:51:47</publishTime>
     </File>
     <File Include="css/pizarra_carrusel.css">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -430,7 +430,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>01/07/2016 20:04:54</publishTime>
+      <publishTime>01/13/2016 20:47:33</publishTime>
     </File>
     <File Include="js/actividad.js">
       <publishTime>01/05/2016 02:30:52</publishTime>
@@ -454,7 +454,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="Mis_Ejercicios.aspx">
-      <publishTime>01/05/2016 02:30:50</publishTime>
+      <publishTime>01/14/2016 02:02:28</publishTime>
     </File>
     <File Include="Mis_Explicaciones.aspx">
       <publishTime>01/05/2016 02:30:50</publishTime>
@@ -463,10 +463,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="Pagina_Enunciados.aspx">
-      <publishTime>01/05/2016 02:30:50</publishTime>
+      <publishTime>01/13/2016 02:12:28</publishTime>
     </File>
     <File Include="Pagina_Fichas.aspx">
-      <publishTime>01/05/2016 02:30:50</publishTime>
+      <publishTime>01/13/2016 01:48:41</publishTime>
     </File>
     <File Include="Panel_De_Ingreso.aspx">
       <publishTime>01/05/2016 02:30:50</publishTime>

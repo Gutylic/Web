@@ -22,7 +22,8 @@ div#Centros_Paginados {
 div#Extremos_Paginados {
    font-size:9px;
    text-align:center;
-   margin-top:-34px;
+   margin-top:-40px;
+   /*margin-top:-40px;*/
 }
 
 #Anterior_Ultimo {    

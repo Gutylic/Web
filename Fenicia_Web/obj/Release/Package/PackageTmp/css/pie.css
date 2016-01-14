@@ -18,6 +18,10 @@ div.ubicacion_pie{
     margin-top:-10px
 }
 
+.cuerpo_saldo {
+        height: 220px;
+    }
+
 
 /*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
 
@@ -33,7 +37,15 @@ div.ubicacion_pie{
     .pie_web {
         font-size: 10px;
     }
+
+    .cuerpo_saldo {
+        height: 380px;
+    }
+
+
 }
+
+
 
 
 /*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
@@ -48,6 +60,10 @@ div.ubicacion_pie{
 
     .pie_web {
         font-size: 11px;
+    }
+
+    .cuerpo_saldo {
+        height: 450px;
     }
 
 }
@@ -67,4 +83,7 @@ div.ubicacion_pie{
         font-size: 12px;
     }
 
+    .cuerpo_saldo {
+        height: 515px;
+    }
 }

@@ -18,7 +18,7 @@ body {
 /* Panel de resultado de las busquedas*/
 .panel.panel-info.datalist_inicial_de_ejercicios{
     margin-top: 20px;
-    height:470px;
+    height:475px;
     box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
      /*otros navegadores*/
 	-o-box-shadow: rgba(0,0,0,0.25) 0 10px 10px;

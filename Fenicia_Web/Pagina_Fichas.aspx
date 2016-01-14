@@ -49,8 +49,11 @@
 
             if (!seleccion) {
                 alert("NO acepto la compra del producto");
+             
                 location.reload(true);
+ 
             }
+           
 
             return seleccion;
 
@@ -98,10 +101,10 @@
                         <div class="panel-heading">Comprar mi pregunta</div>
                         <div class="panel-body">
                             <div class="col-xs-6" style="text-align:center">
-                                <asp:Button ID="Boton_Resolver_Mi_Ejercicio" ToolTip="quiere el ejercicio resuelto" CssClass="btn btn-danger" runat="server" Text="Resolverlo" OnClick="Boton_Resolver_Mi_Ejercicio_Click" OnClientClick="Aceptar_Compra()" />
+                                <asp:Button ID="Boton_Resolver_Mi_Ejercicio" ToolTip="quiere el ejercicio resuelto" CssClass="btn btn-danger" runat="server" Text="Resolverlo" OnClick="Boton_Resolver_Mi_Ejercicio_Click" OnClientClick="return Aceptar_Compra()" />
                             </div>
                             <div class="col-xs-6" style="text-align:center">
-                                <asp:Button ID="Boton_Explicar_Mi_Ejercicio" ToolTip="quiere el ejercicio explicado" runat="server" CssClass="btn btn-danger" Text="Explicarlo" OnClick="Boton_Explicar_Mi_Ejercicio_Click" OnClientClick="Aceptar_Compra()"/>
+                                <asp:Button ID="Boton_Explicar_Mi_Ejercicio" ToolTip="quiere el ejercicio explicado" runat="server" CssClass="btn btn-danger" Text="Explicarlo" OnClick="Boton_Explicar_Mi_Ejercicio_Click" OnClientClick="return Aceptar_Compra()"/>
                             </div>
                         </div>
                         <div class="panel-footer">
@@ -123,8 +126,8 @@
                                             <asp:Image style="width:50%; margin-bottom:5px" ID="Imagen_Enunciado" ImageUrl='<%#"http://www.colegioeba.com/enunciado/Enunciado"+ Eval("ID_Ejercicio") + ".png"%>' runat="server" />
                                             <%--<asp:Image style="width:21.25%; margin-bottom:5px" ID="Imagen_Ficha" ImageUrl='<%#"http://www.colegioeba.com/ficha/Ficha"+ Eval("ID_Ejercicio") + ".png"%>' runat="server" />--%>
                                         
-                                            <asp:Button style="width:23%" ID="Boton_Comprar_Ejercicio" OnClientClick="Aceptar_Compra()" ToolTip="quiere el ejercicio resuelto" CssClass="btn btn-success botones" CommandArgument="1" runat="server" CommandName='<%# Eval ("ID_Ejercicio") %>' Text="Ejercicio" />
-                                            <asp:Button style="width:23%" ID="Boton_Comprar_Explicacion" OnClientClick="Aceptar_Compra()" ToolTip="quiere el ejercicio explicado" CssClass="btn btn-success botones explicacion"  CommandArgument="2" runat="server" CommandName='<%# Eval ("ID_Ejercicio") %>' Text="Explicación" />
+                                            <asp:Button style="width:23%" ID="Boton_Comprar_Ejercicio" OnClientClick="return Aceptar_Compra();" ToolTip="quiere el ejercicio resuelto" CssClass="btn btn-success botones" CommandArgument="1" runat="server" CommandName='<%# Eval ("ID_Ejercicio") %>' Text="Ejercicio" />
+                                            <asp:Button style="width:23%" ID="Boton_Comprar_Explicacion" OnClientClick="return Aceptar_Compra();" ToolTip="quiere el ejercicio explicado" CssClass="btn btn-success botones explicacion"  CommandArgument="2" runat="server" CommandName='<%# Eval ("ID_Ejercicio") %>' Text="Explicación" />
                                                                             
                                         </ItemTemplate>
                                     </asp:DataList>

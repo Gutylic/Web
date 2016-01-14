@@ -213,16 +213,30 @@ namespace Fenicia_Web
 
 
         #region Comprar_Mi_Ejercicio
-
+        
         protected void Boton_Resolver_Mi_Ejercicio_Click(object sender, EventArgs e)
         {
+            if(Boton_Resolver_Mi_Ejercicio.Enabled == false)
+            {
+                return;
+            }
+
+            int Ejercicio;
+
+            if (Session["Nombre_Enunciado"] == null)
+            {
+                Ejercicio = LBPF.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Explicar_Mi_Ejercicio.Enabled,null);
+            }
+            else
+            {
+                Ejercicio = LBPF.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Explicar_Mi_Ejercicio.Enabled,"1");
+            }
             
-            int Ejercicio = LBPF.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]),Boton_Explicar_Mi_Ejercicio.Enabled);
             
             if (Ejercicio == 1) //compro el ejercicio
             {
                 LBPF.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 1, Request.UserHostAddress.ToString());
-                ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('usted ya compro este ejercicio');", true);
+                ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('gracias por la compra, a la brevedad recibira la explicación detallada del ejercicio resuelto en su panel de mis ejercicios');", true);
                 Boton_Resolver_Mi_Ejercicio.Enabled = false; // comprar el ejercicio y desabilitar el boton de compra   
                 Session["Boton_Ejercicio"] = false;
                 return;
@@ -243,12 +257,29 @@ namespace Fenicia_Web
 
         protected void Boton_Explicar_Mi_Ejercicio_Click(object sender, EventArgs e)
         {
-            int Explicacion = LBPF.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]),Request.UserHostAddress.ToString(),2,(bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]),Boton_Resolver_Mi_Ejercicio.Enabled);
+            if (Boton_Explicar_Mi_Ejercicio.Enabled == false)
+            {
+                return;
+            }
+            int Explicacion;
+
+            if (Session["Nombre_Enunciado"] == null)
+            {
+                Explicacion = LBPF.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled, null);
+            }
+            else
+            {
+                Explicacion = LBPF.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPF.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled, "1");
+            }
+
+
+
+           
             
             if (Explicacion == 1) //compro el ejercicio
             {
                 LBPF.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 1, Request.UserHostAddress.ToString());
-                ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('usted ya compro esta explicación');", true);
+                ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('gracias por la compra, a la brevedad recibira la explicación detallada del ejercicio resuelto en su panel de mis ejercicios');", true);
                 Boton_Explicar_Mi_Ejercicio.Enabled = false; // comprar el ejercicio y desabilitar el boton de compra     
                 Session["Boton_Explicacion"] = false;
                 return;

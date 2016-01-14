@@ -212,8 +212,26 @@ namespace Fenicia_Web
 
         protected void Boton_Resolver_Mi_Ejercicio_Click(object sender, EventArgs e)
         {
-            int Ejercicio = LBPE.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), Boton_Explicar_Mi_Ejercicio.Enabled);
-            
+            if (Boton_Resolver_Mi_Ejercicio.Enabled == false)
+            {
+                return;
+            }
+
+            int Ejercicio;
+
+            if (Session["Nombre_Enunciado"] == null)
+            {
+                Ejercicio = LBPE.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled, null);
+            }
+            else
+            {
+                Ejercicio = LBPE.Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled, "1");
+            }
+
+
+
+
+
             if (Ejercicio == 1) //compro el ejercicio
             {
                 LBPE.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
@@ -237,8 +255,25 @@ namespace Fenicia_Web
 
         protected void Boton_Explicar_Mi_Ejercicio_Click(object sender, EventArgs e)
         {
+            if (Boton_Explicar_Mi_Ejercicio.Enabled == false)
+            {
+                return;
+            }
 
-            int Explicacion = LBPE.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), Boton_Resolver_Mi_Ejercicio.Enabled);
+
+            int Explicacion;
+
+            if (Session["Nombre_Enunciado"] == null)
+            {
+                Explicacion = LBPE.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled,null);
+            }
+            else
+            {
+                Explicacion = LBPE.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled,"1");
+            }
+
+
+            
             
             if (Explicacion == 1) //compro el ejercicio
             {

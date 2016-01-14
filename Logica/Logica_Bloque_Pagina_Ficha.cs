@@ -40,14 +40,15 @@ namespace Logica
 
         }
 
-        public int Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo,bool Explicacion_Personalizada)
+        public int Logica_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo, string Nombre_Adjunto,bool Explicacion_Personalizada,string Enunciado)
         {
-            return BPF.Metodo_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo, Explicacion_Personalizada);
+
+            return BPF.Metodo_Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Nombre_Adjunto, Explicacion_Personalizada,Enunciado);
         }
 
-        public int Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo, bool Ejercicio_Personalizado)
+        public int Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(int ID_Usuario, string IP_Address, int ID_Empresa, bool Adjunto, string Archivo,string Nombre_Adjunto, bool Ejercicio_Personalizado,string Enunciado)
         {
-            return BPF.Metodo_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Ejercicio_Personalizado);
+            return BPF.Metodo_Comprar_Mi_Explicacion_Personalizada_Desde_Ficha(ID_Usuario, IP_Address, ID_Empresa, Adjunto, Archivo,Nombre_Adjunto,Ejercicio_Personalizado,Enunciado);
         }
 
         public int? Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas()

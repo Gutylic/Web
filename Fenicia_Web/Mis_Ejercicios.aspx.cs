@@ -33,9 +33,13 @@ namespace Fenicia_Web
                 Session.Clear(); // limpiar todas las variables de sesion del usuario
                 Session.Abandon(); // abandonar las variables de sesion (esto se realiza con el fin de asegurarme que borro la session del usuario                 
             }
-            
-            Resultado_DataList_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), 0); // datalist para cargar con el ID_Usuario y desde la pagina cero
-            Condiciones_Paginacion();
+
+            if (!Page.IsPostBack) // se carga la primera vez al abrir la pagina
+            {
+                Condiciones_Paginacion();
+                Resultado_DataList_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), 0); // datalist para cargar con el ID_Usuario y desde la pagina cero
+                
+            }
            
             if (Request.Params["__EVENTARGUMENT"] == "metodo1") {
                 metodo1();           

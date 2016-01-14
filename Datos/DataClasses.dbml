@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Supervisor" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=GUSTAVO;Initial Catalog=Supervisor;Integrated Security=True" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="MartivaConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-U6J54HF;Initial Catalog=Supervisor;Integrated Security=True" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="MartivaConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" Member="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas">
     <Type Name="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas">
       <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
@@ -740,47 +740,11 @@
   <Function Name="dbo.Mostrar_DataList_Del_Inicio" Method="Mostrar_DataList_Del_Inicio">
     <ElementType IdRef="ID6" />
   </Function>
-  <Function Name="dbo.Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha" Method="Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha">
-    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
-    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
-    <Parameter Name="Explicacion_Pedida" Parameter="explicacion_Pedida" Type="System.Boolean" DbType="Bit" />
-    <Return Type="System.Int32" />
-  </Function>
-  <Function Name="dbo.Comprar_Mi_Explicacion_Personalizada_Desde_Ficha" Method="Comprar_Mi_Explicacion_Personalizada_Desde_Ficha">
-    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
-    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
-    <Parameter Name="Ejercicio_Pedido" Parameter="ejercicio_Pedido" Type="System.Boolean" DbType="Bit" />
-    <Return Type="System.Int32" />
-  </Function>
   <Function Name="dbo.Comprar_Ejercicio_Desde_Pagina_Enunciado" Method="Comprar_Ejercicio_Desde_Pagina_Enunciado">
     <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
     <Parameter Name="ID_Ejercicio" Parameter="iD_Ejercicio" Type="System.Int32" DbType="Int" />
     <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
     <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
-    <Return Type="System.Int32" />
-  </Function>
-  <Function Name="dbo.Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado" Method="Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado">
-    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
-    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
-    <Parameter Name="Explicacion_Pedida" Parameter="explicacion_Pedida" Type="System.Boolean" DbType="Bit" />
-    <Return Type="System.Int32" />
-  </Function>
-  <Function Name="dbo.Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado" Method="Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado">
-    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
-    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
-    <Parameter Name="Ejercicio_Pedido" Parameter="ejercicio_Pedido" Type="System.Boolean" DbType="Bit" />
     <Return Type="System.Int32" />
   </Function>
   <Function Name="dbo.Comprar_Explicacion_Desde_Mis_Ejercicios" Method="Comprar_Explicacion_Desde_Mis_Ejercicios">
@@ -802,6 +766,50 @@
     <Parameter Name="ID_Ejercicio" Parameter="iD_Ejercicio" Type="System.Int32" DbType="Int" />
     <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
     <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado" Method="Comprar_Mi_Ejercicio_Personalizado_Desde_Enunciado">
+    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Nombre_Adjunto" Parameter="nombre_Adjunto" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Explicacion_Pedida" Parameter="explicacion_Pedida" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Existencia_Enunciado" Parameter="existencia_Enunciado" Type="System.String" DbType="NVarChar(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha" Method="Comprar_Mi_Ejercicio_Personalizado_Desde_Ficha">
+    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Nombre_Adjunto" Parameter="nombre_Adjunto" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Explicacion_Pedida" Parameter="explicacion_Pedida" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Existencia_Enunciado" Parameter="existencia_Enunciado" Type="System.String" DbType="NVarChar(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado" Method="Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado">
+    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Nombre_Adjunto" Parameter="nombre_Adjunto" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Ejercicio_Pedido" Parameter="ejercicio_Pedido" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Existencia_Enunciado" Parameter="existencia_Enunciado" Type="System.String" DbType="NVarChar(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Comprar_Mi_Explicacion_Personalizada_Desde_Ficha" Method="Comprar_Mi_Explicacion_Personalizada_Desde_Ficha">
+    <Parameter Name="ID_Usuario" Parameter="iD_Usuario" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Adjunto" Parameter="adjunto" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Archivo" Parameter="archivo" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Nombre_Adjunto" Parameter="nombre_Adjunto" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="Ejercicio_Pedido" Parameter="ejercicio_Pedido" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Existencia_Enunciado" Parameter="existencia_Enunciado" Type="System.String" DbType="NVarChar(1)" />
     <Return Type="System.Int32" />
   </Function>
 </Database>

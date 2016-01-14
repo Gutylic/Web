@@ -100,7 +100,7 @@
 
     <form id="form1" runat="server">
 
-        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <%--<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>--%>
        <%-- <script type="text/javascript" lang="javascript">
             function RegistrarTriggers(control) {
                 
@@ -143,7 +143,7 @@
                     <div class="panel-body cuerpo_ejercicios">
 
                         <div class="row ">
-                           <%-- <asp:UpdatePanel ID="UpdatePanel_DataList" runat="server">
+                          <%--  <asp:UpdatePanel ID="UpdatePanel_DataList" runat="server">
                                 
                                    <ContentTemplate>--%>
                                        
@@ -194,7 +194,7 @@
 
                                        </div>
 
-                                   <%--</ContentTemplate>
+                             <%--     </ContentTemplate>
                                 
                             </asp:UpdatePanel>--%>
                             
@@ -207,14 +207,14 @@
                     <div class="container">
                         <div class="row paginado">
                             <div class="col-xs-12 col-sm-4" style="width: 96%">
-                                <asp:UpdatePanel ID="UpdatePanel_Botones_Externos_Datalist" runat="server">
-                                    <ContentTemplate>
+                               <%-- <asp:UpdatePanel ID="UpdatePanel_Botones_Externos_Datalist" runat="server">
+                                    <ContentTemplate>--%>
                                         <div id="Extremos_Paginados" runat="server">
                                             <asp:LinkButton ID="Anterior_Ultimo" Visible="false" ForeColor="DimGray" runat="server" OnClick="Anterior_Click"><< Anterior &nbsp</asp:LinkButton>
                                             <asp:LinkButton ID="Siguiente_Primero" ForeColor="DimGray" runat="server" OnClick="Siguiente_Click">&nbsp Siguiente >></asp:LinkButton>
                                         </div>
-                                    </ContentTemplate>
-                                </asp:UpdatePanel>
+                                  <%-- </ContentTemplate>
+                                </asp:UpdatePanel>--%>
                             </div>
                         </div>
                     </div>

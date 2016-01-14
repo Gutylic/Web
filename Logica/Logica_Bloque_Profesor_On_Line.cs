@@ -20,17 +20,20 @@ namespace Logica
 
         public int Logica_Comprar_Mi_Ejercicio_Personalizado(int ID_Usuario, string IP_Address, int ID_Empresa, string Archivo_Adjunto, string Archivo_Ficha, string Archivo_Enunciado)
         {
+            Archivo_Adjunto = Archivo_Adjunto.Substring(11);
             return BPOL.Metodo_Comprar_Mi_Ejercicio_Personalizado(ID_Usuario, IP_Address, ID_Empresa, Archivo_Adjunto, Archivo_Ficha, Archivo_Enunciado);
         }
 
         public int? Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas()
         {
             return BPOL.Metodo_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas();
+            
         }
 
         public string Logica_Armado_Del_Nombre_Del_Archivo(string Usuario) 
         {
             return Usuario + "╝" + Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas().ToString();
+           
         }
 
         public string Logica_Correccion_Profesor(string Enunciado)
@@ -102,6 +105,7 @@ namespace Logica
         public string Logica_Cargar_Enunciado(string Enunciado, string Usuario) // carga dos archivos en c: correspondiente a los enunciados
         {
             string Archivo = Usuario + "╝" + Logica_Armar_El_Nombre_Del_Archivo_Numero_De_Consultas().ToString(); // arma el nombre
+            
             string Enunciado_Corregido = Logica_Correccion_Profesor(Enunciado); // corrigiendo el enunciado
             StreamWriter Editor_Corregido = File.CreateText(("C:\\archivo/") + Archivo + "_clean.txt"); // carga el archivo corregido del enunciado en c:
             

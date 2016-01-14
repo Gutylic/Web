@@ -15,6 +15,9 @@ a:hover {
     text-decoration:none;
 }
 
+/*.paginado {
+    height:25px;
+}*/
 
 .panel.panel-success {
     margin-top: 90px;
@@ -32,7 +35,7 @@ a:hover {
 .cuerpo_ejercicios {
     padding:0px;
     padding-top: 10px;
-    /*padding-bottom: 10px;*/
+    padding-bottom: 10px;
 }
 
 .encabezado_ejercicios {
@@ -135,8 +138,11 @@ a:hover {
 #Centros_Paginados {
     text-align: center;
     font-size: 11px;
+    margin-bottom: -25px;
 }
-
+div#Centros_Paginados {
+    margin-bottom: -25px;
+}
 
 /*-------------------------------------------------------------media query 510 --------------------------------------------------------------*/
 
@@ -199,6 +205,7 @@ a:hover {
 #Centros_Paginados {
 
     font-size: 12px;
+margin-bottom: -25px;
 }
 
 }
@@ -305,6 +312,7 @@ a:hover {
 #Centros_Paginados {
     text-align: center;
     font-size: 12px;
+    /*margin-bottom: -25px;*/
 }
     
     

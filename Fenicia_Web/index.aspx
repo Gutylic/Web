@@ -56,15 +56,15 @@
     
     
     <link href="css/contacto.css" rel="stylesheet" type="text/css"/><%-- contacto --%>
-    <link href="css/pie.css" rel="stylesheet" type="text/css"/><%-- pie --%>
+    
     <link href="css/progreso.css" rel="stylesheet" type="text/css"/><%-- imagenes de progreso --%>
     <link href="css/panel_datalist.css" rel="stylesheet" type="text/css"/><%-- panel no logueado --%>
     <link href="css/registro.css" rel="stylesheet" type="text/css"/><%-- panel de registro --%> 
     <link href="css/panel_de_busqueda.css" rel="stylesheet" type="text/css"/> <%-- panel de busqueda --%>   
-     
+    
     <link href="css/panel_de_control.css" rel="stylesheet" type="text/css" />
     <link href="css/consulta_de_saldo.css" rel="stylesheet" />
-  
+  <link href="css/pie.css" rel="stylesheet" type="text/css"/><%-- pie --%>
     <link href="css/panel_del_datalist_logueado.css" rel="stylesheet" />
    
 <!-- JS script de la pagina-->
@@ -1206,7 +1206,7 @@
                                     </div>
                                 </div> 
                             </div>
-                                <div  class="modal-body cuerpo">
+                                <div  class="modal-body cuerpo cuerpo_saldo">
                                     <div class="row">
                                         <div class="col-xs-2 titulo_fecha_del_movimiento" >
                                             <h1 class="titulo_para_panel_de_movimiento">Fecha</h1>
@@ -1224,7 +1224,7 @@
                                     <asp:DataList ID="DataList_Mis_Movimientos" Width="100%" runat="server">
                                         <ItemTemplate>
                                             <div class="row">
-                                                <div class="col-xs-2 fecha_de_movimiento"><%# Eval ("Fecha_Del_Movimiento","{0:d}") %></div>
+                                                <div class="col-xs-2 fecha_de_movimiento"><%# Eval ("Fecha_Del_Movimiento","{0:dd/MM/yyyy}") %></div>
                                                 <div class="col-xs-6 descripcion"><%# Eval ("Descripcion_De_Movimiento") %></div>
                                                 <div class="col-xs-2 plata_debe"><%# Eval ("Plata_Debe","{0:c2}") %></div>
                                                 <div class="col-xs-2 plata_haber"><%# Eval ("Plata_Haber","{0:c2}") %></div>
