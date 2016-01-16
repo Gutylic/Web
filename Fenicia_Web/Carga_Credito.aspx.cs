@@ -8,6 +8,7 @@ using Datos;
 using Logica;
 using System.Diagnostics;
 using mercadopago;
+using System.Collections;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -112,13 +113,13 @@ namespace Fenicia_Web
                 return;
             }
 
-            MP mp = new MP("1186209648311352", "F8I8VxoJDN8BrAZgXGxLYVxV5pZhhJB7");
+            MP mp = new MP("2183514266560602", "ArKeGkXk7qOJFLNGOuUsAAqrX9DH6srU");
 
-            JObject preference = mp.createPreference("{'items':[{'title':'clases','quantity':1,'currency_id':'ARS','unit_price':" + Valor_Carga + "}],'external_reference':'" + (string)Session["User"] + "'}");
-
+            Hashtable preference = mp.createPreference("{\"items\":[{\"title\":\"clases\",\"quantity\":1,\"currency_id\":\"ARS\",\"unit_price\":" + Valor_Carga + "}],\"external_reference\":\"" + (string)Session["User"] + "\"}");
+            
             String accessToken = mp.getAccessToken();
-
-            Response.Redirect(preference["response"]["sandbox_init_point"].ToString());
+            
+            Response.Redirect((((Hashtable) preference["response"])["sandbox_init_point"]).ToString());
 
         }
 

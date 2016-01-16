@@ -61,10 +61,10 @@
     <link href="css/panel_datalist.css" rel="stylesheet" type="text/css"/><%-- panel no logueado --%>
     <link href="css/registro.css" rel="stylesheet" type="text/css"/><%-- panel de registro --%> 
     <link href="css/panel_de_busqueda.css" rel="stylesheet" type="text/css"/> <%-- panel de busqueda --%>   
-    <link href="css/pie.css" rel="stylesheet" type="text/css"/><%-- pie --%>
+    
     <link href="css/panel_de_control.css" rel="stylesheet" type="text/css" />
     <link href="css/consulta_de_saldo.css" rel="stylesheet" />
-  
+  <link href="css/pie.css" rel="stylesheet" type="text/css"/><%-- pie --%>
     <link href="css/panel_del_datalist_logueado.css" rel="stylesheet" />
    
 <!-- JS script de la pagina-->

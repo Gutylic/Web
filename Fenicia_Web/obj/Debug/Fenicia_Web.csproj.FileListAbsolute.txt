@@ -129,3 +129,4 @@ C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\bin\Logica.pdb
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Debug\Fenicia_Web.csprojResolveAssemblyReference.cache
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Debug\Fenicia_Web.dll
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Debug\Fenicia_Web.pdb
+C:\Users\Gustavo\Documents\GitHub\Web\Fenicia_Web\bin\mercadopago.dll
