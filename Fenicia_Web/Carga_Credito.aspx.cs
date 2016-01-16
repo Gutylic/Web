@@ -171,7 +171,7 @@ namespace Fenicia_Web
             if (Valor_Carga > 5) // evita que se cargue menos de 5 pesos
             {
 
-                Response.Redirect("https://sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=gutylic@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
+                Response.Redirect("https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=gutylic@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
 
 
             }
