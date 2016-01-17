@@ -20,7 +20,7 @@ body {
     background: #fff;
     border-radius: 4px;    
     height:45px;
-    border: 3px solid #d9edf7;
+    border: 3px solid #8B0000;
     margin-top:5px;
     width:100%;
     box-shadow: rgba(0,0,0,0.25) 0 10px 10px;
@@ -30,7 +30,7 @@ body {
     -o-border-radius:4px;
 }
 
-a.btn.btn-primary.boton_busqueda
+a.btn.btn-danger.boton_busqueda
 {
     margin-left:2%;
     margin-top:6px;
@@ -51,7 +51,7 @@ a.btn.btn-primary.boton_busqueda
         margin-top:0px;
     }
 
-    a.btn.btn-primary.boton_busqueda {        
+    a.btn.btn-danger.boton_busqueda {        
         margin-top:5px;        
         width:95%;
         font-size:12px;
@@ -68,7 +68,7 @@ a.btn.btn-primary.boton_busqueda
 @media (min-width:992px)
 {
 
-    a.btn.btn-primary.boton_busqueda {
+    a.btn.btn-danger.boton_busqueda {
         font-size: 14px;
         padding-top: 3px;
        
@@ -82,7 +82,7 @@ a.btn.btn-primary.boton_busqueda
 
 @media (min-width:1200px) {
 
-    a.btn.btn-primary.boton_busqueda {
+    a.btn.btn-danger.boton_busqueda {
         margin-left:2%;
         font-size: 16px;
         width:96%;        

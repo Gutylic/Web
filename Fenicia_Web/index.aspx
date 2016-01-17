@@ -706,7 +706,7 @@
 
                         <div class="col-xs-12 col-sm-4 col-sm-pull-8"> 
                             <div class="buscar_en_datalist_inicial" >   
-                                <a data-toggle="modal" href="#Busqueda" class="btn btn-primary boton_busqueda">Presione aquí para buscar</a>
+                                <a data-toggle="modal" href="#Busqueda" class="btn btn-danger boton_busqueda">Presione aquí para buscar</a>
                             </div>                            
                         </div>
                     </div>
