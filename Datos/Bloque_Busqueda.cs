@@ -26,7 +26,10 @@ namespace Datos
                 {
                     Etiqueta_Armada = Etiqueta_Armada + "p" + s.Etiqueta_Profesor + " or "; //separo cada componente de la lista con un or especial para la busqueda constains
                 }
-                return Etiqueta_Armada + "p0"; // agregar la etiqueta cero que es la etiqueta por defecto
+
+                Etiqueta_Armada = Etiqueta_Armada + "p0";
+
+                return Etiqueta_Armada; // agregar la etiqueta cero que es la etiqueta por defecto
             }
             catch
             {
@@ -48,8 +51,10 @@ namespace Datos
                 {
                     Etiqueta_Armada = Etiqueta_Armada + "m" + s.Etiqueta_Materia + " or ";//separo cada componente de la lista con un or especial para la busqueda constains
                 }
-            
-            return Etiqueta_Armada + "m0";// agregar la etiqueta cero que es la etiqueta por defecto        
+
+                Etiqueta_Armada = Etiqueta_Armada + "m0";
+
+            return Etiqueta_Armada;// agregar la etiqueta cero que es la etiqueta por defecto        
             }
             catch
             {
@@ -98,7 +103,9 @@ namespace Datos
                 {
                     Etiqueta_Armada = Etiqueta_Armada + "a" + s.Etiqueta_Ano + " or ";//separo cada componente de la lista con un or especial para la busqueda constains
                 }
-                return Etiqueta_Armada + "a0";// agregar la etiqueta cero que es la etiqueta por defecto
+                Etiqueta_Armada = Etiqueta_Armada + "a0";
+
+                return Etiqueta_Armada;// agregar la etiqueta cero que es la etiqueta por defecto
             }
             catch
             {
@@ -118,7 +125,9 @@ namespace Datos
             {
                 Etiqueta_Armada = Etiqueta_Armada + "c" + s.Etiqueta_Colegio + " or ";//separo cada componente de la lista con un or especial para la busqueda constains
             }
-            return Etiqueta_Armada + "c0";// agregar la etiqueta cero que es la etiqueta por defecto
+            Etiqueta_Armada = Etiqueta_Armada + "c0";
+
+            return Etiqueta_Armada;// agregar la etiqueta cero que es la etiqueta por defecto
         }
 
         public List<Tabla_De_Ejercicios> Metodo_Mostrar_DataList_De_Productos_En_El_Buscador_Inicial(string Ano, string Profesor, string Colegio, string Materia, string Tema)
