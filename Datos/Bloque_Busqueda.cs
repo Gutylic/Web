@@ -72,7 +72,10 @@ namespace Datos
                 {
                     Etiqueta_Armada = Etiqueta_Armada + "t" + s.Etiqueta_Tema + " or ";//separo cada componente de la lista con un or especial para la busqueda constains
                 }
-                return Etiqueta_Armada + "t0";// agregar la etiqueta cero que es la etiqueta por defecto
+
+                Etiqueta_Armada = Etiqueta_Armada + "t0";
+
+                return Etiqueta_Armada;// agregar la etiqueta cero que es la etiqueta por defecto
             }
             catch
             {

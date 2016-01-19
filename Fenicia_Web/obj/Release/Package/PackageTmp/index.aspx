@@ -116,6 +116,14 @@
 
         }
 
+        function Bloquear_Enter () {
+            $("form").keypress(function (e) {
+                if (e.which == 13) {
+                    return false;
+                }
+            });
+        };
+
     </script>
 
 <link rel="shortcut icon" type="image/png" href="favicon.icon" />
@@ -706,7 +714,7 @@
 
                         <div class="col-xs-12 col-sm-4 col-sm-pull-8"> 
                             <div class="buscar_en_datalist_inicial" >   
-                                <a data-toggle="modal" href="#Busqueda" class="btn btn-primary boton_busqueda">Presione aquí para buscar</a>
+                                <a data-toggle="modal" href="#Busqueda" class="btn btn-danger boton_busqueda">Presione aquí para buscar</a>
                             </div>                            
                         </div>
                     </div>
@@ -1260,34 +1268,34 @@
                                 </div>          
                                 <div class="form-group formulario_busqueda">               
                                     <label class="etiqueta_busqueda etiqueta">Tema</label>
-                                    <asp:TextBox TextMode="SingleLine" maxlength="60" ID="Buscar_x_Tema" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
+                                    <asp:TextBox onkeypress="Bloquear_Enter ()" TextMode="SingleLine" maxlength="60" ID="Buscar_x_Tema" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
                                     <label class="etiqueta_inferior_0">ejemplo: <span class="etiqueta_inferior_1">regla de tres simple</span><br /><span class="etiqueta_inferior_2">trabajo práctico de matemática números enteros</span></label>
                                 </div>
                                 <div class="form-group formulario_busqueda">               
                                     <label class="etiqueta_busqueda etiqueta">Materia</label>
-                                    <asp:TextBox TextMode="SingleLine" maxlength="60" ID="Buscar_x_Materia" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
+                                    <asp:TextBox onkeypress="Bloquear_Enter ()" TextMode="SingleLine" maxlength="60" ID="Buscar_x_Materia" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
                                     <label class="etiqueta_inferior_0">ejemplo: <span class="etiqueta_inferior_1">química</span><br /><span class="etiqueta_inferior_2">física</span></label>
                                 </div>
                                 <div class="form-group formulario_busqueda">
                                     <label class="etiqueta_registro etiqueta">Colegio</label>
-                                    <asp:TextBox TextMode="SingleLine" maxlength="30" ID="Buscar_x_Colegio" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
+                                    <asp:TextBox onkeypress="Bloquear_Enter ()" TextMode="SingleLine" maxlength="30" ID="Buscar_x_Colegio" class="form-control textbox_busqueda" runat="server"></asp:TextBox>
                                     <label class="etiqueta_inferior_0">ejemplo: <span class="etiqueta_inferior_1">Universidad de Buenos Aires</span><br /><span class="etiqueta_inferior_2">UBA</span></label>
                                 </div>
                                 <div class="form-group formulario_busqueda">
                                     <label class="etiqueta_registro etiqueta">Año en Curso</label>
-                                    <asp:TextBox TextMode="SingleLine" maxlength="20" ID="Buscar_x_Ano" class="form-control textbox_busqueda" runat="server"></asp:TextBox> 
+                                    <asp:TextBox onkeypress="Bloquear_Enter ()" TextMode="SingleLine" maxlength="20" ID="Buscar_x_Ano" class="form-control textbox_busqueda" runat="server"></asp:TextBox> 
                                     <label class="etiqueta_inferior_0">ejemplo: <span class="etiqueta_inferior_1">primer año</span><br /><span class="etiqueta_inferior_2">primero</span></label>                   
                                 </div>
                                 <div class="form-group formulario_busqueda">
                                     <label class="etiqueta_registro etiqueta">Profesor o Catedra</label>
-                                    <asp:TextBox TextMode="SingleLine" maxlength="30" ID="Buscar_x_Profesor"  class="form-control textbox_busqueda" runat="server"></asp:TextBox>     
+                                    <asp:TextBox onkeypress="Bloquear_Enter ()" TextMode="SingleLine" maxlength="30" ID="Buscar_x_Profesor"  class="form-control textbox_busqueda" runat="server"></asp:TextBox>     
                                     <label class="etiqueta_inferior_0">ejemplo: <span class="etiqueta_inferior_1">Gutierrez</span><br /><span class="etiqueta_inferior_2">Fernando Quiroz</span></label>
                                 </div>                                
                             </div>                    
                             <div class="modal-footer pie_busqueda">
                                 <asp:UpdatePanel ID="Boton_De_Busqueda_En_El_DataList" runat="server">
                                     <ContentTemplate>
-                                        <asp:Button ID="Boton_Buscar_Seleccion" OnClick="Boton_Buscar_Seleccion_Click" runat="server" CssClass="btn btn-primary btn-lg boton_busqueda" Text="Realizar la Búsqueda"/>  
+                                        <asp:Button onkeypress="Bloquear_Enter ()" ID="Boton_Buscar_Seleccion" OnClick="Boton_Buscar_Seleccion_Click" runat="server" CssClass="btn btn-primary btn-lg boton_busqueda" Text="Realizar la Búsqueda"/>  
                                     </ContentTemplate>
                                 </asp:UpdatePanel>
                             </div>                    

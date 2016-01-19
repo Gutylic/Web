@@ -13,13 +13,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:50</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>01/16/2016 01:01:21</publishTime>
+      <publishTime>01/18/2016 21:38:37</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>01/16/2016 05:38:22</publishTime>
+      <publishTime>01/18/2016 21:38:38</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>01/16/2016 01:01:21</publishTime>
+      <publishTime>01/18/2016 21:38:37</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>01/16/2016 03:24:59</publishTime>
@@ -70,7 +70,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="css/buscar.css">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 05:04:15</publishTime>
     </File>
     <File Include="css/cabecera_credito.css">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -310,16 +310,16 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/oferta_1.png">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 16:31:52</publishTime>
     </File>
     <File Include="images/oferta_2.png">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 16:34:39</publishTime>
     </File>
     <File Include="images/oferta_3.png">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 16:37:32</publishTime>
     </File>
     <File Include="images/oferta_4.png">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 16:40:27</publishTime>
     </File>
     <File Include="images/pago1.png">
       <publishTime>01/05/2016 02:30:51</publishTime>
@@ -361,7 +361,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:51</publishTime>
     </File>
     <File Include="images/pizarra_movil.png">
-      <publishTime>01/05/2016 02:30:51</publishTime>
+      <publishTime>01/17/2016 16:45:10</publishTime>
     </File>
     <File Include="images/pizarron-movil.png">
       <publishTime>01/05/2016 02:30:52</publishTime>
@@ -409,13 +409,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="images/publicidad_1.png">
-      <publishTime>01/05/2016 02:30:52</publishTime>
+      <publishTime>01/17/2016 18:09:26</publishTime>
     </File>
     <File Include="images/publicidad_2.png">
-      <publishTime>01/05/2016 02:30:52</publishTime>
+      <publishTime>01/17/2016 18:21:37</publishTime>
     </File>
     <File Include="images/publicidad_3.png">
-      <publishTime>01/05/2016 02:30:52</publishTime>
+      <publishTime>01/17/2016 18:34:18</publishTime>
     </File>
     <File Include="images/transferencia_in.png">
       <publishTime>01/05/2016 02:30:52</publishTime>
@@ -430,7 +430,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/05/2016 02:30:52</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>01/14/2016 02:43:41</publishTime>
+      <publishTime>01/18/2016 21:19:03</publishTime>
     </File>
     <File Include="js/actividad.js">
       <publishTime>01/05/2016 02:30:52</publishTime>
