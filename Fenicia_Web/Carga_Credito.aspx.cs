@@ -113,7 +113,7 @@ namespace Fenicia_Web
                 return;
             }
 
-            MP mp = new MP("2183514266560602", "ArKeGkXk7qOJFLNGOuUsAAqrX9DH6srU");
+            MP mp = new MP("7071654091217780", "F4SUQfv2CA4YUvPj0VsFROGywMkcYvyC");
 
             Hashtable preference = mp.createPreference("{\"items\":[{\"title\":\"clases\",\"quantity\":1,\"currency_id\":\"ARS\",\"unit_price\":" + Valor_Carga + "}],\"external_reference\":\"" + (string)Session["User"] + "\"}");
             
@@ -137,7 +137,7 @@ namespace Fenicia_Web
             if (Valor_Carga > 5) // carga menos plata que la permitida
             {
 
-                Response.Redirect("https://www.cuentadigital.com/api.php?id=537026&codigo=" + (string)Session["User"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
+                Response.Redirect("https://www.cuentadigital.com/api.php?id=596733&codigo=" + (string)Session["User"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
 
             }
             else
@@ -171,7 +171,7 @@ namespace Fenicia_Web
             if (Valor_Carga > 5) // evita que se cargue menos de 5 pesos
             {
 
-                Response.Redirect("https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=gutylic@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
+                Response.Redirect("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=Correodelosprofesores@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
 
 
             }
