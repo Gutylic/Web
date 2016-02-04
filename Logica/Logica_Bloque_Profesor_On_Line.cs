@@ -94,8 +94,10 @@ namespace Logica
             Linea = Linea.Replace("&#x000a1;", "¡");
             
             Linea = Linea.Replace("&quot;", "\"");
-            Linea = Linea.Replace("&#x000B4;", "´");
+            Linea = Linea.Replace("&#x000b4;", "´");
             Linea = Linea.Replace("&amp;", "&");
+            Linea = Linea.Replace("&#x000ba;", "º");
+            Linea = Linea.Replace("&#x02009;", "");
             Linea = Linea.Trim(); // elimino los espacios delante y detras de la variable creada
             return Linea; // variable final limpia de wiris
 
