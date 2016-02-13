@@ -81,6 +81,7 @@ namespace Logica
             Linea = Linea.Replace("&#x000ed;", "i");
             Linea = Linea.Replace("&#x000f3;", "o");
             Linea = Linea.Replace("&#x000fa;", "u");
+
             Linea = Linea.Replace("&#x000f1;", "n");
             Linea = Linea.Replace("&#x000d1;", "n");
             Linea = Linea.Replace("&#x000c1;", "a");

@@ -115,11 +115,12 @@ namespace Fenicia_Web
 
             MP mp = new MP("7071654091217780", "F4SUQfv2CA4YUvPj0VsFROGywMkcYvyC");
 
-            Hashtable preference = mp.createPreference("{\"items\":[{\"title\":\"clases\",\"quantity\":1,\"currency_id\":\"ARS\",\"unit_price\":" + Valor_Carga + "}],\"external_reference\":\"" + (string)Session["User"] + "\"}");
+            Hashtable preference = mp.createPreference("{\"items\":[{\"title\":\"clases\",\"quantity\":1,\"currency_id\":\"ARS\",\"unit_price\":" + Valor_Carga + "}],\"external_reference\":\"" + (string)Session["Usuario"] + "\"}");
             
+
             String accessToken = mp.getAccessToken();
-            
-            Response.Redirect((((Hashtable) preference["response"])["sandbox_init_point"]).ToString());
+
+            Response.Redirect((((Hashtable)preference["response"])["init_point"]).ToString());
 
         }
 
@@ -171,7 +172,7 @@ namespace Fenicia_Web
             if (Valor_Carga > 5) // evita que se cargue menos de 5 pesos
             {
 
-                Response.Redirect("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=Correodelosprofesores@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["User"]);
+                Response.Redirect("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=Correodelosprofesores@gmail.com&item_name=Carga_de_Credito&amount=" + Valor_Carga + "&no_shipping=1&item_number=" + (string)Session["Usuario"]);
 
 
             }
