@@ -6,7 +6,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\web</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Gustavo\Desktop\CD</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Activacion_De_Cuenta.aspx">
@@ -16,7 +16,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/13/2016 03:21:21</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>02/13/2016 03:21:22</publishTime>
+      <publishTime>02/24/2016 16:03:39</publishTime>
     </File>
     <File Include="bin/Logica.dll">
       <publishTime>02/13/2016 03:21:21</publishTime>
@@ -185,6 +185,9 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     </File>
     <File Include="Default.aspx">
       <publishTime>01/05/2016 02:30:50</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/24/2016 16:02:02</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>02/03/2016 00:37:01</publishTime>
@@ -430,7 +433,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/03/2016 00:37:01</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>02/03/2016 00:37:01</publishTime>
+      <publishTime>02/24/2016 16:02:11</publishTime>
     </File>
     <File Include="js/actividad.js">
       <publishTime>02/03/2016 00:37:01</publishTime>

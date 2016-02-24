@@ -72,6 +72,7 @@
     <Content Include="Correo_Activacion.aspx" />
     <Content Include="Correo_Recuperacion.aspx" />
     <Content Include="css\paginas_respuestas.css" />
+    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

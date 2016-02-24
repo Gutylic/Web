@@ -11,7 +11,12 @@
     <title>Fenicia ¡es aprobar!</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-         
+        
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="favicon.icon" />
+    <link rel="apple-touch-icon" href="img/touch-icon.png"/>
+    
+     
 <!-- Jquery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery-2.1.1.min.js"></script>
@@ -126,8 +131,7 @@
 
     </script>
 
-<link rel="shortcut icon" type="image/png" href="favicon.icon" />
-<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
 
     
 </head>
