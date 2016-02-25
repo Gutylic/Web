@@ -138,7 +138,7 @@ namespace Fenicia_Web
             if (Valor_Carga > 5) // carga menos plata que la permitida
             {
 
-                Response.Redirect("https://www.cuentadigital.com/api.php?id=596733&codigo=" + (string)Session["User"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
+                Response.Redirect("https://www.cuentadigital.com/api.php?id=596733&codigo=" + (string)Session["Usuario"] + "&precio=" + Valor_Carga + "&venc=7&concepto=Credito&moneda=ARS&site=");
 
             }
             else
