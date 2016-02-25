@@ -106,7 +106,7 @@ namespace Fenicia_Web
         protected void Boton_Mercado_Pago_Click(object sender, EventArgs e)
         {
 
-            decimal Valor_Carga = LBCDC.Mercado_Pago(TextBox_Mercado_Pago.Text, TextBox_Mercado_Pago_Movil.Text); // analisis de donde pidio la carga pc o movil
+            decimal Valor_Carga = LBCDC.Mercado_Pago(TextBox_Mercado_Pago.Text, TextBox_Mercado_Pago_Movil.Text, TextBox_PagoFacil.Text, TextBox_PagoFacil_Movil.Text); // analisis de donde pidio la carga pc o movil
 
             if (Valor_Carga == -9) // fallo los botones en javascript
             {
@@ -128,7 +128,7 @@ namespace Fenicia_Web
         protected void Boton_Cuenta_Digital_Click(object sender, EventArgs e)
         {
 
-            decimal Valor_Carga = LBCDC.Cuenta_Digital(TextBox_Cuenta_Digital.Text, TextBox_Cuenta_Digital_Movil.Text, TextBox_PagoFacil.Text, TextBox_PagoFacil_Movil.Text); // averigua donde pidio la carga si de movil o pc o si es de pago facil o de cuenta digital
+            decimal Valor_Carga = LBCDC.Cuenta_Digital(TextBox_Cuenta_Digital.Text, TextBox_Cuenta_Digital_Movil.Text); // averigua donde pidio la carga si de movil o pc o si es de pago facil o de cuenta digital
 
             if (Valor_Carga == -9) // fallo el analisis del boton capturado en javascript
             {

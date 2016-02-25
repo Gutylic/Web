@@ -41,9 +41,9 @@ namespace Logica
             return BCDC.Metodo_Cargar_Credito_Usuarios(ID_Usuario, Plata, ID_Descripcion, IP_Address, Premio_1, Premio_2);
         }
 
-        public decimal Mercado_Pago(string comun, string movil)
-        { 
-            if (comun == string.Empty && movil ==string.Empty)
+        public decimal Mercado_Pago(string comun, string movil, string comunPF, string movilPF)
+        {
+            if (comun == string.Empty && movil == string.Empty && comunPF == string.Empty && movilPF == string.Empty)
             {
                 return -9;            
             }
@@ -73,13 +73,40 @@ namespace Logica
                 }
 
             }
+
+            if (comunPF != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(comunPF);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
+            if (comunPF != string.Empty)
+            {
+                try
+                {
+                    decimal Respuesta = Convert.ToDecimal(movilPF);
+                    return Respuesta;
+                }
+                catch
+                {
+                    return -9;
+                }
+
+            }
             return -9;
 
         }
         
-        public decimal Cuenta_Digital(string comun, string movil, string comunPF, string movilPF)
+        public decimal Cuenta_Digital(string comun, string movil)
         {
-            if (comun == string.Empty && movil == string.Empty && comunPF == string.Empty && movilPF == string.Empty)
+            if (comun == string.Empty && movil == string.Empty )
             {
                 return -9;
             }
@@ -109,32 +136,7 @@ namespace Logica
                 }
 
             }
-            if (comunPF != string.Empty)
-            {
-                try
-                {
-                    decimal Respuesta = Convert.ToDecimal(comunPF);
-                    return Respuesta;
-                }
-                catch
-                {
-                    return -9;
-                }
-
-            }
-            if (comunPF != string.Empty)
-            {
-                try
-                {
-                    decimal Respuesta = Convert.ToDecimal(movilPF);
-                    return Respuesta;
-                }
-                catch
-                {
-                    return -9;
-                }
-
-            }
+            
 
             return -9;
         }

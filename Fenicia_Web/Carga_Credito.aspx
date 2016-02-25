@@ -274,7 +274,7 @@
                                     <div class="col-xs-6 col-xs-offset-3 contenedor_boton">
                                         <asp:UpdatePanel ID="UpdatePanel_Pago" runat="server">
                                             <ContentTemplate>
-                                                <asp:Button ID="Boton_Factura_PagoFacil" OnClientClick="return validar_textbox_pagofacil()" class="btn boton_pagofacil" runat="server" ToolTip="presione el botón" OnClick="Boton_Cuenta_Digital_Click" Text="Generar Factura" />
+                                                <asp:Button ID="Boton_Factura_PagoFacil" OnClientClick="return validar_textbox_pagofacil()" class="btn boton_pagofacil" runat="server" ToolTip="presione el botón" OnClick="Boton_Mercado_Pago_Click" Text="Generar Factura" />
                                             </ContentTemplate>
                                         </asp:UpdatePanel>   
                                     </div>
@@ -301,7 +301,7 @@
                             <div class="col-xs-12 contenedor_boton_movil">
                                 <asp:UpdatePanel ID="UpdatePanel_Cuenta_Movil" runat="server">
                                     <ContentTemplate>
-                                        <asp:Button ID="Boton_Pagofacil_Movil" OnClientClick="return validar_textbox_pagofacil_movil()" OnClick="Boton_Cuenta_Digital_Click" CssClass="btn btn-default" runat="server" Text="Generar Factura" />
+                                        <asp:Button ID="Boton_Pagofacil_Movil" OnClientClick="return validar_textbox_pagofacil_movil()" OnClick="Boton_Mercado_Pago_Click" CssClass="btn btn-default" runat="server" Text="Generar Factura" />
                                     </ContentTemplate>
                                 </asp:UpdatePanel>                                
                             </div>
