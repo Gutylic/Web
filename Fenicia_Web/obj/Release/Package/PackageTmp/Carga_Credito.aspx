@@ -713,11 +713,11 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-10 contenido_datos">
-                                        <p class="dato_1">Nombre: Fenicia S.A.</p>
-                                        <p class="dato_2">CBU, número: 012234543234567864</p>
+                                        <p class="dato_1">Nombre: Maria Esther Campos</p>
+                                        <p class="dato_2">CBU, número: 1910025455002500549982</p>
                                         <p class="dato_3">Caja de Ahorro en pesos</p>
-                                        <p class="dato_4">Banco Citibank número: 52066554412</p>
-                                        <p class="dato_5">CUIT: 27-32234678-9</p>
+                                        <p class="dato_4">Banco CREDICOOP número: 54998</p>
+                                        <p class="dato_5">CUIL: 27-28974100-9</p>
                                     </div>
                                 </div>
                             </div>
@@ -738,11 +738,11 @@
                                 <p class="envio_movil">Requiere envio del comprobante</p> 
                             </div>
                             <div class="col-xs-12 contenedor_transferencia_movil">
-                                <p class="dato_1_movil">Nombre: Fenicia S.A.</p>
-                                <p class="dato_2_movil">CBU, número: 012234543234567864</p>
+                                <p class="dato_1_movil">Nombre: Maria Esther Campos</p>
+                                <p class="dato_2_movil">CBU, número: 1910025455002500549982</p>
                                 <p class="dato_3_movil">Caja de Ahorro en pesos</p>
-                                <p class="dato_4_movil">Banco Citibank número: 52066554412</p>
-                                <p class="dato_5_movil">CUIT: 27-32234678-9</p>
+                                <p class="dato_4_movil">Banco CREDICOOP número: 54998</p>
+                                <p class="dato_5_movil">CUIL: 27-28974100-9</p>
                             </div>
                         </div>
                     </div>

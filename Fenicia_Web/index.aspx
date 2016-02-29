@@ -733,7 +733,7 @@
                             <div class="listado_datalist">
                                 <asp:Image ID="Imagen_Ayuda" runat="server" ImageUrl="~/images/logo_ayuda.gif" />
                                 <asp:Image ID="Imagen_Importante" runat="server" ImageUrl="~/images/logo_importante.gif" />
-                                <h3 class="como_usar_el_sistema"><a>¿Como usar el sistema? - Errores</a></h3>
+                                <h3 class="como_usar_el_sistema"><a href="ayuda.html">¿Como usar el sistema? - Errores</a></h3>
                             </div>
                             <div class="panel panel-info datalist_inicial_de_ejercicios">
                                 <div class="panel-heading titulo_datalist_De_ejercicios">
