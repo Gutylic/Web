@@ -53,3 +53,13 @@ C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\bin\Logica.pdb
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.csprojResolveAssemblyReference.cache
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.dll
 C:\Users\Mara\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.pdb
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Fenicia_Web.dll.config
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Fenicia_Web.dll
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Fenicia_Web.pdb
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Datos.dll
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Logica.dll
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\bin\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.csprojResolveAssemblyReference.cache
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.dll
+C:\Users\Licen\Documents\GitHub\Web\Fenicia_Web\obj\Release\Fenicia_Web.pdb
