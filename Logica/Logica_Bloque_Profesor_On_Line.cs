@@ -54,6 +54,7 @@ namespace Logica
             Linea = Linea.ToLower();
             Linea = Linea.Replace("<mspace linebreak=\"newline\"/>", " ");
             Linea = Linea.Replace("'", "´");
+            
             Linea = Linea.Replace("&#x000a0;", " ");
             Linea = Linea.Replace("<mo></mo>", "");
             Linea = Linea.Replace("&#225;", "a");
@@ -95,7 +96,7 @@ namespace Logica
             Linea = Linea.Replace("&#x000bf;", "¿");
             Linea = Linea.Replace("&#x000a1;", "¡");
             
-            Linea = Linea.Replace("&quot;", "\"");
+            Linea = Linea.Replace("&quot;", "´´");
             Linea = Linea.Replace("&#x000b4;", "´");
             Linea = Linea.Replace("&amp;", "&");
             Linea = Linea.Replace("&#x000ba;", "º");
