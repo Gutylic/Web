@@ -26,6 +26,7 @@ namespace Fenicia_Web
         Logica_Bloque_Panel_De_Movimientos LBPDM = new Logica_Bloque_Panel_De_Movimientos();
         Logica_Bloque_Carga_De_Credito LBCDC = new Logica_Bloque_Carga_De_Credito();
         Logica_Bloque_Profesor_On_Line LBPOL = new Logica_Bloque_Profesor_On_Line();
+        Logica_Aviso_De_Compra LADC = new Logica_Aviso_De_Compra();
 
         #endregion
 
@@ -153,7 +154,7 @@ namespace Fenicia_Web
         {
             Dos_Valores_Para_Generar_Captcha Datos = new Dos_Valores_Para_Generar_Captcha();
             Random r = new Random(); // r es una variable que sirve para trabajar como numero randonico asi toma uno de los 6 captchas generados
-            string[] Valores_De_Seguridad = new string[6] { "1a75K", "6h49L", "dJ56E", "NF74m", "7D26t", "3EM2i" }; // valores que hay en la imagen de cada captcha 
+            string[] Valores_De_Seguridad = new string[6] { "1A75K", "6H49L", "DJ56E", "NF74M", "7D26T", "3EM2I" }; // valores que hay en la imagen de cada captcha 
             Datos.Imagen_Captcha = r.Next(1, 7); // elige una imagen al azar y el valor de su contenido
             ViewState["Imagen_Captcha"] = Datos.Imagen_Captcha; // trae la imagen
             Datos.Valor_Captcha = Valores_De_Seguridad[Datos.Imagen_Captcha - 1]; // elige el valor de la imagen del captcha
@@ -170,7 +171,7 @@ namespace Fenicia_Web
         protected void Boton_Enviar_Registro_Click(object sender, EventArgs e)
         {
 
-            Errores_Al_Registrar_El_Usuario(Usuario_Registro.Text, Password_Registro.Text, RePassword_Registro.Text, Captcha_Registro.Text, (string)ViewState["Valor_Captcha"], Condiciones_Registro.Checked, Correo_Registro.Text, Request.UserHostAddress.ToString());
+            Errores_Al_Registrar_El_Usuario(Usuario_Registro.Text, Password_Registro.Text, RePassword_Registro.Text, Captcha_Registro.Text.ToUpper(), (string)ViewState["Valor_Captcha"], Condiciones_Registro.Checked, Correo_Registro.Text, Request.UserHostAddress.ToString());
 
             int Validez_De_La_Oferta = LBU.Logica_Bonificacion_X_Registrarse(Usuario_Registro.Text, 2, Request.UserHostAddress.ToString());
 
@@ -753,7 +754,7 @@ namespace Fenicia_Web
             }
 
             LBDI.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
-
+            LADC.Logica_Aviso((Session["Usuario"]).ToString());
         }
 
         protected void Boton_Compra_Video_Click(object sender, EventArgs e)

@@ -13,7 +13,8 @@ namespace Fenicia_Web
             
         #region Clases
 
-            Logica_Bloque_Pagina_Enunciado LBPE = new Logica_Bloque_Pagina_Enunciado();        
+            Logica_Bloque_Pagina_Enunciado LBPE = new Logica_Bloque_Pagina_Enunciado();
+        Logica_Aviso_De_Compra LADC = new Logica_Aviso_De_Compra(); 
 
         #endregion
 
@@ -216,7 +217,7 @@ namespace Fenicia_Web
             {
                 return;
             }
-
+            
             int Ejercicio;
 
             if (Session["Nombre_Enunciado"] == null)
@@ -234,6 +235,7 @@ namespace Fenicia_Web
 
             if (Ejercicio == 1) //compro el ejercicio
             {
+                LADC.Logica_Aviso(Session["Usuario"].ToString());
                 LBPE.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
                 ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('gracias por la compra, a la brevedad recibira su ejercicio resuelto en el panel de mis ejercicios');", true);
                 Boton_Resolver_Mi_Ejercicio.Enabled = false; // comprar el ejercicio y desabilitar el boton de compra  
@@ -262,7 +264,7 @@ namespace Fenicia_Web
 
 
             int Explicacion;
-
+           
             if (Session["Nombre_Enunciado"] == null)
             {
                 Explicacion = LBPE.Logica_Comprar_Mi_Explicacion_Personalizada_Desde_Enunciado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (bool)Session["Subio_Adjunto"], LBPE.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), (string)Session["Nombre_Adjunto"], Boton_Resolver_Mi_Ejercicio.Enabled,null);
@@ -277,6 +279,7 @@ namespace Fenicia_Web
             
             if (Explicacion == 1) //compro el ejercicio
             {
+                LADC.Logica_Aviso(Session["Usuario"].ToString());
                 LBPE.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 2, Request.UserHostAddress.ToString());
                 ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "", "alert('gracias por la compra, a la brevedad recibira la explicación detallada del ejercicio resuelto en su panel de mis ejercicios');", true);
                 Boton_Explicar_Mi_Ejercicio.Enabled = false; // comprar el ejercicio y desabilitar el boton de compra  

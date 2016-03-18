@@ -16,6 +16,7 @@ namespace Fenicia_Web
         #region Clases
 
         Logica_Bloque_Mis_Ejercicios LBME = new Logica_Bloque_Mis_Ejercicios();
+        Logica_Aviso_De_Compra LADC = new Logica_Aviso_De_Compra();
 
         #endregion
 
@@ -180,7 +181,7 @@ namespace Fenicia_Web
                     int Valor_Explicacion = LBME.Logica_Ver_Si_La_Explicacion_Fue_Comprado_Desde_Mis_Ejercicios(Convert.ToInt32(Session["Variable_ID_Usuario"]), Identificador); //resultado para saber si compro la explicacion o la tiene que mostrar
                     if (Valor_Explicacion == 0) // muestra que la explicacion ya fue comprada solo necesita mostrarla 
                     {
-
+                        
                         string Respuesta = LBME.Logica_Buscar_Ubicacion_De_Los_Videos(Identificador);  // obtengo la explicacion de donde esta ubicado el video y lo muestra
                         Resultado_Video.Src = "http://www.youtube.com/embed/" + Respuesta + "?rel=0&showinfo=0" ; // modifica segun la ubicacion el src del iframe para ver el video
 
@@ -190,6 +191,7 @@ namespace Fenicia_Web
                     }
                     if (Valor_Explicacion == 1) // muesta la explicacion no comprada y pregunta si quiere comprarla 
                     {
+                        LADC.Logica_Aviso(Session["Usuario"].ToString());
                         Session["Identificador_Fuera"] = Identificador;
                         string script = @"<script type='text/javascript'>
                            

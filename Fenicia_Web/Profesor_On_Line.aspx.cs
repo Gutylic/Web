@@ -15,6 +15,7 @@ namespace Fenicia_Web
         #region Clases
         
         Logica_Bloque_Profesor_On_Line LBPOL = new Logica_Bloque_Profesor_On_Line();
+        Logica_Aviso_De_Compra LADC = new Logica_Aviso_De_Compra();
         
         #endregion
 
@@ -158,12 +159,13 @@ namespace Fenicia_Web
                 if (ViewState["Enunciado_1"] == null) // me mando un adjunto y hay que resolverlo
                 {
                     int Ejercicio = LBPOL.Logica_Comprar_Mi_Ejercicio_Personalizado(Convert.ToInt32(Session["Variable_ID_Usuario"]), Request.UserHostAddress.ToString(), 2, (string)Session["Nombre_Adjunto"], LBPOL.Logica_Armado_Del_Nombre_Del_Archivo((string)Session["Usuario"]), null);
-
+                    
                     LBPOL.Logica_Bonificacion_X_Cantidad(Convert.ToInt32(Session["Variable_ID_Usuario"]), 1, Request.UserHostAddress.ToString()); // ejecuta un procedimiento para cargar credito y ademas acentarlo en los movimientos
 
                    
                     if (Ejercicio == 1) // tengo plata compro
                     {
+                        LADC.Logica_Aviso(Session["Usuario"].ToString());
                         Compra_OK_Con_Ficha();
                         return;
                     }

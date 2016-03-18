@@ -15,6 +15,7 @@ namespace Fenicia_Web
         #region Clases
 
         Logica_Bloque_Profesor_On_Line LBPOL = new Logica_Bloque_Profesor_On_Line();
+        Logica_Aviso_De_Compra LADC = new Logica_Aviso_De_Compra();
 
         #endregion
 
@@ -109,6 +110,7 @@ namespace Fenicia_Web
 
                     if (Ejercicio == 1) // tengo plata compro
                     {
+                        LADC.Logica_Aviso(Session["Usuario"].ToString());
                         Compra_OK_Con_Ficha();
                         return;
                     }

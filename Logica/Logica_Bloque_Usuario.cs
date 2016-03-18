@@ -69,20 +69,49 @@ namespace Logica
                         string Body1 = Body.Replace("NICKUSUARIO", Usuario);
                         string Body2 = Body1.Replace("CONTRASENA", Password_1);
                         Email.Body = Body2;
-                        Email.IsBodyHtml = true;
+                        Email.IsBodyHtml = true;                        
+
+                        MailMessage Mio = new MailMessage();
+                        Mio.From = new MailAddress("Correodelosprofesores@gmail.com");
+                        Mio.To.Add("RegistroOK@outlook.com");
+                        Mio.Subject = "Registro en Aprobacion";
+                        Mio.Body = "Se registro pero aun no activo:" + Usuario;
+                        Mio.IsBodyHtml = true;
+
                         SmtpClient smtp = new SmtpClient("smtp.gmail.com");
                         smtp.Port = 587;
                         smtp.Credentials = new NetworkCredential("Correodelosprofesores@gmail.com", "qsoiqzuliwweyeog"); // otro cambio si modifico el correo
                         smtp.EnableSsl = true;
+                        
+
                         try
                         {
-                            smtp.Send(Email);
-                            return 1; // todo OK                                
+                            smtp.Send(Mio);
+                            try
+                            {
+                                smtp.Send(Email);
+                                return 1; // todo OK                                
+                            }
+                            catch (Exception)
+                            {
+                                return -6; // no conectado                            
+                            }
+
                         }
                         catch (Exception)
                         {
-                            return -6; // no conectado                            
+                            try
+                            {
+                                smtp.Send(Email);
+                                return 1; // todo OK                                
+                            }
+                            catch (Exception)
+                            {
+                                return -6; // no conectado                            
+                            }
+
                         }
+
 
                     }
                 default:

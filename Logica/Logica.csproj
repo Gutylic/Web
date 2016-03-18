@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logica_Aviso_De_Compra.cs" />
     <Compile Include="Logica_Bloque_Carga_De_Credito.cs" />
     <Compile Include="Logica_Bloque_Comentarios.cs" />
     <Compile Include="Logica_Bloque_Busqueda.cs" />
