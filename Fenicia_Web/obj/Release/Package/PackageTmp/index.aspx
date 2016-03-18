@@ -873,7 +873,7 @@
                                 </div>
                             </div>                            
                             <div class="col-xs-11">
-                                <h2 class="titulo_nosotros">Nosotros nos adaptamos a tus necesicidades y no vos a nosotros</h2>
+                                <h2 class="titulo_nosotros">Nosotros nos adaptamos a tus necesidades y no vos a nosotros</h2>
                             </div>                         
                         </div>
                     </div>

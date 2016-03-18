@@ -18,7 +18,7 @@ namespace Logica
            Usuario = Usuario.ToLower();
            MailMessage Email = new MailMessage();
            Email.From = new MailAddress("Correodelosprofesores@gmail.com"); // otro cambio si modifico el correo
-           Email.To.Add("ConsultaOK@outlook.com");
+           Email.To.Add("ConsultasOK@outlook.com");
            Email.Subject = "Realizaron una Consulta";
            Email.Body = "El usuario: " + Usuario + " ha realizado una consulta a las:" + DateTime.Now ;
            Email.IsBodyHtml = true;
