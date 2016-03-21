@@ -26,6 +26,7 @@ namespace Logica
            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
            smtp.Port = 587;
            smtp.Credentials = new NetworkCredential("Correodelosprofesores@gmail.com", "qsoiqzuliwweyeog"); // otro cambio si modifico el correo
+           smtp.EnableSsl = true;
 
            try
            {
@@ -38,7 +39,34 @@ namespace Logica
            }
 
         }
-                
+
+        public void Logica_Mensaje(string Usuario)
+        {
+            Usuario = Usuario.ToLower();
+            MailMessage Email = new MailMessage();
+            Email.From = new MailAddress("Correodelosprofesores@gmail.com"); // otro cambio si modifico el correo
+            Email.To.Add("MensajesOK@outlook.com");
+            Email.Subject = "Realizaron una Consulta";
+            Email.Body = "El usuario: " + Usuario + " ha realizado una consulta a las:" + DateTime.Now;
+            Email.IsBodyHtml = true;
+
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential("Correodelosprofesores@gmail.com", "qsoiqzuliwweyeog"); // otro cambio si modifico el correo
+            smtp.EnableSsl = true;
+
+            try
+            {
+                smtp.Send(Email);
+
+            }
+            catch (Exception)
+            {
+                string p = "1";
+            }
+
+        }
+
 
 
     }

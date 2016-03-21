@@ -11,6 +11,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 
+
 namespace Fenicia_Web
 {
     public partial class index : System.Web.UI.Page
@@ -908,7 +909,12 @@ namespace Fenicia_Web
                     Boton_Contacto.Enabled = true;
                     break;
                 case 1: // se envio el comentario
-                    string alerta = @"<script type='text/javascript'> 
+
+                    string Usuario = Nombre_Contacto.Text.ToLower();
+                    LADC.Logica_Mensaje(Usuario);
+
+           
+            string alerta = @"<script type='text/javascript'> 
                               alert('su mensaje fue enviado satisfactoriamente');  
                               </script>";
             ScriptManager.RegisterStartupScript(this, typeof(Page), "", alerta, false);

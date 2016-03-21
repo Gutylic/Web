@@ -16,13 +16,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/12/2016 00:48:43</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>03/16/2016 14:49:52</publishTime>
+      <publishTime>03/20/2016 23:54:05</publishTime>
     </File>
     <File Include="bin/Fenicia_Web.dll">
-      <publishTime>03/18/2016 15:51:21</publishTime>
+      <publishTime>03/20/2016 23:54:06</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>03/18/2016 15:51:20</publishTime>
+      <publishTime>03/20/2016 23:54:05</publishTime>
     </File>
     <File Include="bin/mercadopago.dll">
       <publishTime>03/12/2016 00:48:44</publishTime>
