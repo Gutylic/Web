@@ -28,7 +28,7 @@ namespace Fenicia_Web
             Mio.From = new MailAddress("Correodelosprofesores@gmail.com");
             Mio.To.Add("ActivacionOK@outlook.com");
             Mio.Subject = "Activacion OK";
-            Mio.Body = "Se registro pero aun no activo:" + (Request.QueryString["ID_Nombre"]).ToString();
+            Mio.Body = "Se Activo el usuario: " + (Request.QueryString["ID_Nombre"]).ToString();
             Mio.IsBodyHtml = true;
 
             SmtpClient smtp = new SmtpClient("smtp.gmail.com");
